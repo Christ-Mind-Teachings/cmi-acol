@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include common/analytics.html %}
+
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>{{site.title}}:{{page.title}}</title>
+
+  {% include common/load-open-graph.html %}
+
+  <link rel="stylesheet" href="/public/css/semantic.css">
+  <link rel="stylesheet" href="/public/js/me-styles.css">
+  <link rel="stylesheet" href="/public/css/toastr.css">
+  <link rel="stylesheet" href="/public/css/cmi.css">
+  <link rel="stylesheet" href="/public/css/transcript.css">
+  <link rel="stylesheet" href="/public/css/src.css">
+  <link rel="stylesheet" href="/public/css/driver.min.css">
+
+  {% include favicon/cmi.html %}
+
+</head>
+<body>
+  {% include common/masthead.html %}
+  {% include common/transcript-menu.html %}
+
+  <div id="transcript-page-loading" class="ui dimmer">
+    <div class="ui text loader">
+      Library of Christ Mind Teachings<br/>
+      [Source Title]<br/><br/>
+      Hang on a sec&hellip;
+    </div>
+  </div>
+
+  {% if page.bid %}
+  <div class="{{page.bid | downcase }} transcript ui text container">
+  {% else %}
+  <div class="transcript ui text container">
+  {% endif %}
+    {{ content }}
+  </div>
+
+  {% if page.footer.display == true %}
+    <div class="ui section divider"></div>
+    {% include common/footer.html %}
+  {% endif %}
+
+  {% include components/toc-modal.html %}
+  {% if page.search != false %}
+    <!-- include search support -->
+    {% include components/search-modal.html %}
+    {% include components/search-navigator.html %}
+  {% endif %}
+  {% if page.audio != false %}
+    <!-- include audio support -->
+    {% include components/audio-player.html %}
+    {% include components/timecapture-modal.html %}
+    {% include components/time-edit-modal.html %}
+  {% endif %}
+  {% if page.bookmark != false %}
+    <!-- include bookmark support -->
+    {% include components/bookmark-modal.html %}
+    {% include components/bookmark-navigator.html %}
+    {% include components/annotation-popup.html %}
+    {% include components/email-share-dialog.html %}
+  {% endif %}
+  <div class="fixed" id="netlify-modal"></div>
+
+  {% include common/javascript.html %}
+
+  <script src="/public/js/transcript.js"></script>
+</body>
+
+</html>

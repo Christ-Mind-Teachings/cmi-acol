@@ -1,0 +1,84 @@
+# CMI
+sourceId: 14
+cmiTitle: "Teachings of Christ Mind"
+sid:  "acol"
+
+# Setup
+title:        'A Course of Love'
+tagline:      ''
+description:  ''
+url:          'https://acol.christmind.info'
+baseurl:      ''
+keywords:     "Christ Mind, ACOL"
+src-url:      'https://acol.christmind.info'
+port:         9914
+
+# About/contact
+author:
+  name:              Rick Mercer
+  url:               https://twitter.com/rmercer33
+  email:             rmercer33@gmail.com
+
+fb-appId:     448658485318107
+
+# Permalinks
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections for transcripts
+collections:
+  course:
+    output: true
+    title: "Book One: A Course of Love"
+  treatise:
+    output: true
+    title: "Book Two: The Treatises of A Course of Love"
+  dialog:
+    output: true
+    title: "Book Three: The Dialogues of A Course of Love"
+
+defaults:
+  - scope:
+      path: ""
+      type: course
+    values:
+      layout: transcript
+      book: "Book One: A Course of Love"
+      image: "/public/img/acol/course-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "course"
+  - scope:
+      path: ""
+      type: treatise
+    values:
+      layout: transcript
+      book: "Book Two: The Treatises of A Course of Love"
+      image: "/public/img/acol/treatise-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "treatise"
+  - scope:
+      path: ""
+      type: dialog
+    values:
+      layout: transcript
+      book: "Book Three: The Dialogues of A Course of Love"
+      image: "/public/img/acol/dialog-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "dialog"
+
+exclude: [
+  Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+]
+

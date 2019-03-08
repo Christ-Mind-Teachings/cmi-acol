@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+node_modules/
+project/
+*.map
+*.old
+Gemfile.lock
+public/js
+

@@ -1,0 +1,58 @@
+{% comment %}
+add footer.donate true to display donate button
+---
+footer:
+  display: true
+  donate: true | false
+  source: "nwffacim"
+  id: "CMI-RAJ"
+  repohref: "https://github.com/rmercer33/cmi-raj"
+---
+{% endcomment %}
+
+<div class="ui black inverted vertical footer segment">
+  <div class="ui center aligned container">
+    <div class="ui stackable inverted grid">
+      <div class="three wide column">
+        <a href="/">
+          <img src="/public/img/favicon/cmi/apple-icon-76x76.png">
+        </a>
+        <div class="ui horizontal inverted small divided link list">
+          <a class="item" href="#" target="_blank">Open Source (MIT)</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">{{page.footer.id}}</h4>
+        <div class="ui inverted link list">
+          <a class="item" href="https://www.christmind.info/acq/contact/">Get In Touch</a>
+          <a class="item" href="https://www.christmind.info/acq/welcome/">Documentation</a>
+          <a class="item" href="https://www.christmind.info/acq/tech/">Project Info</a>
+          <a class="item" href="{{page.footer.repohref}}" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+      <div class="three wide column">
+        <a href="https://www.netlify.com">
+          <img target="_blank" src="https://www.netlify.com/img/global/badges/netlify-light.svg">
+        </a>
+      </div>
+      {% if page.footer.donate == true %}
+        <div class="seven wide right floated column">
+          {% if page.footer.source == "nwffacim" %}
+            <h4 class="ui inverted teal header">Support This Teaching</h4>
+            <p>All donations go directly to Paul Tuttle and NWFFACIM.</p>
+          {% else %}
+            <h4 class="ui inverted teal header">Support The Library</h4>
+            <p>Your donation supports further development of CMI.</p>
+          {% endif %}
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="L99G7U73RWCEC" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+

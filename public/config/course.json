@@ -1,0 +1,176 @@
+{
+  "bid": "course",
+  "base": "/course",
+  "title": "Book One: A Course of Love",
+  "image": "/public/img/acol/course-toc.jpg",
+  "contents": [
+    {
+      "title": "Introduction",
+      "url": "/introduction/"
+    },
+    {
+      "title": "The Prelude",
+      "url": "/prelude/"
+    },
+    {
+      "id": "1",
+      "title": "A Course of Love",
+      "url": "/chap01/"
+    },
+    {
+      "id": "2",
+      "title": "What Love Is",
+      "url": "/chap02/"
+    },
+    {
+      "id": "3",
+      "title": "The First Lesson",
+      "url": "/chap03/"
+    },
+    {
+      "id": "4",
+      "title": "Love’s Equity",
+      "url": "/chap04/"
+    },
+    {
+      "id": "5",
+      "title": "Relationship",
+      "url": "/chap05/"
+    },
+    {
+      "id": "6",
+      "title": "Forgiveness/Joining",
+      "url": "/chap06/"
+    },
+    {
+      "id": "7",
+      "title": "Withholding",
+      "url": "/chap07/"
+    },
+    {
+      "id": "8",
+      "title": "The Separation from the Body",
+      "url": "/chap08/"
+    },
+    {
+      "id": "9",
+      "title": "The Prodigal’s Return",
+      "url": "/chap09/"
+    },
+    {
+      "id":"10",
+      "title": "Use and Understanding",
+      "url": "/chap10/"
+    },
+    {
+      "id":"11",
+      "title": "Free Will and Willingness",
+      "url": "/chap11/"
+    },
+    {
+      "id":"12",
+      "title": "Origin of Separation",
+      "url": "/chap12/"
+    },
+    {
+      "id":"13",
+      "title": "Observation and Experience",
+      "url": "/chap13/"
+    },
+    {
+      "id":"14",
+      "title": "Special Relationships, Earthly and Human",
+      "url": "/chap14/"
+    },
+    {
+      "id":"15",
+      "title": "The Special Self",
+      "url": "/chap15/"
+    },
+    {
+      "id":"16",
+      "title": "What You Choose Instead",
+      "url": "/chap16/"
+    },
+    {
+      "id":"17",
+      "title": "Conscious Non-Planning",
+      "url": "/chap17/"
+    },
+    {
+      "id":"18",
+      "title": "The Mind Engaged",
+      "url": "/chap18/"
+    },
+    {
+      "id":"19",
+      "title": "Oneness and Duality",
+      "url": "/chap19/"
+    },
+    {
+      "id":"20",
+      "title": "The Embrace",
+      "url": "/chap20/"
+    },
+    {
+      "id":"21",
+      "title": "Love Is",
+      "url": "/chap21/"
+    },
+    {
+      "id":"22",
+      "title": "The Intersection",
+      "url": "/chap22/"
+    },
+    {
+      "id":"23",
+      "title": "The Freedom of the Body",
+      "url": "/chap23/"
+    },
+    {
+      "id":"24",
+      "title": "The Time of Tenderness",
+      "url": "/chap24/"
+    },
+    {
+      "id":"25",
+      "title": "Devotion as a Type of Participation",
+      "url": "/chap25/"
+    },
+    {
+      "id":"26",
+      "title": "The Full Life",
+      "url": "/chap26/"
+    },
+    {
+      "id":"27",
+      "title": "Being",
+      "url": "/chap27/"
+    },
+    {
+      "id":"28",
+      "title": "Bearing Witness",
+      "url": "/chap28/"
+    },
+    {
+      "id":"29",
+      "title": "Attention",
+      "url": "/chap29/"
+    },
+    {
+      "id":"30",
+      "title": "Being Present",
+      "url": "/chap30/"
+    },
+    {
+      "id":"31",
+      "title": "The Nature of the Mind",
+      "url": "/chap31/"
+    },
+    {
+      "id":"32",
+      "title": "Love Returned to Love",
+      "url": "/chap32/"
+    }
+  ]
+}
