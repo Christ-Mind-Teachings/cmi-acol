@@ -9,7 +9,7 @@ const transcript = require("./key");
 const AWS_BUCKET = "assets.christmind.info";
 
 //this is the id used on aws s3 to store audio files
-const SOURCE_ID = "nwffacim";
+const SOURCE_ID = "acol";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;

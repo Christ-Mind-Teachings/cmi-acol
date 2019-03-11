@@ -1,0 +1,355 @@
+{
+  "bid": "treatise",
+  "base": "/treatise",
+  "title": "Book Two: The Treatises of A Course of Love",
+  "image": "/public/img/acol/treatise-toc.jpg",
+  "contents": [
+    {
+      "heading": "A Treatise on The Art of Thought: The First Treatise",
+      "id": "1",
+      "title": "The First Instruction",
+      "restricted": true,
+      "url": "/t1chap01/"
+    },
+    {
+      "id": "2",
+      "title": "The Art of Thought",
+      "restricted": false,
+      "url": "/t1chap02/"
+    },
+    {
+      "id": "3",
+      "title": "The Call to the Miracle",
+      "restricted": true,
+      "url": "/t1chap03/"
+    },
+    {
+      "id": "4",
+      "title": "The Center of the Universe",
+      "restricted": true,
+      "url": "/t1chap04/"
+    },
+    {
+      "id": "5",
+      "title": "The Choice for Love",
+      "restricted": true,
+      "url": "/t1chap05/"
+    },
+    {
+      "id": "6",
+      "title": "The Act of Prayer",
+      "restricted": true,
+      "url": "/t1chap06/"
+    },
+    {
+      "id": "7",
+      "title": "Suffering and the New Learning",
+      "restricted": true,
+      "url": "/t1chap07/"
+    },
+    {
+      "id": "8",
+      "title": "Incarnation and Resurrection",
+      "restricted": true,
+      "url": "/t1chap08/"
+    },
+    {
+      "id": "9",
+      "title": "Giving and Receiving",
+      "restricted": true,
+      "url": "/t1chap09/"
+    },
+    {
+      "id": "10",
+      "title": "Peace",
+      "restricted": true,
+      "url": "/t1chap10/"
+    },
+    {
+      "heading": "A Treatise on The Nature of Unity and its Recognition: The Second Treatise",
+      "id": "1",
+      "title": "Treasure",
+      "restricted": true,
+      "url": "/t2chap01/"
+    },
+    {
+      "id": "2",
+      "title": "To Hear the Call",
+      "restricted": true,
+      "url": "/t2chap02/"
+    },
+    {
+      "id": "3",
+      "title": "To Answer the Call",
+      "restricted": false,
+      "url": "/t2chap03/"
+    },
+    {
+      "id": "4",
+      "title": "The Call to Who You Are",
+      "restricted": false,
+      "url": "/t2chap04/"
+    },
+    {
+      "id": "5",
+      "title": "The Source of Your Call",
+      "restricted": true,
+      "url": "/t2chap05/"
+    },
+    {
+      "id": "6",
+      "title": "The Belief: Accomplishment",
+      "restricted": true,
+      "url": "/t2chap06/"
+    },
+    {
+      "id": "7",
+      "title": "The Belief: Giving and Receiving As One",
+      "restricted": true,
+      "url": "/t2chap07/"
+    },
+    {
+      "id": "8",
+      "title": "The Belief: No Relationships Are Special",
+      "restricted": true,
+      "url": "/t2chap08/"
+    },
+    {
+      "id": "9",
+      "title": "The Belief: There Is No Loss But Only Gain",
+      "restricted": true,
+      "url": "/t2chap09/"
+    },
+    {
+      "id": "10",
+      "title": "The Belief: We Only Learn in Unity",
+      "restricted": true,
+      "url": "/t2chap10/"
+    },
+    {
+      "id": "11",
+      "title": "The Belief: We Exist in Relationship and Unity",
+      "restricted": true,
+      "url": "/t2chap11/"
+    },
+    {
+      "id": "12",
+      "title": "The Belief: Correction and Atonement",
+      "restricted": true,
+      "url": "/t2chap12/"
+    },
+    {
+      "id": "13",
+      "title": "The Final Call",
+      "restricted": true,
+      "url": "/t2chap13/"
+    },
+    {
+      "heading": "A Treatise on The Personal Self: The Third Treatise",
+      "id": "1",
+      "title": "True and False Representation",
+      "restricted": true,
+      "url": "/t3chap01/"
+    },
+    {
+      "id": "2",
+      "title": "The Purpose of Representation",
+      "restricted": true,
+      "url": "/t3chap02/"
+    },
+    {
+      "id": "3",
+      "title": "The True Self",
+      "restricted": true,
+      "url": "/t3chap03/"
+    },
+    {
+      "id": "4",
+      "title": "The Dismantling of Illusion",
+      "restricted": false,
+      "url": "/t3chap04/"
+    },
+    {
+      "id": "5",
+      "title": "Original Purpose",
+      "restricted": true,
+      "url": "/t3chap05/"
+    },
+    {
+      "id": "6",
+      "title": "The Desire for Reward",
+      "restricted": true,
+      "url": "/t3chap06/"
+    },
+    {
+      "id": "7",
+      "title": "The Explosion of Belief",
+      "restricted": true,
+      "url": "/t3chap07/"
+    },
+    {
+      "id": "8",
+      "title": "The House of Truth",
+      "restricted": true,
+      "url": "/t3chap08/"
+    },
+    {
+      "id": "9",
+      "title": "To Dwell in the House of Truth",
+      "restricted": true,
+      "url": "/t3chap09/"
+    },
+    {
+      "id": "10",
+      "title": "An Exercise in Forgetting",
+      "restricted": true,
+      "url": "/t3chap10/"
+    },
+    {
+      "id": "11",
+      "title": "The Temptations of the Human Experience",
+      "restricted": true,
+      "url": "/t3chap11/"
+    },
+    {
+      "id": "12",
+      "title": "The Physical Self in the House of Truth",
+      "restricted": true,
+      "url": "/t3chap12/"
+    },
+    {
+      "id": "13",
+      "title": "The Practice: No Loss But Only Gain",
+      "restricted": true,
+      "url": "/t3chap13/"
+    },
+    {
+      "id": "14",
+      "title": "Not Other Than Who You Are",
+      "restricted": true,
+      "url": "/t3chap14/"
+    },
+    {
+      "id": "15",
+      "title": "The New Beginning",
+      "restricted": true,
+      "url": "/t3chap15/"
+    },
+    {
+      "id": "16",
+      "title": "Willingness, Temptation, and Belief",
+      "restricted": true,
+      "url": "/t3chap16/"
+    },
+    {
+      "id": "17",
+      "title": "A Mistake in Learning",
+      "restricted": true,
+      "url": "/t3chap17/"
+    },
+    {
+      "id": "18",
+      "title": "Observation",
+      "restricted": true,
+      "url": "/t3chap18/"
+    },
+    {
+      "id": "19",
+      "title": "Physical Reality",
+      "restricted": true,
+      "url": "/t3chap19/"
+    },
+    {
+      "id": "20",
+      "title": "Suffering and Observance",
+      "restricted": true,
+      "url": "/t3chap20/"
+    },
+    {
+      "id": "21",
+      "title": "The Identity of the True Self",
+      "restricted": false,
+      "url": "/t3chap21/"
+    },
+    {
+      "id": "22",
+      "title": "The True Self in Observable Form",
+      "restricted": true,
+      "url": "/t3chap22/"
+    },
+    {
+      "heading": "A Treatise on The New: The Fourth Treatise",
+      "id": "1",
+      "title": "All Are Chosen",
+      "restricted": false,
+      "url": "/t4chap01/"
+    },
+    {
+      "id": "2",
+      "title": "Shared Vision",
+      "restricted": true,
+      "url": "/t4chap02/"
+    },
+    {
+      "id": "3",
+      "title": "Natural Vision",
+      "restricted": true,
+      "url": "/t4chap03/"
+    },
+    {
+      "id": "4",
+      "title": "The Inheritance of Everlasting Life",
+      "restricted": true,
+      "url": "/t4chap04/"
+    },
+    {
+      "id": "5",
+      "title": "The Energy of Creation and the Body of Christ",
+      "restricted": true,
+      "url": "/t4chap05/"
+    },
+    {
+      "id": "6",
+      "title": "A New Choice",
+      "restricted": true,
+      "url": "/t4chap06/"
+    },
+    {
+      "id": "7",
+      "title": "An End to Learning",
+      "restricted": true,
+      "url": "/t4chap07/"
+    },
+    {
+      "id": "8",
+      "title": "To Come to Know",
+      "restricted": true,
+      "url": "/t4chap08/"
+    },
+    {
+      "id": "9",
+      "title": "Beyond Learning",
+      "restricted": true,
+      "url": "/t4chap09/"
+    },
+    {
+      "id": "10",
+      "title": "Creating Anew",
+      "restricted": true,
+      "url": "/t4chap10/"
+    },
+    {
+      "id": "11",
+      "title": "The End of Learning and the Sustainability of Christ-Consciousness",
+      "restricted": true,
+      "url": "/t4chap11/"
+    },
+    {
+      "id": "12",
+      "title": "A Prelude to The Dialogues",
+      "restricted": false,
+      "url": "/t4chap12/"
+    }
+  ]
+}
+

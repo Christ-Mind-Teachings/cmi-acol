@@ -10,7 +10,9 @@
     "start": "npm run jekyll & npm run watch"
   },
   "keywords": [
-    "cmi", "acol", "jekyll"
+    "cmi",
+    "acol",
+    "jekyll"
   ],
   "author": "Rick Mercer",
   "license": "MIT",

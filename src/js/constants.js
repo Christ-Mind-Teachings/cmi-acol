@@ -7,13 +7,6 @@
   3. Edit _includes/common/quick-link-menu.html
 */
 
-//teaching alpha identifier
-export const sid = "acol";
-
-//API Endpoints
-export const shareEndpoint = "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/share";
-export const userEndpoint = "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest/user";
-
 const libraryInfo = {
   wom: {
     title: "Way of Mastery",
@@ -58,15 +51,26 @@ function getLocalUrl(teaching) {
 /*
   For development environment, change links to localhost
 */
-export const setLinks = () => {
+const setLinks = () => {
   //Header Link, found in _includes/common/masthead.html
-  $(".href.www-christmind.info").attr("href", getLocalUrl("www"));
+  $(".href.www-christmind-info").attr("href", getLocalUrl("www"));
 
   for (const key in libraryInfo) {
     let info = libraryInfo[key];
-    if (libraryInfo.hasOwnproperty(key)) {
+    if (libraryInfo.hasOwnProperty(key)) {
       //found in _includes/common/quick-link-menu.html
-      $(`.dhref.${key}-christmind.info`).attr("href", getLocalUrl(key));
+      $(`.dhref.${key}-christmind-info`).attr("href", getLocalUrl(key));
     }
   }
+}
+
+export default {
+  //teaching alpha identifier, used for mailgun tag
+  sid: "ACOL",
+
+  //API Endpoints
+  share: "https://rcd7l4adth.execute-api.us-east-1.amazonaws.com/latest/share",
+  user: "https://93e93isn03.execute-api.us-east-1.amazonaws.com/latest/user",
+
+  setLinks: setLinks
 }

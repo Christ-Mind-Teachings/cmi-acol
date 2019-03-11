@@ -1,0 +1,357 @@
+{
+  "bid": "dialog",
+  "base": "/dialog",
+  "title": "Book Three: The Dialogues of A Course of Love",
+  "image": "/public/img/acol/dialog-toc.jpg",
+  "contents": [
+    {
+      "id": "1",
+      "title": "Acceptance of the State of Grace of the Newly Identified Child of God",
+      "restricted": false,
+      "url": "/chap01/"
+    },
+    {
+      "id": "2",
+      "title": "Acceptance and Denial",
+      "restricted": true,
+      "url": "/chap02/"
+    },
+    {
+      "id": "3",
+      "title": "The Covenant of the New",
+      "restricted": false,
+      "url": "/chap03/"
+    },
+    {
+      "id": "4",
+      "title": "The New You",
+      "restricted": true,
+      "url": "/chap04/"
+    },
+    {
+      "id": "5",
+      "title": "True Representation",
+      "restricted": true,
+      "url": "/chap05/"
+    },
+    {
+      "id": "6",
+      "title": "The Body and the Elevation of Form",
+      "restricted": true,
+      "url": "/chap06/"
+    },
+    {
+      "id": "7",
+      "title": "Time and the Experience of Transformation",
+      "restricted": false,
+      "url": "/chap07/"
+    },
+    {
+      "id": "8",
+      "title": "The Territory of Conscious Awareness",
+      "restricted": true,
+      "url": "/chap08/"
+    },
+    {
+      "id": "9",
+      "title": "Awareness that Does Not Come from Thought",
+      "restricted": true,
+      "url": "/chap09/"
+    },
+    {
+      "id": "10",
+      "title": "The Goal and the Accomplishment of the Elevated Self of Form",
+      "restricted": true,
+      "url": "/chap10/"
+    },
+    {
+      "id": "11",
+      "title": "The Return to Unity and the End of Thought As You Know It",
+      "restricted": true,
+      "url": "/chap11/"
+    },
+    {
+      "id": "12",
+      "title": "The Body and Your Thoughts",
+      "restricted": true,
+      "url": "/chap12/"
+    },
+    {
+      "id": "13",
+      "title": "Sharing and a Refinement of Your Means of Expressing What You Know",
+      "restricted": true,
+      "url": "/chap13/"
+    },
+    {
+      "id": "14",
+      "title": "New Frontiers Beyond the Body and Mind, Form and Time",
+      "restricted": true,
+      "url": "/chap14/"
+    },
+    {
+      "id": "15",
+      "title": "Becoming and the Principles of Creation",
+      "restricted": true,
+      "url": "/chap15/"
+    },
+    {
+      "id": "16",
+      "title": "From Image to Presence",
+      "restricted": true,
+      "url": "/chap16/"
+    },
+    {
+      "id": "17",
+      "title": "The Secret of Succession",
+      "restricted": true,
+      "url": "/chap17/"
+    },
+    {
+      "heading": "The Forty Days and Forty Nights",
+      "did": "1",
+      "title": "Accept Me",
+      "restricted": true,
+      "url": "/day01/"
+    },
+    {
+      "did": "2",
+      "title": "Accept Your Self",
+      "restricted": true,
+      "url": "/day02/"
+    },
+    {
+      "did": "3",
+      "title": "Accept Abundance",
+      "restricted": true,
+      "url": "/day03/"
+    },
+    {
+      "did": "4",
+      "title": "The New Temptations",
+      "restricted": true,
+      "url": "/day04/"
+    },
+    {
+      "did": "5",
+      "title": "Access to Unity",
+      "restricted": true,
+      "url": "/day05/"
+    },
+    {
+      "did": "6",
+      "title": "The Time In Between",
+      "restricted": true,
+      "url": "/day06/"
+    },
+    {
+      "did": "7",
+      "title": "Conditions of the Time of Acceptance",
+      "restricted": true,
+      "url": "/day07/"
+    },
+    {
+      "did": "8",
+      "title": "Accept the Present",
+      "restricted": true,
+      "url": "/day08/"
+    },
+    {
+      "did": "9",
+      "title": "Freedom",
+      "restricted": true,
+      "url": "/day09/"
+    },
+    {
+      "did": "10",
+      "title": "Power",
+      "restricted": false,
+      "url": "/day10/"
+    },
+    {
+      "did": "11",
+      "title": "Christ-Consciousness",
+      "restricted": true,
+      "url": "/day11/"
+    },
+    {
+      "did": "12",
+      "title": "The Spacious Self Joined in Relationship",
+      "restricted": true,
+      "url": "/day12/"
+    },
+    {
+      "did": "13",
+      "title": "Union with the Spacious Self",
+      "restricted": true,
+      "url": "/day13/"
+    },
+    {
+      "did": "14",
+      "title": "Healing",
+      "restricted": true,
+      "url": "/day14/"
+    },
+    {
+      "did": "15",
+      "title": "Entering the Dialogue",
+      "restricted": true,
+      "url": "/day15/"
+    },
+    {
+      "did": "16",
+      "title": "Paradise Re-Found",
+      "restricted": true,
+      "url": "/day16/"
+    },
+    {
+      "did": "17",
+      "title": "The Fulfillment of the Way of Jesus",
+      "restricted": true,
+      "url": "/day17/"
+    },
+    {
+      "did": "18",
+      "title": "The Way to Paradise",
+      "restricted": true,
+      "url": "/day18/"
+    },
+    {
+      "did": "19",
+      "title": "The Way of Mary",
+      "restricted": true,
+      "url": "/day19/"
+    },
+    {
+      "did": "20",
+      "title": "The First Transition",
+      "restricted": true,
+      "url": "/day20/"
+    },
+    {
+      "did": "21",
+      "title": "The Reversal",
+      "restricted": true,
+      "url": "/day21/"
+    },
+    {
+      "did": "22",
+      "title": "Channeling",
+      "restricted": true,
+      "url": "/day22/"
+    },
+    {
+      "did": "23",
+      "title": "Carrying",
+      "restricted": true,
+      "url": "/day23/"
+    },
+    {
+      "did": "24",
+      "title": "Potential",
+      "restricted": true,
+      "url": "/day24/"
+    },
+    {
+      "did": "25",
+      "title": "Tending Your Garden",
+      "restricted": true,
+      "url": "/day25/"
+    },
+    {
+      "did": "26",
+      "title": "Self-Guidance",
+      "restricted": true,
+      "url": "/day26/"
+    },
+    {
+      "did": "27",
+      "title": "The Apprehension of Levels of Experience",
+      "restricted": true,
+      "url": "/day27/"
+    },
+    {
+      "did": "28",
+      "title": "From Externally to Internally Directed Life Experience",
+      "restricted": true,
+      "url": "/day28/"
+    },
+    {
+      "did": "29",
+      "title": "The Common Denominator of Experience",
+      "restricted": true,
+      "url": "/day29/"
+    },
+    {
+      "did": "30",
+      "title": "Yielding to Wholeness",
+      "restricted": true,
+      "url": "/day30/"
+    },
+    {
+      "did": "31",
+      "title": "Joining",
+      "restricted": true,
+      "url": "/day31/"
+    },
+    {
+      "did": "32",
+      "title": "The Experience of the Self and the Power of God",
+      "restricted": true,
+      "url": "/day32/"
+    },
+    {
+      "did": "33",
+      "title": "Being in Relationship",
+      "restricted": true,
+      "url": "/day33/"
+    },
+    {
+      "did": "34",
+      "title": "Saying Yes to Power",
+      "restricted": true,
+      "url": "/day34/"
+    },
+    {
+      "did": "35",
+      "title": "Being a Creator in Unity and Relationship",
+      "restricted": true,
+      "url": "/day35/"
+    },
+    {
+      "did": "36",
+      "title": "Who You Are in Unity and Relationship",
+      "restricted": true,
+      "url": "/day36/"
+    },
+    {
+      "did": "37",
+      "title": "A New Idea of God",
+      "restricted": true,
+      "url": "/day37/"
+    },
+    {
+      "did": "38",
+      "title": "Who I Am",
+      "restricted": true,
+      "url": "/day38/"
+    },
+    {
+      "did": "39",
+      "title": "Who I Am to You",
+      "restricted": true,
+      "url": "/day39/"
+    },
+    {
+      "did": "40",
+      "title": "Who You Are to Me",
+      "restricted": true,
+      "url": "/day40/"
+    },
+    {
+      "title": "Epilogue : A Note on Being",
+      "restricted": true,
+      "url": "/epilogue/"
+    }
+  ]
+}
+

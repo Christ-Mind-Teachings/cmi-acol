@@ -17,7 +17,7 @@ statusFileName="src/js/modules/_config/status.js"
 # name of all book config files
 #
 # CHANGE THIS LIST TO REFLECT ALL CONFIG FILES IN PUBLIC/CONFIG
-configFiles="acq profile"
+configFiles="course treatise dialog"
 
 ((cnt=0))
 status="export const status = {"

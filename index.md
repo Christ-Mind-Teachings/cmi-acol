@@ -1,38 +1,47 @@
 ---
 layout: page
 masthead: home
-title: "Source Name"
+title: "A Course of Love"
 footer:
   display: true
   donate: false
-  id: "CMI-START"
-  source: "START"
-  repohref: "https://github.com/rmercer33/cmi-start"
+  id: "CMI-ACOL"
+  source: "ACOL"
+  repohref: "https://github.com/rmercer33/cmi-acol"
 ---
 
 <div id="page-contents" class="ui three cards">
   <div class="card">
-    <a href="#" data-book="bid" class="toc-modal-open image">
-      <img src="/public/img/src/vol-big.jpg">
+    <a href="#" data-book="course" class="toc-modal-open image">
+      <img src="/public/img/acol/course-big.jpg">
     </a>
     <div class="content">
-      <div class="header">Volume Title</div>
+      <div class="header">A Course of Love</div>
       <div class="description">
-        Volume Description
+        Book One: The Course
       </div>
     </div>
   </div>
-  <!--
   <div class="card">
-    <a href="#" data-book="grad" class="toc-modal-open image">
-      <img src="/public/img/src/grad-big.jpg">
+    <a href="#" data-book="treatise" class="toc-modal-open image">
+      <img src="/public/img/acol/treatise-big.jpg">
     </a>
     <div class="content">
-      <div class="header">Graduation</div>
+      <div class="header">A Course of Love</div>
       <div class="description">
-        The End of Illusions
+        Book Two: The Treatises
       </div>
     </div>
   </div>
-  -->
+  <div class="card">
+    <a href="#" data-book="dialog" class="toc-modal-open image">
+      <img src="/public/img/acol/dialog-big.jpg">
+    </a>
+    <div class="content">
+      <div class="header">A Course of Love</div>
+      <div class="description">
+        Book Three: The Dialogues
+      </div>
+    </div>
+  </div>
 </div>

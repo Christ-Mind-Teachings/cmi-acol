@@ -6,170 +6,210 @@
   "contents": [
     {
       "title": "Introduction",
+      "restricted": true,
       "url": "/introduction/"
     },
     {
       "title": "The Prelude",
+      "restricted": true,
       "url": "/prelude/"
     },
     {
       "id": "1",
       "title": "A Course of Love",
+      "restricted": false,
+      "audio": "/course/c01.mp3",
       "url": "/chap01/"
     },
     {
       "id": "2",
       "title": "What Love Is",
+      "restricted": false,
+      "audio": "/course/c02.mp3",
       "url": "/chap02/"
     },
     {
       "id": "3",
       "title": "The First Lesson",
+      "restricted": false,
+      "audio": "/course/c03.mp3",
       "url": "/chap03/"
     },
     {
       "id": "4",
       "title": "Love’s Equity",
+      "restricted": false,
+      "audio": "/course/c04.mp3",
       "url": "/chap04/"
     },
     {
       "id": "5",
       "title": "Relationship",
+      "restricted": false,
+      "audio": "/course/c05.mp3",
       "url": "/chap05/"
     },
     {
       "id": "6",
       "title": "Forgiveness/Joining",
+      "restricted": true,
       "url": "/chap06/"
     },
     {
       "id": "7",
       "title": "Withholding",
+      "restricted": true,
       "url": "/chap07/"
     },
     {
       "id": "8",
       "title": "The Separation from the Body",
+      "restricted": true,
       "url": "/chap08/"
     },
     {
       "id": "9",
       "title": "The Prodigal’s Return",
+      "restricted": false,
       "url": "/chap09/"
     },
     {
       "id":"10",
       "title": "Use and Understanding",
+      "restricted": true,
       "url": "/chap10/"
     },
     {
       "id":"11",
       "title": "Free Will and Willingness",
+      "restricted": true,
       "url": "/chap11/"
     },
     {
       "id":"12",
       "title": "Origin of Separation",
+      "restricted": false,
       "url": "/chap12/"
     },
     {
       "id":"13",
       "title": "Observation and Experience",
+      "restricted": true,
       "url": "/chap13/"
     },
     {
       "id":"14",
       "title": "Special Relationships, Earthly and Human",
+      "restricted": false,
       "url": "/chap14/"
     },
     {
       "id":"15",
       "title": "The Special Self",
+      "restricted": true,
       "url": "/chap15/"
     },
     {
       "id":"16",
       "title": "What You Choose Instead",
+      "restricted": true,
       "url": "/chap16/"
     },
     {
       "id":"17",
       "title": "Conscious Non-Planning",
+      "restricted": true,
       "url": "/chap17/"
     },
     {
       "id":"18",
       "title": "The Mind Engaged",
+      "restricted": false,
       "url": "/chap18/"
     },
     {
       "id":"19",
       "title": "Oneness and Duality",
+      "restricted": false,
       "url": "/chap19/"
     },
     {
       "id":"20",
       "title": "The Embrace",
+      "restricted": false,
+      "audio": "/course/c20.mp3",
       "url": "/chap20/"
     },
     {
       "id":"21",
       "title": "Love Is",
+      "restricted": true,
       "url": "/chap21/"
     },
     {
       "id":"22",
       "title": "The Intersection",
+      "restricted": true,
       "url": "/chap22/"
     },
     {
       "id":"23",
       "title": "The Freedom of the Body",
+      "restricted": true,
       "url": "/chap23/"
     },
     {
       "id":"24",
       "title": "The Time of Tenderness",
+      "restricted": true,
       "url": "/chap24/"
     },
     {
       "id":"25",
       "title": "Devotion as a Type of Participation",
+      "restricted": true,
       "url": "/chap25/"
     },
     {
       "id":"26",
       "title": "The Full Life",
+      "restricted": false,
       "url": "/chap26/"
     },
     {
       "id":"27",
       "title": "Being",
+      "restricted": true,
       "url": "/chap27/"
     },
     {
       "id":"28",
       "title": "Bearing Witness",
+      "restricted": true,
       "url": "/chap28/"
     },
     {
       "id":"29",
       "title": "Attention",
+      "restricted": true,
       "url": "/chap29/"
     },
     {
       "id":"30",
       "title": "Being Present",
+      "restricted": true,
       "url": "/chap30/"
     },
     {
       "id":"31",
       "title": "The Nature of the Mind",
+      "restricted": true,
       "url": "/chap31/"
     },
     {
       "id":"32",
       "title": "Love Returned to Love",
+      "restricted": true,
       "url": "/chap32/"
     }
   ]

@@ -11,7 +11,7 @@ let testUsers = {
     email: "rmercer33@gmail.com",
     userId: md5("rmercer33@gmail.com"),
     name: "Rick Mercer",
-    roles: ["timer", "editor"]
+    roles: ["xunrestricted", "timer", "editor"]
   },
   "julie": { 
     email: "julief8@me.com",

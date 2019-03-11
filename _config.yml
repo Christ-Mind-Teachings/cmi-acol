@@ -41,10 +41,10 @@ collections:
     title: "Book One: A Course of Love"
   treatise:
     output: true
-    title: "Book Two: The Treatises of A Course of Love"
+    title: "Book Two: The Treatises"
   dialog:
     output: true
-    title: "Book Three: The Dialogues of A Course of Love"
+    title: "Book Three: The Dialogues"
 
 defaults:
   - scope:
@@ -52,7 +52,7 @@ defaults:
       type: course
     values:
       layout: transcript
-      book: "Book One: A Course of Love"
+      book: "Book One"
       image: "/public/img/acol/course-big.jpg"
       image-width: 612
       image-height: 792
@@ -62,7 +62,7 @@ defaults:
       type: treatise
     values:
       layout: transcript
-      book: "Book Two: The Treatises of A Course of Love"
+      book: "Book Two"
       image: "/public/img/acol/treatise-big.jpg"
       image-width: 612
       image-height: 792
@@ -72,7 +72,7 @@ defaults:
       type: dialog
     values:
       layout: transcript
-      book: "Book Three: The Dialogues of A Course of Love"
+      book: "Book Three"
       image: "/public/img/acol/dialog-big.jpg"
       image-width: 612
       image-height: 792

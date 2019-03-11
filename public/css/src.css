@@ -4,3 +4,8 @@
   font-style: italic;
 }
 
+a[data-restricted="1"] {
+  color: black !important;
+  cursor: default !important;
+}
+
