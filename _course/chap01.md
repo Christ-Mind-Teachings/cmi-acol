@@ -170,7 +170,7 @@ which makes up your life. To not engage is to not prove your own
 existence. separate existence in a world apart from your Creator. This
 world does not exist. And you do not exist apart from your Creator. Your
 yearning for love is what tells you this is so. It is the proof you do
-not recognize. 
+not recognize.
 
 1.15 This is what you have made this world for: to prove your separate
 existence in a world apart from your Creator. This world does not exist.
@@ -181,10 +181,12 @@ what tells you this is so. It is the proof you do not recognize.
 means do you continue to recognize that love is at the heart of all
 things even while it is not valued here? Here is a fine example that
 means and end are the same. For love is what you are as well as what you
-strive for. Love is means and end. 1.17 All the symbols of your
-physical life reflect a deeper meaning that, while hidden to you, you
-still know exists. The union of two bodies joined in love create a
-child, the union of man and woman joined in marriage create oneness. 
+strive for. Love is means and end.
+
+1.17 All the symbols of your physical life reflect a deeper meaning
+that, while hidden to you, you still know exists. The union of two
+bodies joined in love create a child, the union of man and woman joined
+in marriage create oneness.
 
 1.18 Love is at the heart of all things. How you feel but reflects your
 decision to accept love or to reject it and choose fear. Both cannot be
