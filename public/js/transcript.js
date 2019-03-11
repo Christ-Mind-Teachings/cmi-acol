@@ -36718,7 +36718,7 @@ function getBookId() {
 
     //check if user has access to content
     const userInfo = Object(__WEBPACK_IMPORTED_MODULE_3__user_netlify__["b" /* getUserInfo */])();
-    if (userInfo && userInfo.roles.indexOf("unrestricted") !== -1) {
+    if (userInfo && userInfo.roles && userInfo.roles.indexOf("unrestricted") !== -1) {
       toc.restricted = false;
     }
 
