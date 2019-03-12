@@ -19,6 +19,7 @@
       "title": "A Course of Love",
       "restricted": false,
       "audio": "/course/c01.mp3",
+      "timing": "/course/c01.json",
       "url": "/chap01/"
     },
     {

@@ -45,6 +45,9 @@ collections:
   dialog:
     output: true
     title: "Book Three: The Dialogues"
+  acq:
+    output: true
+    title: "Get Acquainted"
 
 defaults:
   - scope:
@@ -77,6 +80,16 @@ defaults:
       image-width: 612
       image-height: 792
       bid: "dialog"
+  - scope:
+      path: ""
+      type: acq
+    values:
+      layout: transcript
+      book: "Get Acquainted"
+      image: "/public/img/acol/acq-big.jpg"
+      image-width: 612
+      image-height: 792
+      bid: "acq"
 
 exclude: [
   Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project

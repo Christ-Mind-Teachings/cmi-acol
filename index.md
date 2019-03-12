@@ -12,6 +12,17 @@ footer:
 
 <div id="page-contents" class="ui three cards">
   <div class="card">
+    <a href="#" data-book="acq" class="toc-modal-open image">
+      <img src="/public/img/acol/acq-big.jpg">
+    </a>
+    <div class="content">
+      <div class="header">A Course of Love</div>
+      <div class="description">
+        Get Acquainted
+      </div>
+    </div>
+  </div>
+  <div class="card">
     <a href="#" data-book="course" class="toc-modal-open image">
       <img src="/public/img/acol/course-big.jpg">
     </a>

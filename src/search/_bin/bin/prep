@@ -4,11 +4,11 @@ workingDir=`pwd`
 scriptDir=`dirname $0`
 scriptName=`basename $0`
 
-unitDir="/Users/rmercer/Projects/cmi/site/cmi-wom"
-awkFile="wom.awk"
+unitDir="/Users/rmercer/Projects/cmi/site/cmi-acol"
+awkFile="acol.awk"
 debug=0
 
-source="wom"
+source="acol"
 
 function syntax {
   echo "prep -b <book> file"

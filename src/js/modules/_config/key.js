@@ -38,10 +38,15 @@ const keyLength = 7;
 
 //Raj material books (bid)
 const books = [
-  "course", "treatise", "dialog"
+  "course", "treatise", "dialog", "acq"
 ];
 
 const bookIds = ["xxx", ...books];
+
+const acq = [
+  "xxx", "welcome", "book"
+];
+
 const course = [
   "xxx", "introduction", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06",
   "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16",
@@ -71,7 +76,8 @@ const dialog = [
 const contents = {
   course: course,
   treatise: treatise,
-  dialog: dialog
+  dialog: dialog,
+  acq: acq
 };
 
 function splitUrl(url) {

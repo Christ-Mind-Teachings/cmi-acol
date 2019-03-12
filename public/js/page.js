@@ -1673,9 +1673,12 @@ const sourceId = 14;
 const keyLength = 7;
 
 //Raj material books (bid)
-const books = ["course", "treatise", "dialog"];
+const books = ["course", "treatise", "dialog", "acq"];
 
 const bookIds = ["xxx", ...books];
+
+const acq = ["xxx", "welcome", "book"];
+
 const course = ["xxx", "introduction", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06", "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16", "chap17", "chap18", "chap19", "chap20", "chap21", "chap22", "chap23", "chap24", "chap25", "chap26", "chap27", "chap28", "chap29", "chap30", "chap31", "chap32"];
 
 const treatise = ["xxx", "t1chap01", "t1chap02", "t1chap03", "t1chap04", "t1chap05", "t1chap06", "t1chap07", "t1chap08", "t1chap09", "t1chap10", "t2chap01", "t2chap02", "t2chap03", "t2chap04", "t2chap05", "t2chap06", "t2chap07", "t2chap08", "t2chap09", "t2chap10", "t2chap11", "t2chap12", "t2chap13", "t3chap01", "t3chap02", "t3chap03", "t3chap04", "t3chap05", "t3chap06", "t3chap07", "t3chap08", "t3chap09", "t3chap10", "t3chap11", "t3chap12", "t3chap13", "t3chap14", "t3chap15", "t3chap16", "t3chap17", "t3chap18", "t3chap19", "t3chap20", "t3chap21", "t3chap22", "t4chap01", "t4chap02", "t4chap03", "t4chap04", "t4chap05", "t4chap06", "t4chap07", "t4chap08", "t4chap09", "t4chap10", "t4chap11", "t4chap12"];
@@ -1685,7 +1688,8 @@ const dialog = ["xxx", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06
 const contents = {
   course: course,
   treatise: treatise,
-  dialog: dialog
+  dialog: dialog,
+  acq: acq
 };
 
 function splitUrl(url) {
@@ -26385,7 +26389,7 @@ module.exports = function spread(callback) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const status = { course: "Mon Mar 11 21:00:32 WITA 2019", treatise: "Mon Mar 11 14:38:27 WITA 2019", dialog: "Mon Mar 11 19:48:30 WITA 2019" };
+const status = { course: "Mon Mar 11 22:16:49 WITA 2019", treatise: "Mon Mar 11 14:38:27 WITA 2019", dialog: "Mon Mar 11 19:48:30 WITA 2019" };
 /* harmony export (immutable) */ __webpack_exports__["a"] = status;
 
 
@@ -35739,7 +35743,7 @@ module.exports = noop;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_toastr__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_toastr___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_toastr__);
 
-const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/wom";
+const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/acol";
 
 
 

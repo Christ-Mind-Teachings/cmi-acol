@@ -1,0 +1,18 @@
+{
+  "bid": "acq",
+  "base": "/acq",
+  "title": "Get Acquainted",
+  "image": "/public/img/acol/acq-toc.jpg",
+  "contents": [
+    {
+      "title": "Welcome",
+      "restricted": false,
+      "url": "/welcome/"
+    },
+    {
+      "title": "Purchase",
+      "restricted": false,
+      "url": "/book/"
+    }
+  ]
+}
