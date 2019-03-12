@@ -27,6 +27,7 @@
       "title": "What Love Is",
       "restricted": false,
       "audio": "/course/c02.mp3",
+      "timing": "/course/c02.json",
       "url": "/chap02/"
     },
     {
@@ -34,6 +35,7 @@
       "title": "The First Lesson",
       "restricted": false,
       "audio": "/course/c03.mp3",
+      "timing": "/course/c03.json",
       "url": "/chap03/"
     },
     {
