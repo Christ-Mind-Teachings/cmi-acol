@@ -7,6 +7,7 @@ import scroll from "scroll-into-view";
 import {getUserInfo} from "../_user/netlify";
 import notify from "toastr";
 import {shareByEmail} from "./shareByEmail";
+import clipboard from "./clipboard";
 
 //import {getSourceId, genPageKey} from "../_config/key";
 const transcript = require("../_config/key");
@@ -506,7 +507,7 @@ export function initShareDialog(source) {
     return;
   }
 
-  console.log("initShareDialog(%s)", source);
+  //console.log("initShareDialog(%s)", source);
 
   //share icon click handler
   $(".transcript").on("click", ".selected-annotation-wrapper .share-annotation", function(e) {
@@ -518,6 +519,23 @@ export function initShareDialog(source) {
     userInfo = getUserInfo();
     if (!userInfo) {
       notify.info("You must be signed in to share selected text");
+      return;
+    }
+
+    let channel;
+    if ($(this).hasClass("facebook")) {
+      channel = "facebook";
+    }
+    else if ($(this).hasClass("envelope")) {
+      channel = "email";
+    }
+    else if ($(this).hasClass("linkify")) {
+      //work is already done
+      channel = "clipboard";
+      return;
+    }
+    else if ($(this).hasClass("close")) {
+      clearSelectedAnnotation();
       return;
     }
 
@@ -538,20 +556,6 @@ export function initShareDialog(source) {
     let citation = `~ ${srcTitle}: ${bookTitle}`;
     
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
-    let channel;
-    if ($(this).hasClass("facebook")) {
-      channel = "facebook";
-    }
-    else if ($(this).hasClass("envelope")) {
-      channel = "email";
-    }
-    else if ($(this).hasClass("close")) {
-      channel = "close";
-    }
-
-    // console.log("url: %s", url);
-    // console.log("quote: %s", text);
-    // console.log("share to: %s", channel);
 
     if (channel === "facebook") {
       let options = {
@@ -564,10 +568,6 @@ export function initShareDialog(source) {
     }
     else if (channel === "email") {
       shareByEmail(text, citation, url);
-    }
-    else if (channel === "close") {
-      //when close window icon is present - when window created from annotation edit dialog
-      clearSelectedAnnotation();
     }
   });
 
@@ -620,20 +620,58 @@ function initClickListeners() {
     e.preventDefault();
     clearSelectedAnnotation();
 
-    let aid = $(this).attr("data-aid");
+    let userInfo = getUserInfo();
+    if (!userInfo) {
+      userInfo = {userId: "xxx"};
+    }
+
+    //this is the annotation-id on the bookmark in the navigator
+    let annotation_id = $(this).attr("data-aid");
+    let aid;
+
     let dataRange = $(this).attr("data-range");
     let rangeArray = dataRange.split("/");
+
+    let pid = rangeArray[0];
+
+    //get the aid from the highlight if it exists, won't exist for note level bookmark
+    if (annotation_id !== "undefined") {
+      aid = $(`[data-annotation-id='${annotation_id}']`).attr("data-aid");
+      $(`[data-annotation-id="${aid}"]`).addClass("show");
+    }
+    else {
+      //this is a note level bookmark, get aid from the pid
+      aid = $(`#${pid} > span.pnum`).attr("data-aid");
+    }
+
+    let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
+
     let numericRange = rangeArray.map((r) => parseInt(r.substr(1),10));
     let annotationRange = range(numericRange[0], numericRange[1] + 1);
-    let header = `
-      <h4 class="ui header">
-        <i title="Share to Facebook" class="share-annotation facebook small icon"></i>
-        <i title="Share via email" class="share-annotation envelope outline small icon"></i>
-        <div class="content">
-          ${$(this).text()}
-        </div>
-      </h4>
-    `;
+    let header;
+
+    if (userInfo.userId === "xxx") {
+      header = `
+        <h4 class="ui header">
+          <i title="Sign into your account to share this bookmark to FB by email or to copy a link." class="red window close outline small icon"></i>
+          <div class="content">
+            ${$(this).text()}
+          </div>
+        </h4>
+      `;
+    }
+    else {
+      header = `
+        <h4 class="ui header">
+          <i title="Share to Facebook" class="share-annotation facebook small icon"></i>
+          <i title="Share via email" class="share-annotation envelope outline small icon"></i>
+          <i data-clipboard-text="${url}" title="Copy link to clipboard" class="share-annotation linkify small icon"></i>
+          <div class="content">
+            ${$(this).text()}
+          </div>
+        </h4>
+      `;
+    }
 
     for (let i = 0; i < annotationRange.length; i++) {
       $(`#p${annotationRange[i]}`).addClass("selected-annotation");
@@ -642,14 +680,15 @@ function initClickListeners() {
     $(".selected-annotation").wrapAll("<div class='selected-annotation-wrapper ui raised segment'></div>");
     $(".selected-annotation-wrapper").prepend(header);
 
-    if (aid !== "undefined") {
-      $(`[data-annotation-id="${aid}"]`).addClass("show");
+    if (userInfo.userId !== "xxx") {
+      clipboard.register(".share-annotation.linkify");
     }
   });
 
   //init click events for FB and email sharing
   initShareDialog("bookmark/navigator.js");
 }
+
 
 /*
   User clicked a bookmark link in the bookmark list modal.
