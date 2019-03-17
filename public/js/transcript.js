@@ -37022,7 +37022,7 @@ function initSearchModal() {
 
 //this needs to use require because it is also used by a node app and node doesn't support import
 const womInfo = __webpack_require__(15);
-const queryResultName = "query-result-wom";
+const queryResultName = "query-result-acol";
 
 function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;
@@ -37231,7 +37231,7 @@ function showSavedQuery() {
 
 const page = __webpack_require__(15);
 
-const queryResultName = "query-result-raj";
+const queryResultName = "query-result-acol";
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
