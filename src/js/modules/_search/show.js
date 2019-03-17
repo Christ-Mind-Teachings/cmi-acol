@@ -5,7 +5,7 @@ import store from "store";
 
 //this needs to use require because it is also used by a node app and node doesn't support import
 const womInfo = require("../_config/key");
-const queryResultName = "query-result-wom";
+const queryResultName = "search.acol.result";
 
 function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;

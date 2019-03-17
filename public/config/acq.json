@@ -1,8 +1,8 @@
 {
   "bid": "acq",
-  "base": "/acq",
+  "base": "/acol/acq",
   "title": "Get Acquainted",
-  "image": "/public/img/acol/acq-toc.jpg",
+  "image": "/acol/public/img/acol/acq-toc.jpg",
   "contents": [
     {
       "title": "Welcome",

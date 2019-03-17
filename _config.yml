@@ -1,4 +1,6 @@
 # CMI
+destination: "../cmi-www/_site/acol"
+
 sourceId: 14
 cmiTitle: "Teachings of Christ Mind"
 sid:  "acol"
@@ -7,10 +9,10 @@ sid:  "acol"
 title:        'A Course of Love'
 tagline:      ''
 description:  ''
-url:          'https://acol.christmind.info'
+url:          'https://www.christmind.info/acol'
 baseurl:      ''
 keywords:     "Christ Mind, ACOL"
-src-url:      'https://acol.christmind.info'
+src-url:      'https://www.christmind.info/acol'
 port:         9914
 
 # About/contact
@@ -56,7 +58,7 @@ defaults:
     values:
       layout: transcript
       book: "Book One"
-      image: "/public/img/acol/course-big.jpg"
+      image: "/acol/public/img/acol/course-big.jpg"
       image-width: 612
       image-height: 792
       bid: "course"
@@ -66,7 +68,7 @@ defaults:
     values:
       layout: transcript
       book: "Book Two"
-      image: "/public/img/acol/treatise-big.jpg"
+      image: "/acol/public/img/acol/treatise-big.jpg"
       image-width: 612
       image-height: 792
       bid: "treatise"
@@ -76,7 +78,7 @@ defaults:
     values:
       layout: transcript
       book: "Book Three"
-      image: "/public/img/acol/dialog-big.jpg"
+      image: "/acol/public/img/acol/dialog-big.jpg"
       image-width: 612
       image-height: 792
       bid: "dialog"
@@ -86,7 +88,7 @@ defaults:
     values:
       layout: transcript
       book: "Get Acquainted"
-      image: "/public/img/acol/acq-big.jpg"
+      image: "/acol/public/img/acol/acq-big.jpg"
       image-width: 612
       image-height: 792
       bid: "acq"

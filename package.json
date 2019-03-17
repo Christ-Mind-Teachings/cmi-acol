@@ -2,7 +2,6 @@
   "name": "cmi-acol",
   "version": "0.1.0",
   "description": "A Course of Love in the Library of Christ Mind Teachings",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "watch": "webpack --watch",
@@ -16,7 +15,7 @@
   ],
   "author": "Rick Mercer",
   "license": "MIT",
-  "homepage": "https://acol.christmind.info/",
+  "homepage": "https://www.christmind.info/acol",
   "repository": "github:rmercer33/cmi-acol",
   "devDependencies": {
     "babel-core": "^6.26.0",

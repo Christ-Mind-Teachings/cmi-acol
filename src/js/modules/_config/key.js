@@ -169,11 +169,11 @@ function genPageKey(url = location.pathname) {
   let parts = splitUrl(url);
 
   //key.bid = indexOf(bookIds, parts[0]);
-  key.bid = bookIds.indexOf(parts[0]);
+  key.bid = bookIds.indexOf(parts[1]);
   if (key.bid === -1) {
     return -1;
   }
-  key.uid = getUnitId(parts[0], parts[1]);
+  key.uid = getUnitId(parts[1], parts[2]);
   if (key.bid === -1) {
     return -1;
   }
