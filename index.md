@@ -10,6 +10,15 @@ footer:
   repohref: "https://github.com/rmercer33/cmi-acol"
 ---
 
+## Welcome to A Course Of Love
+{: .ui.header}
+
+<p>We should have a short but compelling introduction here.</p>
+
+<p>
+Forty years ago Jesus dictated ACIM to the scribe Helen Schucman. More recently, over three years, he similarly dictated A Course of Love to Mari Perron. Students of ACIM will recognize the Voice. Jesus describes ACOL as a "continuation" of A Course in Miracles. Students of truth, whatever their background, will find that ACOL resonates with the heart.
+</p>
+
 <div id="page-contents" class="ui three cards">
   <div class="card">
     <a href="#" data-book="acq" class="toc-modal-open image">
