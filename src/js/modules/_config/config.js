@@ -13,10 +13,10 @@ const SOURCE_ID = "acol";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/acol/public/timing";
+const timingBase = "/t/acol/public/timing";
 
 //location of configuration files
-const configUrl = "/acol/public/config";
+const configUrl = "/t/acol/public/config";
 const configStore = "config.acol.";
 
 //the current configuration, initially null, assigned by getConfig()
@@ -188,20 +188,20 @@ export function getAudioInfo(url) {
   let idx = url.split("/");
 
   //check the correct configuration file is loaded
-  if (config.bid !== idx[1]) {
-    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[0], config.bid);
+  if (config.bid !== idx[2]) {
+    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[2], config.bid);
   }
 
   let audioInfo = {};
   let cIdx;
 
-  switch(idx[1]) {
+  switch(idx[2]) {
     //these don't have audio
     case "grad":
     case "yaa":
       break;
     default:
-      cIdx = transcript.getUnitId(idx[1], idx[2]);
+      cIdx = transcript.getUnitId(idx[2], idx[3]);
       audioInfo = _getAudioInfo(cIdx);
       break;
   }

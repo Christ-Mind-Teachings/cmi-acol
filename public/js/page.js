@@ -1948,11 +1948,11 @@ function genPageKey(url = location.pathname) {
   let parts = splitUrl(url);
 
   //key.bid = indexOf(bookIds, parts[0]);
-  key.bid = bookIds.indexOf(parts[1]);
+  key.bid = bookIds.indexOf(parts[2]);
   if (key.bid === -1) {
     return -1;
   }
-  key.uid = getUnitId(parts[1], parts[2]);
+  key.uid = getUnitId(parts[2], parts[3]);
   if (key.bid === -1) {
     return -1;
   }
@@ -2000,8 +2000,12 @@ function genParagraphKey(pid, key = location.pathname) {
          bb: book Id
         uuu: unit Id
         ppp: paragraph number - not positional
+
+  Substracting one from the unit does not work for getUrl, don't know
+  why we do that. Added a second arg to keep old behavior but when false
+  we don't do the subtraction.
 */
-function decodeKey(key) {
+function decodeKey(key, subtract = true) {
   let { pid, pageKey } = parseKey(key);
   let pageKeyString = pageKey.toString(10);
   let decodedKey = {
@@ -2023,8 +2027,12 @@ function decodeKey(key) {
   let bid = parseInt(pageKeyString.substr(2, 2), 10);
   decodedKey.bookId = bookIds[bid];
 
-  //substract 1 from key value to get index
-  decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10) - 1;
+  if (subtract) {
+    //substract 1 from key value to get index
+    decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10) - 1;
+  } else {
+    decodedKey.uid = parseInt(pageKeyString.substr(4, 3), 10);
+  }
 
   return decodedKey;
 }
@@ -2045,6 +2053,24 @@ function getNumberOfUnits(bid) {
   }
 }
 
+/*
+ * Convert page key to url
+ */
+function getUrl(key) {
+  let decodedKey = decodeKey(key, false);
+  let unit = "invalid";
+
+  if (decodedKey.error) {
+    return "/invalid/key/";
+  }
+
+  if (contents[decodedKey.bookId]) {
+    unit = contents[decodedKey.bookId][decodedKey.uid];
+  }
+
+  return `/${decodedKey.bookId}/${unit}/`;
+}
+
 module.exports = {
   getNumberOfUnits: getNumberOfUnits,
   getBooks: getBooks,
@@ -2052,6 +2078,7 @@ module.exports = {
   getKeyInfo: getKeyInfo,
   parseKey: parseKey,
   getUnitId: getUnitId,
+  getUrl: getUrl,
   genPageKey: genPageKey,
   genParagraphKey: genParagraphKey,
   decodeKey: decodeKey
@@ -5377,10 +5404,10 @@ const SOURCE_ID = "acol";
 
 //mp3 and audio timing base directories
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/acol/public/timing";
+const timingBase = "/t/acol/public/timing";
 
 //location of configuration files
-const configUrl = "/acol/public/config";
+const configUrl = "/t/acol/public/config";
 const configStore = "config.acol.";
 
 //the current configuration, initially null, assigned by getConfig()
@@ -5545,20 +5572,20 @@ function getAudioInfo(url) {
   let idx = url.split("/");
 
   //check the correct configuration file is loaded
-  if (config.bid !== idx[1]) {
-    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[0], config.bid);
+  if (config.bid !== idx[2]) {
+    throw new Error("Unexpected config file loaded; expecting %s but %s is loaded.", idx[2], config.bid);
   }
 
   let audioInfo = {};
   let cIdx;
 
-  switch (idx[1]) {
+  switch (idx[2]) {
     //these don't have audio
     case "grad":
     case "yaa":
       break;
     default:
-      cIdx = transcript.getUnitId(idx[1], idx[2]);
+      cIdx = transcript.getUnitId(idx[2], idx[3]);
       audioInfo = _getAudioInfo(cIdx);
       break;
   }
@@ -12966,6 +12993,7 @@ module.exports = toFinite;
 const transcript = __webpack_require__(15);
 const bm_modal_store = "bm.acol.modal";
 const bm_list_store = "bm.acol.list";
+const url_prefix = "/t/acol";
 
 let shareEventListenerCreated = false;
 let gPageKey;
@@ -13069,7 +13097,7 @@ function getBookmarkUrl(bookmarks, pageKey) {
           url = `${bookmark[prop][0].selectedText.url}?bkmk=${bookmark[prop][0].rangeStart}`;
         } else {
           //we have a bookmark with no selected text, have to get the url in another way
-          url = `${transcript.getUrl(pageKey)}?bkmk=${bookmark[prop][0].rangeStart}`;
+          url = `${url_prefix}${transcript.getUrl(pageKey)}?bkmk=${bookmark[prop][0].rangeStart}`;
         }
         break;
       }
@@ -26476,7 +26504,7 @@ module.exports = function spread(callback) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const status = { course: "Sun Mar 17 20:52:55 WITA 2019", treatise: "Sun Mar 17 20:53:44 WITA 2019", dialog: "Sun Mar 17 20:53:34 WITA 2019" };
+const status = { course: "Mon Mar 18 13:35:08 WITA 2019", treatise: "Mon Mar 18 13:35:26 WITA 2019", dialog: "Mon Mar 18 13:35:18 WITA 2019" };
 /* harmony export (immutable) */ __webpack_exports__["a"] = status;
 
 
@@ -37236,6 +37264,8 @@ function showSavedQuery() {
 const page = __webpack_require__(15);
 
 const queryResultName = "search.acol.result";
+const url_prefix = "/t/acol";
+
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
@@ -37460,14 +37490,14 @@ function initControls(pid) {
   }
 
   if (hitPositions.prev > -1) {
-    url = `/acol${lastSearch.flat[hitPositions.prev].url}?srch=${lastSearch.flat[hitPositions.prev].location}`;
+    url = `${url_prefix}${lastSearch.flat[hitPositions.prev].url}?srch=${lastSearch.flat[hitPositions.prev].location}`;
     $(".search-navigator .previous-page").attr("href", url);
   } else {
     $(".search-navigator .previous-page").addClass("inactive");
   }
 
   if (hitPositions.next > -1) {
-    url = `/acol${lastSearch.flat[hitPositions.next].url}?srch=${lastSearch.flat[hitPositions.next].location}`;
+    url = `${url_prefix}${lastSearch.flat[hitPositions.next].url}?srch=${lastSearch.flat[hitPositions.next].location}`;
     $(".search-navigator .next-page").attr("href", url);
   } else {
     $(".search-navigator .next-page").addClass("inactive");

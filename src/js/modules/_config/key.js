@@ -169,11 +169,11 @@ function genPageKey(url = location.pathname) {
   let parts = splitUrl(url);
 
   //key.bid = indexOf(bookIds, parts[0]);
-  key.bid = bookIds.indexOf(parts[1]);
+  key.bid = bookIds.indexOf(parts[2]);
   if (key.bid === -1) {
     return -1;
   }
-  key.uid = getUnitId(parts[1], parts[2]);
+  key.uid = getUnitId(parts[2], parts[3]);
   if (key.bid === -1) {
     return -1;
   }
@@ -222,8 +222,12 @@ function genParagraphKey(pid, key = location.pathname) {
          bb: book Id
         uuu: unit Id
         ppp: paragraph number - not positional
+
+  Substracting one from the unit does not work for getUrl, don't know
+  why we do that. Added a second arg to keep old behavior but when false
+  we don't do the subtraction.
 */
-function decodeKey(key) {
+function decodeKey(key, subtract = true) {
   let {pid, pageKey} = parseKey(key);
   let pageKeyString = pageKey.toString(10);
   let decodedKey = {
@@ -245,8 +249,14 @@ function decodeKey(key) {
   let bid = parseInt(pageKeyString.substr(2,2), 10);
   decodedKey.bookId = bookIds[bid];
 
-  //substract 1 from key value to get index
-  decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10) - 1;
+  if (subtract) {
+    //substract 1 from key value to get index
+    decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10) - 1;
+  }
+  else {
+    decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10);
+  }
+
 
   return decodedKey;
 }
@@ -268,6 +278,24 @@ function getNumberOfUnits(bid) {
   }
 }
 
+/*
+ * Convert page key to url
+ */
+function getUrl(key) {
+  let decodedKey = decodeKey(key, false);
+  let unit = "invalid";
+
+  if (decodedKey.error) {
+    return "/invalid/key/";
+  }
+
+  if (contents[decodedKey.bookId]) {
+    unit = contents[decodedKey.bookId][decodedKey.uid];
+  }
+
+  return `/${decodedKey.bookId}/${unit}/`;
+}
+
 module.exports = {
   getNumberOfUnits: getNumberOfUnits,
   getBooks: getBooks,
@@ -275,6 +303,7 @@ module.exports = {
   getKeyInfo: getKeyInfo,
   parseKey: parseKey,
   getUnitId: getUnitId,
+  getUrl: getUrl,
   genPageKey: genPageKey,
   genParagraphKey: genParagraphKey,
   decodeKey: decodeKey

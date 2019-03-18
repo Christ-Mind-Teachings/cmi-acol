@@ -1,8 +1,8 @@
 {
   "bid": "dialog",
-  "base": "/acol/dialog",
+  "base": "/t/acol/dialog",
   "title": "Book Three: The Dialogues of A Course of Love",
-  "image": "/acol/public/img/acol/dialog-toc.jpg",
+  "image": "/t/acol/public/img/acol/dialog-toc.jpg",
   "contents": [
     {
       "id": "1",

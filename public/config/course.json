@@ -1,8 +1,8 @@
 {
   "bid": "course",
-  "base": "/acol/course",
+  "base": "/t/acol/course",
   "title": "Book One: A Course of Love",
-  "image": "/acol/public/img/acol/course-toc.jpg",
+  "image": "/t/acol/public/img/acol/course-toc.jpg",
   "contents": [
     {
       "title": "Introduction",

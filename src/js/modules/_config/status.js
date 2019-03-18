@@ -1,1 +1,1 @@
-export const status = {course: "Sun Mar 17 20:52:55 WITA 2019", treatise: "Sun Mar 17 20:53:44 WITA 2019", dialog: "Sun Mar 17 20:53:34 WITA 2019"};
+export const status = {course: "Mon Mar 18 13:35:08 WITA 2019", treatise: "Mon Mar 18 13:35:26 WITA 2019", dialog: "Mon Mar 18 13:35:18 WITA 2019"};
