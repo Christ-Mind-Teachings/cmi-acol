@@ -519,6 +519,11 @@ export function initShareDialog(source) {
     let userInfo;
     let pid, aid, text;
 
+    if ($(this).hasClass("close")) {
+      clearSelectedAnnotation();
+      return;
+    }
+
     userInfo = getUserInfo();
     if (!userInfo) {
       notify.info("You must be signed in to share selected text");
@@ -535,10 +540,6 @@ export function initShareDialog(source) {
     else if ($(this).hasClass("linkify")) {
       //work is already done
       channel = "clipboard";
-      return;
-    }
-    else if ($(this).hasClass("close")) {
-      clearSelectedAnnotation();
       return;
     }
 
