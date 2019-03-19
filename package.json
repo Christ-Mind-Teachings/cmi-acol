@@ -2,12 +2,17 @@
   "name": "cmi-acol",
   "version": "0.1.0",
   "description": "A Course of Love in the Library of Christ Mind Teachings",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "watch": "webpack --watch",
     "jekyll": "bundle exec jekyll s",
-    "start": "npm run jekyll & npm run watch"
+    "start": "npm run jekyll & npm run watch",
+    "d:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
+    "deploy:dev": "npm run p:webpack && npm run d:jekyll",
+    "p:webpack": "webpack",
+    "p:jekyll": "JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml",
+    "deploy:prod": "npm run p:webpack && npm run p:jekyll"
+
   },
   "keywords": [
     "cmi",
@@ -16,7 +21,7 @@
   ],
   "author": "Rick Mercer",
   "license": "MIT",
-  "homepage": "https://acol.christmind.info/",
+  "homepage": "https://www.christmind.info/t/acol",
   "repository": "github:rmercer33/cmi-acol",
   "devDependencies": {
     "babel-core": "^6.26.0",

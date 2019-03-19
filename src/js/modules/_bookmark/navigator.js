@@ -11,6 +11,9 @@ import clipboard from "./clipboard";
 
 //import {getSourceId, genPageKey} from "../_config/key";
 const transcript = require("../_config/key");
+const bm_modal_store = "bm.acol.modal";
+const bm_list_store = "bm.acol.list";
+const url_prefix = "/t/acol";
 
 let shareEventListenerCreated = false;
 let gPageKey;
@@ -116,7 +119,7 @@ function getBookmarkUrl(bookmarks, pageKey) {
         }
         else {
           //we have a bookmark with no selected text, have to get the url in another way
-          url = `${transcript.getUrl(pageKey)}?bkmk=${bookmark[prop][0].rangeStart}`;
+          url = `${url_prefix}${transcript.getUrl(pageKey)}?bkmk=${bookmark[prop][0].rangeStart}`;
         }
         break;
       }
@@ -409,8 +412,8 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
 function bookmarkManager(actualPid) {
   let sourceId = transcript.getSourceId();
   let pageKey = transcript.genPageKey().toString(10);
-  let bmList = store.get(`bmList_${sourceId}`);
-  let bmModal = store.get(`bmModal_${sourceId}`);
+  let bmList = store.get(bm_list_store);
+  let bmModal = store.get(bm_modal_store);
 
   if (bmList) {
     //store globally
@@ -461,7 +464,7 @@ function bookmarkManager(actualPid) {
       });
   }
   else {
-    console.log(`bmList_${sourceId}`);
+    console.log(bm_list_store);
   }
 }
 
@@ -474,8 +477,8 @@ function bookmarkManager(actualPid) {
 */
 function updateNavigator(pid, update) {
   //console.log("updateNavigator, pid: %s, update: %s", pid, update);
-  let bmList = store.get(`bmList_${transcript.getSourceId()}`);
-  let bmModal = store.get(`bmModal_${transcript.getSourceId()}`);
+  let bmList = store.get(bm_list_store);
+  let bmModal = store.get(bm_modal_store);
   getCurrentBookmark(gPageKey, pid, bmList, bmModal, update);
 }
 
@@ -516,11 +519,21 @@ export function initShareDialog(source) {
     let userInfo;
     let pid, aid, text;
 
+    if ($(this).hasClass("close")) {
+      clearSelectedAnnotation();
+      return;
+    }
+
     userInfo = getUserInfo();
     if (!userInfo) {
       notify.info("You must be signed in to share selected text");
       return;
     }
+
+    let url = $(".selected-annotation-wrapper i[data-clipboard-text]").attr("data-clipboard-text");
+
+    //check for intermittent error in url
+    let pos = url.indexOf("undefined");
 
     let channel;
     if ($(this).hasClass("facebook")) {
@@ -530,12 +543,14 @@ export function initShareDialog(source) {
       channel = "email";
     }
     else if ($(this).hasClass("linkify")) {
+      if (pos > -1) {
+        //Houston, we've got a problem
+        notify.error("Sorry, there was a problem, an invalid link was copied to the clipboard, refresh the page and try again.");
+        return;
+      }
+
       //work is already done
       channel = "clipboard";
-      return;
-    }
-    else if ($(this).hasClass("close")) {
-      clearSelectedAnnotation();
       return;
     }
 
@@ -543,21 +558,23 @@ export function initShareDialog(source) {
 
     //no highlighted text so grab the whole paragraph
     if (annotation.length === 0) {
-      aid = $(`#${pid} > span.pnum`).attr("data-aid");
       text = $(`#${pid}`).text().replace(/\n/," ");
     }
     else {
-      aid = annotation.data("aid");
       text = annotation.text().replace(/\n/," ");
     }
 
     let srcTitle = $("#src-title").text();
     let bookTitle = $("#book-title").text();
     let citation = `~ ${srcTitle}: ${bookTitle}`;
-    
-    let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;
 
     if (channel === "facebook") {
+      if (pos > -1) {
+        //Houston, we've got a problem
+        notify.error("Sorry, there was a problem, refresh the page and try again.");
+        return;
+      }
+
       let options = {
         method: "share",
         hashtag: "#christmind",
@@ -567,6 +584,11 @@ export function initShareDialog(source) {
       FB.ui(options, function(){});
     }
     else if (channel === "email") {
+      if (pos > -1) {
+        //Houston, we've got a problem
+        notify.error("Sorry, there was a problem, refresh the page and try again.");
+        return;
+      }
       shareByEmail(text, citation, url);
     }
   });
@@ -638,10 +660,13 @@ function initClickListeners() {
     if (annotation_id !== "undefined") {
       aid = $(`[data-annotation-id='${annotation_id}']`).attr("data-aid");
       $(`[data-annotation-id="${aid}"]`).addClass("show");
+
+      console.log("Sharing highlighted text annotation: id=%s, aid=%s", annotation_id, aid);
     }
     else {
       //this is a note level bookmark, get aid from the pid
       aid = $(`#${pid} > span.pnum`).attr("data-aid");
+      console.log("Sharing note style annotation: id=undefined, aid=%s", aid);
     }
 
     let url = `https://${location.hostname}${location.pathname}?as=${pid}:${aid}:${userInfo.userId}`;

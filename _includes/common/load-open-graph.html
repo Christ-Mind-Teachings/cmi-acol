@@ -1,12 +1,12 @@
-{% assign cmi-image = "https://xxx.christmind.info/public/img/cmi-logo-200.png" %}
+{% assign cmi-image = "https://www.christmind.info/public/img/cmi-logo-200.png" %}
 {% if page.layout == "transcript" %}
   {% assign type = "article" %}
-  {% assign description = page.fb.desc | default: "Way of Mastery: " | append: page.book | append: " " | append: page.title %}
+  {% assign description = page.fb.desc | default: "A Course Of Love: " | append: page.book | append: " " | append: page.title %}
   {% assign title = "Way of Mastery: " | append: page.title %}
 {% else %}
   {% assign type = "website" %}
   {% assign description = page.fb.desc | default: site.description %}
-  {% assign title = page.title | default: "Way of Mastery" %}
+  {% assign title = page.title | default: "A Course Of Love" %}
 {% endif %}
 
 <!-- facebook -->

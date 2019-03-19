@@ -1,28 +1,22 @@
-{% comment %}
-  Add entry for new teachings by inserting these statements in the DIV below;
-
-  {% unless include.name == "{{sid}}" %}
-  <div class="dhref {{sid}}-christmind-info item" data-href="https://{{sid}}.christmind.info">{{title}}</div>
-  {% endunless %}
-
-{% endcomment %}
 <a id="quick-links-dropdown-menu" href="#" class="ui dropdown item">
   <i class="book icon"></i>
   <div id="quick-links" class="menu">
     {% unless include.name == "acim" %}
-    <div class="dhref acim-christmind-info item" data-href="https://acim.christmind.info">ACIM Sparkly Edition</div>
-    {% endunless %}
-    {% unless include.name == "raj" %}
-    <div class="dhref raj-christmind-info item" data-href="https://raj.christmind.info">The Raj Material</div>
-    {% endunless %}
-    {% unless include.name == "wom" %}
-    <div class="dhref wom-christmind-info item" data-href="https://wom.christmind.info">The Way of Mastery</div>
+    <div class="item" data-href="/t/acim/">ACIM Sparkly Edition</div>
     {% endunless %}
     {% unless include.name == "acol" %}
-    <div class="dhref acol-christmind-info item" data-href="https://acol.christmind.info">A Course Of Love</div>
+    {% if jekyll.environment == "development" %}
+    <div class="item" data-href="/t/acol/">A Course Of Love</div>
+    {% endif %}
+    {% endunless %}
+    {% unless include.name == "raj" %}
+    <div class="item" data-href="/t/raj/">The Raj Material</div>
+    {% endunless %}
+    {% unless include.name == "wom" %}
+    <div class="item" data-href="/t/wom/">The Way of Mastery</div>
     {% endunless %}
     {% unless include.name == "jsb" %}
-    <div class="data-href jsb-christmind-info item" data-href="https://jsb.christmind.info">The Impersonal Life</div>
+    <div class="item" data-href="/t/jsb/">The Impersonal Life</div>
     {% endunless %}
   </div>
 </a>
