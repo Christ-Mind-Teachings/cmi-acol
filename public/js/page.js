@@ -37077,7 +37077,6 @@ function initSearchModal() {
 
 //this needs to use require because it is also used by a node app and node doesn't support import
 const womInfo = __webpack_require__(15);
-const queryResultName = "query-result-acol";
 const queryResultName = "search.acol.result";
 
 function getUnitName(pageInfo, unitInfo) {
@@ -37287,7 +37286,6 @@ function showSavedQuery() {
 
 const page = __webpack_require__(15);
 
-const queryResultName = "query-result-acol";
 const queryResultName = "search.acol.result";
 const url_prefix = "/t/acol";
 

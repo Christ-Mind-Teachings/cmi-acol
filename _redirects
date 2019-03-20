@@ -1,0 +1,8 @@
+# Netlify url rewrite file
+
+/                       https://acol.christmind.info/moved/
+/acq/*                  https://www.christmind.info/t/acol/acq/:splat
+/course/*               https://www.christmind.info/t/acol/course/:splat
+/dialog/*               https://www.christmind.info/t/acol/dialog/:splat
+/treatise/*             https://www.christmind.info/t/acol/treatise/:splat
+
