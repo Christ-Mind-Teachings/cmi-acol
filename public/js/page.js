@@ -30400,6 +30400,18 @@ module.exports = bytesToUuid;
 
 
 
+var warningIssued = false;
+function warnNotSignedIn() {
+  let userInfo = Object(__WEBPACK_IMPORTED_MODULE_5__user_netlify__["b" /* getUserInfo */])();
+  if (!userInfo && !warningIssued) {
+    __WEBPACK_IMPORTED_MODULE_1_toastr___default.a.options.timeOut = "10000";
+    __WEBPACK_IMPORTED_MODULE_1_toastr___default.a.success("Cancel, Sign In, and create a new bookmark.");
+    __WEBPACK_IMPORTED_MODULE_1_toastr___default.a.warning("You are not signed in. Bookmarks created when you are not signed in cannot be shared.");
+
+    warningIssued = true;
+  }
+}
+
 const form = `
   <form name="annotation" id="annotation-form" class="ui form">
     <input class="hidden-field" type="text" readonly="" name="creationDate">
@@ -30531,6 +30543,8 @@ function editAnnotation(pid, aid, annotation) {
     $(`#${pid}`).addClass("annotation-edit");
   }
   //console.log("editAnnotation");
+
+  warnNotSignedIn();
 
   $(".annotation-edit").wrapAll(wrapper);
   $(".annotate-wrapper").prepend(form);
@@ -30849,6 +30863,8 @@ function getUserInput(highlight) {
     __WEBPACK_IMPORTED_MODULE_2__bookmark__["a" /* annotation */].cancel({ aid: highlight.id });
     return;
   }
+
+  warnNotSignedIn();
 
   $(`#${highlight.pid}`).addClass("annotation-edit");
   $(".annotation-edit").wrapAll(wrapper);

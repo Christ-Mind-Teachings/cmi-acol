@@ -93,6 +93,6 @@ defaults:
       bid: "acq"
 
 exclude: [
-  deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
+  moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
 ]
 
