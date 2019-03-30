@@ -45,21 +45,23 @@ export function highlightSkippedAnnotations() {
   add or update selected text class list with topics
 */
 export function updateSelectionTopicList(annotation) {
+  //4. Keep track of topics for managing highlights of selected text
   let topicList;
 
-  //annotation has no selected text
+  //annotation has no selected text so can be ignored
   if (!annotation.aid) {
     return;
   }
 
   //if annotation.topicList exists convert it to a string
+  // add topic.value to topicList
   if (annotation.topicList && annotation.topicList.length > 0) {
     topicList = annotation.topicList.reduce((result, topic) => {
-      if (typeof topic == "object") {
-        return `${result} ${topic.value}`;
-      }
-      return `${result} ${topic}`;
+      return `${result} ${topic.value}`;
     }, "");
+  }
+  else {
+    return;
   }
 
   let topicListArray = [];
@@ -105,7 +107,14 @@ export function updateSelectionTopicList(annotation) {
     $(`[data-annotation-id="${annotation.aid}"]`).addClass(at);
 
     //track page topics
-    topics.addTopics(addedTopics);
+    //get object topics from annotation
+    let addedObjectTopics = annotation.topicList.filter(topic => {
+      let found = addedTopics.find(item => {
+        return item === topic.value;
+      });
+      return found !== undefined;
+    });
+    topics.addTopics(addedObjectTopics);
   }
 
   //topics.report();

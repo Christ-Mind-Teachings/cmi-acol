@@ -6171,7 +6171,7 @@ function fetchTopics() {
 
     //user signed in, we need to get topics from server
     __WEBPACK_IMPORTED_MODULE_0_axios___default.a.get(`${topicsEndPoint}/user/${userInfo.userId}/topics/${sourceId}`).then(topicInfo => {
-      console.log("topicInfo.data: ", topicInfo.data);
+      //console.log("topicInfo.data: ", topicInfo.data);
       topicInfo.data.lastFetchDate = Date.now();
       __WEBPACK_IMPORTED_MODULE_1_store___default.a.set(bm_topic_list, topicInfo.data);
       resolve(topicInfo.data);
@@ -6243,7 +6243,7 @@ function inValidateBookmarkList() {
   let bmList = getBookmarkList(keyInfo);
 
   if (bmList) {
-    console.log("invalidating bmList");
+    //console.log("invalidating bmList");
     bmList.lastBuildDate = 0;
     storeBookmarkList(bmList, keyInfo);
   }

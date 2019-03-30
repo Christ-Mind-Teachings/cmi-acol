@@ -8,11 +8,11 @@ import {initNavigator} from "./navigator";
 import list from "./list";
 //const topicsEndPoint = "https://s3.amazonaws.com/assets.christmind.info/wom/topics.json";
 import topics from "./topics";
-import { 
-  markSelection, 
-  getSelection, 
-  deleteNewSelection, 
-  deleteSelection, 
+import {
+  markSelection,
+  getSelection,
+  deleteNewSelection,
+  deleteSelection,
   initialize as selectInit,
   updateHighlightColor,
   updateSelectionTopicList
@@ -83,7 +83,7 @@ function getPageBookmarks(sharePid) {
 /*
   Clean up form values and prepare to send to API  
 */
-function createAnnotaion(formValues) {
+function createAnnotation(formValues) {
   console.log("createAnnotation");
 
   let annotation = cloneDeep(formValues);
@@ -160,11 +160,14 @@ function formatNewTopics({newTopics}) {
   newTopicArray = newTopicArray.map(t => t.trim());
   newTopicArray = newTopicArray.map(t => startCase(t));
 
+  //3. Format topics into object
   newTopicArray = newTopicArray.map(t => {
     if (/ /.test(t)) {
       return {value: t.replace(/ /g, ""), topic: t};
     }
-    return t;
+    else {
+      return { value: t, topic: t};
+    }
   });
 
   return newTopicArray;
@@ -181,10 +184,7 @@ function addToTopicList(newTopics, formValues) {
     .then((response) => {
       //remove duplicate topics from and return the rest in difference[]
       let newUniqueTopics = differenceWith(newTopics, response.topics, (n,t) => {
-        if (typeof t === "object") {
-          return t.value === n;
-        }
-        return t === n;
+        return t.value === n.value;
       });
 
       //these are the new topics
@@ -199,7 +199,7 @@ function addToTopicList(newTopics, formValues) {
         formValues.newTopics = newUniqueTopics;
 
         //post the bookmark
-        createAnnotaion(formValues);
+        createAnnotation(formValues);
       }
     })
     .catch(() => {
@@ -252,6 +252,7 @@ export const annotation = {
       formData: annotation form data
   */
   submit(formData) {
+    //2. Format new topics
     let newTopics = formatNewTopics(formData);
 
     //add new topics to topic list and create annotation
@@ -260,7 +261,7 @@ export const annotation = {
     }
     else {
       //post the bookmark
-      createAnnotaion(formData);
+      createAnnotation(formData);
     }
 
     //mark paragraph as having bookmark
