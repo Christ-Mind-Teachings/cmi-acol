@@ -316,7 +316,7 @@ export default {
 
     //check if user has access to content
     const userInfo = getUserInfo();
-    if (userInfo && userInfo.roles && userInfo.roles.indexOf("unrestricted") !== -1) {
+    if (userInfo && userInfo.roles && userInfo.roles.indexOf("acol") !== -1) {
       toc.restricted = false;
     }
 

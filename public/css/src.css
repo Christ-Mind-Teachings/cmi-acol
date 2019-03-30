@@ -9,3 +9,6 @@ a[data-restricted="1"] {
   cursor: default !important;
 }
 
+.prose {
+  font-style: italic;
+}
