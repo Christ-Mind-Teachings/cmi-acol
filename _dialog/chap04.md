@@ -166,16 +166,16 @@ concerns that have led me to speak of such, for it is you who have felt
 such as this is needed. The unlimited freedom offered you is too vast
 for your comfort. Thus without limiting this freedom at all, let us
 simply speak of a place and a way to begin to experience it, and of a
-place and a way to begin to create the new.  4.20 This place and this
-way begins at the prison doors, begins, as we said earlier, with
-acceptance of the new and denial of the old. Turn your back on the
-prison of your former existence and do not look at it again. Do not long
-for its old structure or the false security you came to feel at times
-within it. Do not look for a new structure with barred windows and doors
-to keep you safe. Do not seek someone to tell you anew what to do with
-who you are now that you are no longer a prisoner. Do not give keys to a
-new jailer and ask to be taken care of in exchange for your newfound
-freedom.
+place and a way to begin to create the new.
+
+4.20 This place and this way begins at the prison doors, begins, as we said
+earlier, with acceptance of the new and denial of the old. Turn your back on
+the prison of your former existence and do not look at it again. Do not long
+for its old structure or the false security you came to feel at times within
+it. Do not look for a new structure with barred windows and doors to keep you
+safe. Do not seek someone to tell you anew what to do with who you are now
+that you are no longer a prisoner. Do not give keys to a new jailer and ask
+to be taken care of in exchange for your newfound freedom.
 
 4.21 Instead see the world anew and rejoice in it, just as you would
 have had you literally spent your life within a prison’s walls. Breathe

@@ -19,11 +19,11 @@ import scroll from "scroll-into-view";
 
 const key = require("../_config/key");
 
-//persist shared annotation so it can be unwraped when closed
+//persist shared annotation so it can be unwrapped when closed
 let sharedAnnotation;
 
 /*
-  check if user has bookmark that was not highlighted due to shared annotion and
+  check if user has bookmark that was not highlighted due to shared annotation and
   highlight the bookmarks annotations. This is called if there is a problem getting
   the requested bookmark and when the user closes the share raised segment
 */
