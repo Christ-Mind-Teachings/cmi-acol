@@ -2,8 +2,10 @@
 
 import user from "netlify-identity-widget";
 import md5 from "md5";
+import store from "store";
 import {getUser} from "../_util/url";
 
+let login_state_key = "login.acol.state";
 let userInfo;
 
 let testUsers = {
@@ -76,6 +78,7 @@ export function getUserInfo(name) {
 */
 function setAsSignedIn() {
   let userInfo = getUserInfo();
+  console.log("setAsSignedIn()");
 
   //change sign-in icon to sign-out and change color from red to green
   $(".login-menu-option > span")
@@ -100,6 +103,7 @@ function setAsSignedIn() {
 */
 function setAsSignedOut() {
   //change sign-in icon to sign-out and change color from red to green
+  console.log("setAsSignedOut()");
   $(".login-menu-option > span")
     .html("<i class='red sign in icon'></i>")
     .attr("data-tooltip", "Sign In");
@@ -116,6 +120,31 @@ function setAsSignedOut() {
   $(".profile-management.item").addClass("hide");
 }
 
+function manageState(state) {
+  let currentState = store.get(login_state_key) || "init";
+
+  switch(state) {
+    case "init":
+      //state 'init' on page load
+      store.set(login_state_key, state);
+      break;
+    case "dialog": 
+      store.set(login_state_key, state);
+      break;
+    case "login": 
+      if (currentState === "dialog") {
+        //if user has "acol" role, refresh page to enable access to all content
+        if (userInfo.app_metadata.roles.find(r => r === "acol")) {
+          //refresh page
+          console.log("refreshing page");
+          location.href = "/t/acol/";
+        }
+      }
+      store.set(login_state_key, state);
+      break;
+  }
+}
+
 export default {
 
   initialize: function() {
@@ -125,27 +154,28 @@ export default {
      * if user already logged in, change icon to log out
      */
     user.on("init", user => {
-      //console.log("user.on('init')");
-      userInfo = user;
-      if (userInfo) {
-        setAsSignedIn();
-      }
+      console.log("user.on('init')");
+      //userInfo = user;
+      manageState("init");
     });
 
     user.on("login", login => {
-      //console.log("user.on('login')");
+      console.log("user.on('login')");
       userInfo = login;
       setAsSignedIn();
+      manageState("login");
     });
 
     user.on("logout", () => {
-      //console.log("user.logout()");
+      console.log("user.logout()");
       setAsSignedOut();
       userInfo = null;
-      location.href = "/";
+      location.href = "/t/acol";
     });
 
-    user.on("error", (err) => console.error("user.on('error'): ", err));
+    user.on("error", (err) => {
+      console.error("user.on('error'): ", err);
+    });
 
     $(".login-menu-option").on("click", (e) => {
       e.preventDefault();
@@ -154,6 +184,8 @@ export default {
         user.logout();
       }
       else {
+        console.log("logon menu item pressed");
+        manageState("dialog");
         user.open();
       }
     });
