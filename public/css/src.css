@@ -11,4 +11,5 @@ a[data-restricted="1"] {
 
 .prose {
   font-style: italic;
+  margin-bottom: 1em;
 }

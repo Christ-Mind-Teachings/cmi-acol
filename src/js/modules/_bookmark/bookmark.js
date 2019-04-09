@@ -7,7 +7,6 @@ import startCase from "lodash/startCase";
 import { showBookmark } from "../_util/url";
 import {initNavigator} from "./navigator";
 import list from "./list";
-//const topicsEndPoint = "https://s3.amazonaws.com/assets.christmind.info/wom/topics.json";
 import topics from "./topics";
 import {
   markSelection,
@@ -101,6 +100,10 @@ function createAnnotation(formValues) {
   //delete empty fields
   if (annotation.Comment === "") {
     delete annotation.Comment;
+  }
+
+  if (annotation.Note === "") {
+    delete annotation.Note;
   }
 
   if (annotation.creationDate === "") {

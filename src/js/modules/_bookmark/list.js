@@ -6,10 +6,9 @@ import {getPageInfo} from "../_config/config";
 import net from "./bmnet";
 import notify from "toastr";
 import flatten from "lodash/flatten";
-import uniq from "lodash/uniq";
+import uniqWith from "lodash/uniqWith";
 import store from "store";
 
-//import {getSourceId, getKeyInfo} from "../_config/key";
 const transcript = require("../_config/key");
 
 const uiBookmarkModal = ".bookmark.ui.modal";
@@ -257,7 +256,12 @@ function combinePages(pages) {
             }
           });
           //collect all topics used for modal dropdown select control
-          let uniqueArray = uniq(flatten(tpl));
+          let uniqueArray = uniqWith(flatten(tpl), (a,b) => {
+            if (a.value === b.value) {
+              return true;
+            }
+            return false;
+          });
 
           page.bookmarks[`tpList${pid}`] = uniqueArray;
           allTopics.push(uniqueArray);
@@ -266,7 +270,24 @@ function combinePages(pages) {
     });
   });
 
-  let allUniqueTopics = uniq(flatten(allTopics)).sort();
+  let flatTopics = flatten(allTopics);
+  let sortedFlatTopics = flatTopics.sort((a,b) => {
+    if (a.value < b.value) {
+      return -1;
+    }
+    else if (a.value > b.value) {
+      return 1;
+    }
+
+    return 0;
+  });
+  let allUniqueTopics = uniqWith(sortedFlatTopics, (a,b) => {
+    if (a.value === b.value) {
+      return true;
+    }
+    return false;
+  });
+
   return {bookArray, topics: allUniqueTopics};
 
 }
@@ -397,7 +418,7 @@ function populateModal(bookmarks) {
 
   let lbd = $(".cmi-bookmark-list").attr("data-lbd");
   if (lbd) {
-    //check if it is different from that found in booimarks
+    //check if it is different from that found in bookmarks
     lbd = parseInt(lbd, 10);
     if (lbd === bookmarks.lastBuildDate) {
       //don't need to update
