@@ -254,6 +254,10 @@ function combinePages(pages) {
             if (annotation.topicList) {
               return annotation.topicList;
             }
+            else {
+              //bookmark has no topics
+              return [];
+            }
           });
           //collect all topics used for modal dropdown select control
           let uniqueArray = uniqWith(flatten(tpl), (a,b) => {
