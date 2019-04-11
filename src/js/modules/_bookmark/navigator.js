@@ -1,6 +1,6 @@
 
-//import {getPageInfo} from "../_config/config";
 import intersection from "lodash/intersection";
+import intersectionWith from "lodash/intersectionWith";
 import range from "lodash/range";
 import store from "store";
 import scroll from "scroll-into-view";
@@ -107,9 +107,20 @@ function generateBookmark(actualPid, bkmk, topics) {
   returns the url for the first annotation of the arg bookmark
   Note: deleted annotations are empty arrays so skip over them.
 */
-function getBookmarkUrl(bookmarks, pageKey) {
+function getBookmarkUrl(bookmarks, pageKey, pid) {
   let url;
-  let bookmark = bookmarks[pageKey];
+  let bookmark = bookmarks[pageKey][pid];
+
+  let selectedText = bookmark[0].selectedText;
+  if (selectedText) {
+    url = `${bookmark[0].selectedText.url}?bkmk=${bookmark[0].rangeStart}`;
+  }
+  else {
+    //we have a bookmark with no selected text, have to get the url in another way
+    url = `${url_prefix}${transcript.getUrl(pageKey)}?bkmk=${bookmark[0].rangeStart}`;
+  }
+
+  /*
   for (let prop in bookmark) {
     if (bookmark.hasOwnProperty(prop)) {
       if (bookmark[prop][0]) {
@@ -125,6 +136,7 @@ function getBookmarkUrl(bookmarks, pageKey) {
       }
     }
   }
+  */
 
   //console.log("url: %s", url);
   return url;
@@ -140,6 +152,7 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
   let pid;
 
   outer: for(pagePos = pos; pagePos < pageList.length; pagePos++) {
+    //pageMarks: all bookmarks for a given page
     let pageMarks = bookmarks[pageList[pagePos]];
     for(pid in pageMarks) {
       for(let a = 0; a < pageMarks[pid].length; a++) {
@@ -149,7 +162,13 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
           break outer;
         }
         else {
-          let match = intersection(filterList, pageMarks[pid][a].topicList || []);
+          //compare the filter topic (a) with bookmark topics ({value, topic})
+          let match = intersectionWith(filterList, pageMarks[pid][a].topicList || [], (a,b) => {
+            if (a === b.value) {
+              return true;
+            }
+            return false;
+          });
           if (match.length > 0) {
             found = true;
             break outer;
@@ -162,7 +181,7 @@ function getNextPageUrl(pos, pageList, filterList, bookmarks) {
   return new Promise((resolve) => {
     if (found) {
       let pageKey = pageList[pagePos];
-      let url = getBookmarkUrl(bookmarks, pageKey);
+      let url = getBookmarkUrl(bookmarks, pageKey, pid);
 
       //it's possible the url was not found so check for that
       if (url) {
@@ -198,7 +217,12 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
           break outer;
         }
         else {
-          let match = intersection(filterList, pageMarks[pid][a].topicList || []);
+          let match = intersectionWith(filterList, pageMarks[pid][a].topicList || [], (a,b) => {
+            if (a === b.value) {
+              return true;
+            }
+            return false;
+          });
           if (match.length > 0) {
             found = true;
             break outer;
@@ -211,7 +235,7 @@ function getPrevPageUrl(pos, pageList, filterList, bookmarks) {
   return new Promise((resolve) => {
     if (found) {
       let pageKey = pageList[pagePos];
-      let url = getBookmarkUrl(bookmarks, pageKey);
+      let url = getBookmarkUrl(bookmarks, pageKey, pid);
       //console.log("prev url is %s", url);
       resolve(url);
     }
@@ -244,7 +268,7 @@ function getNextPrevUrl(pageKey, bookmarks, bmModal) {
 }
 
 /*
-  Given the postion (currentPos) in pageMarks of the current pid, find the previous
+  Given the position (currentPos) in pageMarks of the current pid, find the previous
   one. Return the actualPid or null.
 
   Omit bookmarks that don't have at least one topic found in topics[]. If topics[]
@@ -274,7 +298,13 @@ function getPreviousPid(currentPos, pageMarks, pageBookmarks, topics) {
       let bookmark = pageBookmarks[pageMarks[newPos]];
       for (let i = 0; i < bookmark.length; i++) {
         if (bookmark[i].topicList && bookmark[i].topicList.length > 0) {
-          if (intersection(bookmark[i].topicList, topics).length > 0) {
+          let inter = intersectionWith(bookmark[i].topicList, topics, (a,b) => {
+            if (a.value === b) {
+              return true;
+            }
+            return false;
+          });
+          if (inter.length > 0) {
             //we found a bookmark containing a topic in the topicList
             return `p${(parseInt(pageMarks[newPos], 10) - 1).toString(10)}`;
           }
@@ -288,7 +318,7 @@ function getPreviousPid(currentPos, pageMarks, pageBookmarks, topics) {
 }
 
 /*
-  Given the postion (currentPos) in pageMarks of the current pid, find the next
+  Given the position (currentPos) in pageMarks of the current pid, find the next
   one. Return the actualPid or null.
 
   Omit bookmarks that don't have at least one topic found in topics[]. If topics[]
@@ -312,13 +342,19 @@ function getNextPid(currentPos, pageMarks, pageBookmarks, topics) {
     return `p${(parseInt(pageMarks[currentPos + 1], 10) - 1).toString(10)}`;
   }
   else {
-    //topic filtering - look through all previous paragraphs for the first one
+    //topic filtering - look through all next paragraphs for the first one
     //containing an annotation found in topics[]
-    for (let newPos = currentPos + 1; newPos <= pageBookmarks.length; newPos++) {
+    for (let newPos = currentPos + 1; newPos < pageMarks.length; newPos++) {
       let bookmark = pageBookmarks[pageMarks[newPos]];
       for (let i = 0; i < bookmark.length; i++) {
         if (bookmark[i].topicList && bookmark[i].topicList.length > 0) {
-          if (intersection(bookmark[i].topicList, topics).length > 0) {
+          let inter = intersectionWith(bookmark[i].topicList, topics, (a,b) => {
+            if (a.value === b) {
+              return true;
+            }
+            return false;
+          });
+          if (inter.length > 0) {
             //we found a bookmark containing a topic in the topicList
             return `p${(parseInt(pageMarks[newPos], 10) - 1).toString(10)}`;
           }
@@ -346,9 +382,11 @@ function getNextPid(currentPos, pageMarks, pageBookmarks, topics) {
 function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled) {
   let pidKey;
   let topics = [];
+  let filterTopics;
   
   if (bmModal["modal"].filter) {
     topics = bmModal["modal"].topics;
+    filterTopics = generateHorizontalList(bmModal["modal"].fullTopic);
   }
 
   //convert pid to key in bookmark array
@@ -363,6 +401,16 @@ function getCurrentBookmark(pageKey, actualPid, allBookmarks, bmModal, whoCalled
   }
 
   let html = generateBookmark(actualPid, paragraphBookmarks, topics);
+
+  if (filterTopics) {
+    $("#filter-topics-section").removeClass("hide");
+    $(".bookmark-navigator-filter").html(filterTopics);
+  }
+  else {
+    $("#filter-topics-section").addClass("hide");
+  }
+
+  $(".bookmark-navigator-header-book").text($("#book-title").text());
   $("#bookmark-content").html(html);
 
   //get links to next and previous bookmarks on the page

@@ -317,6 +317,17 @@ export default {
     */
   },
 
+  //given a topic value return the topic.topic
+  getTopic(value) {
+    let t = topics.get(value);
+
+    if (t) {
+      return t.topic;
+    }
+
+    return null;
+  },
+
   report() {
     for (var [key, value] of topics) {
       console.log("%s: %s", key, value);
