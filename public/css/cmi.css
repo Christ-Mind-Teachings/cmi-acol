@@ -136,3 +136,17 @@ body {
   display: none;
 }
 
+#bookmark-link-table {
+  font-size: 0.7em;
+}
+
+#bookmark-link-table th,
+#bookmark-link-table td
+{
+  padding: 0.3em;
+}
+
+#popup-button {
+  margin-top: 10px;
+}
+

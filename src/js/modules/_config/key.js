@@ -32,6 +32,8 @@ const sprintf = require("sprintf-js").sprintf;
 //ACIM = 12
 //RAJ = 13
 const sourceId = 14;
+const sid = "acol";
+const prefix = "/t/acol";
 
 //length of pageKey excluding decimal portion
 const keyLength = 7;
@@ -257,7 +259,6 @@ function decodeKey(key, subtract = true) {
     decodedKey.uid = parseInt(pageKeyString.substr(4,3), 10);
   }
 
-
   return decodedKey;
 }
 
@@ -281,7 +282,7 @@ function getNumberOfUnits(bid) {
 /*
  * Convert page key to url
  */
-function getUrl(key) {
+function getUrl(key, withPrefix = false) {
   let decodedKey = decodeKey(key, false);
   let unit = "invalid";
 
@@ -293,7 +294,36 @@ function getUrl(key) {
     unit = contents[decodedKey.bookId][decodedKey.uid];
   }
 
-  return `/${decodedKey.bookId}/${unit}/`;
+  if (withPrefix) {
+    return `${prefix}/${decodedKey.bookId}/${unit}/`;
+  }
+  else {
+    return `/${decodedKey.bookId}/${unit}/`;
+  }
+}
+
+/*
+  Describe key in terms of source:book:unit:p
+*/
+function describeKey(key) {
+  let decodedKey = decodeKey(key, false);
+
+  if (decodedKey.error) {
+    return {key: key, error: true, source: sid};
+  }
+
+  let info = {
+    key: key,
+    source: sid,
+    book: decodedKey.bookId,
+    unit: contents[decodedKey.bookId][decodedKey.uid]
+  };
+
+  if (decodedKey.pid > -1) {
+    info.pid = `p${decodedKey.pid}`;
+  }
+
+  return info;
 }
 
 module.exports = {
@@ -306,5 +336,6 @@ module.exports = {
   getUrl: getUrl,
   genPageKey: genPageKey,
   genParagraphKey: genParagraphKey,
-  decodeKey: decodeKey
+  decodeKey: decodeKey,
+  describeKey: describeKey
 };

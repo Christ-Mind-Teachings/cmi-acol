@@ -1,7 +1,8 @@
 import Clipboard from "clipboard";
 import notify from "toastr";
 
-var clipboard;
+//var clipboard;
+var clipboard = new Map();
 
 function setEvents(clip) {
   clip.on("success", (e) => {
@@ -20,14 +21,18 @@ function createInstance(selector) {
 
 export default {
   register: function(selector) {
-    if (!clipboard) {
-      clipboard = createInstance(selector);
+    let clip = clipboard.get(selector);
+    if (!clip) {
+      clip = createInstance(selector);
+      clipboard.set(selector, clip);
     }
-    return clipboard;
+    return clip;
   },
-  destroy: function() {
-    if (clipboard) {
-      clipboard.destroy();
+  destroy: function(selector) {
+    let clip = clipboard.get(selector);
+    if (clip) {
+      clip.destroy();
+      clipboard.delete(selector);
     }
   }
 };

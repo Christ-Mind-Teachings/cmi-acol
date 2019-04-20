@@ -1,4 +1,5 @@
 import net from "./bmnet";
+import key from "../_config/key";
 import notify from "toastr";
 import {annotation} from "./bookmark";
 import {getBookmark} from "./bmnet";
@@ -32,35 +33,198 @@ const form = `
       </div>
     </div>
     <div class="field">
-      <!--
-      <textarea name="Comment" placeholder="Comment" rows="1"></textarea>
-      -->
       <input type="text" name="Comment" placeholder="Comment">
     </div>
     <div class="field">
       <input type="text" name="newTopics" placeholder="New topics? Comma delimited list">
     </div>
+    <div class="field">
+      <textarea name="Note" placeholder="Additional Notes" rows="3"></textarea>
+    </div>
     <div class="fields">
       <button class="annotation-submit ui green button" type="submit">Submit</button>
       <button class="annotation-cancel ui red basic button">Cancel</button>
       <button class="annotation-share ui green disabled basic button">Share</button>
-      <button class="annotation-note ui blue basic button">Note</button>
+      <button class="annotation-note ui blue basic button">Links</button>
       <div class="twelve wide field">
         <button class="annotation-delete ui red disabled right floated button">Delete</button>
       </div>
     </div>
-    <div class="note-and-links hide">
-      <div class="field">
-        <textarea name="Note" placeholder="Additional Notes" rows="3"></textarea>
-      </div>
-    </div>
   </form>
+  <div class="note-and-links hide">
+    <table id="bookmark-link-table" class="ui selectable celled table">
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th>Reference</th>
+          <th>Link</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="bookmark-link-list">
+      </tbody>
+    </table>
+    <form name="linkForm" id="link-form" class="ui form">
+      <div class="fields">
+        <div class="ten wide field">
+          <input required type="text" placeholder="Link note" name="reference">
+        </div>
+        <div class="five wide field">
+          <input required type="text" placeholder="Link" name="link">
+        </div>
+        <button title="add or update" data-index="-1" type="submit" class="green ui icon button">
+          <i class="plus circle icon"></i>
+        </button>
+        <button title="clear fields" type="reset" class="yellow ui icon button">
+          <i class="minus circle icon"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+`;
+
+let linkArray = [];
+export function getLink(index) {
+  return linkArray[index];
+}
+
+function populateTable(links) {
+  return `
+    ${links.map((item, index) => `
+      <tr data-index="${index}">
+        <td title="Delete" class="delete-link-item"><i class="red trash alternate icon"></i></td>
+        <td title="Edit" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
+        <td data-name="reference">${item.reference}</td>
+        <td data-name="link">${formatLink(item.link)}</td>
+        <td title="Follow" class="follow-link-item"><i class="green share icon"></i></td>
+      </tr>
+    `).join("")}
   `;
+}
+
+function getIndex() {
+  let value = $("#link-form [type='submit']").data("index");
+
+  return parseInt(value, 10);
+}
+
+function setIndex(index) {
+  $("#link-form [type='submit']").data("index", index);
+}
+
+function makeTableRow(item, index) {
+  return `
+    <tr data-index="${index}">
+      <td title="Delete" class="delete-link-item"><i class="red trash alternate icon"></i></td>
+      <td title="Edit" class="edit-link-item"><i class="yellow pencil alternate icon"></i></td>
+      <td data-name="reference">${item.reference}</td>
+      <td data-name="link">${item.link}</td>
+      <td title="Follow" class="follow-link-item"><i class="green share icon"></i></td>
+    </tr>
+  `;
+}
+
+function validateLink(pid, link) {
+  let rawLink;
+  let pKey = key.genParagraphKey(pid);
+
+  try {
+    rawLink = JSON.parse(link);
+  }
+  catch(error) {
+    notify.error("Invalid link; invalid format, get link from bookmark popup.");
+    return false;
+  }
+
+  if (!rawLink.aid || !rawLink.desc || !rawLink.key || !rawLink.userId) {
+    notify.error("Invalid link; invalid format, get link from bookmark popup.");
+    return false;
+  }
+
+  if (rawLink.key === pKey) {
+    notify.error("Invalid link; it references itself.");
+    return false;
+  }
+
+  return true;
+}
+
+/*
+ * format link for display in annotation form
+ */
+function formatLink(link) {
+  let raw = JSON.parse(link);
+  let display = `${raw.desc.source}:${raw.desc.book}:${raw.desc.unit}:${raw.desc.pid}`;
+  return display;
+}
+
+function createLinkHandlers() {
+  //add
+  $(".transcript").on("submit", "#link-form", function(e) {
+    e.preventDefault();
+
+    //get state; new or edit
+    let index = getIndex();
+    let state = index === -1?"new":"edit";
+
+    //get link values from form
+    let form = $("#link-form").form("get values");
+
+    //validate link
+    let pid = $(".annotate-wrapper p.cmiTranPara").attr("id");
+    if (!validateLink(pid, form.link)) {
+      return;
+    }
+
+    let linkDisplay = formatLink(form.link);
+    if (state === "new") {
+      linkArray.push({reference: form.reference, link: form.link, deleted: false});
+      let row = makeTableRow({reference: form.reference, link: linkDisplay}, linkArray.length - 1);
+      $("#bookmark-link-list").append(row);
+    }
+    else {
+      //update array
+      linkArray[index] = {reference: form.reference, link: form.link, deleted: false};
+
+      //update table
+      $(`tr[data-index="${index}"] > td[data-name="reference"]`).text(linkArray[index].reference);
+      $(`tr[data-index="${index}"] > td[data-name="link"]`).text(linkDisplay);
+      setIndex(-1);
+    }
+
+    $("#link-form").form("clear");
+  });
+
+  //delete
+  $(".transcript").on("click", "#bookmark-link-list td.delete-link-item", function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    let parent = $(this).parent();
+    let index = parseInt(parent.attr("data-index"), 10);
+
+    //mark deleted item from linkArray
+    linkArray[index].deleted = true;
+
+    //remove item from table
+    parent.remove();
+    console.log("after delete: link %o", linkArray);
+  });
+
+  //edit
+  $(".transcript").on("click", "#bookmark-link-list td.edit-link-item", function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    let index = parseInt($(this).parent().attr("data-index"), 10);
+
+    $("#link-form").form("set values", linkArray[index]);
+    setIndex(index);
+  });
+}
 
 function noteToggle() {
   $(".transcript").on("click", "#annotation-form .annotation-note", function(e) {
     e.preventDefault();
-    console.log("note button clicked");
 
     let nal = $(".note-and-links");
 
@@ -95,6 +259,48 @@ function generateHorizontalList(listArray) {
   `;
 }
 
+function generateExtraList(annotation) {
+  let extras = [];
+
+  if (annotation.Note) {
+    extras.push("N");
+  }
+
+  if (annotation.links) {
+    extras.push(`L${annotation.links.length}`);
+  }
+
+  if (extras.length === 0) {
+    return `
+      <div class="item">
+        <i class="bookmark outline icon"></i>
+      </div>
+    `;
+  }
+
+  return `
+    ${extras.map((item) => `
+      <div class="item">
+        ${genExtrasItem(item)}
+      </div>
+    `).join("")}
+  `;
+}
+
+function genExtrasItem(item) {
+  let icon;
+
+  if (item === "N") {
+    icon = "<i class='align justify icon'></i>";
+  }
+  else if (item.startsWith("L")) {
+    let length = item.substr(1);
+    icon = `<i class="linkify icon"></i>[${length}]`;
+  }
+
+  return `${icon}`;
+}
+
 function generateComment(comment) {
   if (!comment) {
     return "No comment";
@@ -113,6 +319,17 @@ function generateComment(comment) {
   */
 function initializeForm(pid, aid, annotation) {
   let form = $("#annotation-form");
+  let linkform = $("#link-form");
+
+  /*
+  linkform.form("set values", {
+    linkNote: "Hi Rick",
+    link: "a:b:c"
+  });
+ */
+
+  //set link array to empty
+  linkArray = [];
 
   //a new annotation
   if (!annotation) {
@@ -127,6 +344,13 @@ function initializeForm(pid, aid, annotation) {
 
     if (annotation.topicList) {
       topicSelect = annotation.topicList.map(t => t.value);
+    }
+
+    if (annotation.links) {
+      linkArray = annotation.links;
+
+      let html = populateTable(linkArray);
+      $("#bookmark-link-list").html(html);
     }
 
     form.form("set values", {
@@ -192,6 +416,7 @@ function editAnnotation(pid, aid, annotation) {
   //.disable-selection will prevent text selection during annotation creation/edit
   addSelectionGuard();
 
+
   $(".annotation-edit").wrapAll(wrapper);
   $(".annotate-wrapper").prepend(form);
   $(".annotation-delete.disabled").removeClass("disabled");
@@ -216,7 +441,7 @@ function noteHandler() {
 
     if (bookmarkData.bookmark) {
       let annotation = bookmarkData.bookmark.find(value => typeof value.aid === "undefined");
-      
+
       //we found a note - so edit it
       if (annotation) {
         editAnnotation(pid, undefined, annotation);
@@ -235,12 +460,59 @@ function noteHandler() {
   });
 }
 
+function hoverNoteHandler() {
+  $(".transcript").on("mouseenter", ".has-annotation", function(e) {
+    e.preventDefault();
+
+    let aid = $(this).data("aid");
+    let pid = $(this).parent("p").attr("id");
+
+    //bookmark wont be found if it is still being created
+    let bookmarkData = getBookmark(pid);
+    if (!bookmarkData.bookmark) {
+      return;
+    }
+
+    let annotation = bookmarkData.bookmark.find(value => value.creationDate === aid);
+
+    //sometimes the annotation won't be found because it is being created, so just return
+    if (!annotation) {
+      return;
+    }
+
+    let topicList = generateHorizontalList(annotation.topicList);
+    let comment = generateComment(annotation.Comment);
+    let extraHtml = generateExtraList(annotation);
+    $(".annotation-information .topic-list").html(topicList);
+    $(".annotation-information .range").html(`Range: ${annotation.rangeStart}/${annotation.rangeEnd}`);
+    $(".annotation-information .description").html(`${comment}`);
+    $(".annotation-information .extra").html(extraHtml);
+    $(this)
+      .popup({popup: ".annotation-information.popup", hoverable: true})
+      .popup("show");
+
+    //create link
+    let link = createBookmarkLink(pid, aid);
+    $("#popup-button").attr("data-clipboard-text", link);
+
+    clipboard.register("#popup-button");
+
+    //set focus on button so pressing Enter will click the button
+    $("#popup-button").focus();
+  });
+}
+
+
+/*
+ * Highlighted text hover; show popup
+ */
 function hoverHandler() {
   $(".transcript").on("mouseenter", "[data-annotation-id]", function(e) {
     e.preventDefault();
 
     let aid = $(this).attr("data-annotation-id");
     let pid = $(this).parent("p").attr("id");
+    let realAid = $(this).data("aid");
 
     //disable hover if highlights are hidden
     if ($(".transcript").hasClass("hide-bookmark-highlights")) {
@@ -293,12 +565,50 @@ function hoverHandler() {
 
     let topicList = generateHorizontalList(annotation.topicList);
     let comment = generateComment(annotation.Comment);
-    $(".annotation-information > .topic-list").html(topicList);
-    $(".annotation-information > .range").html(`Range: ${annotation.rangeStart}/${annotation.rangeEnd}`);
-    $(".annotation-information > .description").html(`${comment}`);
+    let extraHtml = generateExtraList(annotation);
+    $(".annotation-information .topic-list").html(topicList);
+    $(".annotation-information .range").html(`Range: ${annotation.rangeStart}/${annotation.rangeEnd}`);
+    $(".annotation-information .description").html(`${comment}`);
+    $(".annotation-information .extra").html(extraHtml);
     $(this)
-      .popup({popup: ".annotation-information.popup"})
+      .popup({popup: ".annotation-information.popup", hoverable: true})
       .popup("show");
+
+    //create link
+    let link = createBookmarkLink(pid, realAid);
+    $("#popup-button").attr("data-clipboard-text", link);
+
+    clipboard.register("#popup-button");
+
+    //set focus on button so pressing Enter will click the button
+    $("#popup-button").focus();
+  });
+}
+
+/*
+ * Create a link reference to a CMI bookmark
+ *
+ * Format: pageKey.000:aid:uid
+ */
+function createBookmarkLink(pid, aid) {
+  let pKey = key.genParagraphKey(pid);
+  let keyInfo = key.describeKey(pKey);
+  let userInfo = getUserInfo();
+
+  let link = {userId: userInfo.userId, key: pKey, aid: aid, desc: keyInfo};
+  return JSON.stringify(link);
+}
+
+/*
+ * Click handler for the button press on annotation popups.
+ */
+function getReferenceHandler() {
+  $("body").on("click", "#popup-button", function(e) {
+    //for selected text bookmarks
+    $("mark.visible").popup("hide");
+
+    //for note style bookmarks
+    $(".pnum.has-annotation.visible").popup("hide");
   });
 }
 
@@ -398,6 +708,12 @@ function submitHandler() {
       formData.bookTitle = $("#book-title").text();
     }
 
+    //get links from annotation
+    let links = linkArray.filter(l => l.deleted === false);
+    if (links.length > 0) {
+      formData.links = links;
+    }
+
     annotation.submit(formData);
     $(".transcript .annotation-edit").removeClass("annotation-edit annotation-note");
   });
@@ -444,7 +760,7 @@ function shareHandler() {
     if (!userInfo) {
       userInfo = {userId: "xxx"};
     }
-    
+
     //this is really the annotation-id not the aid
     let annotation_id = formData.aid;
     let aid;
@@ -545,6 +861,9 @@ export function initialize() {
   noteHandler();
   hoverHandler();
   noteToggle();
+  createLinkHandlers();
+  getReferenceHandler();
+  hoverNoteHandler();
 }
 
 /*
@@ -580,6 +899,7 @@ export function getUserInput(highlight) {
 */
 function unwrap() {
   $(".annotate-wrapper > form").remove();
+  $(".annotate-wrapper > .note-and-links").remove();
   $(".annotation-edit").unwrap();
 }
 
