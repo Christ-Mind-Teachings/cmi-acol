@@ -1,7 +1,7 @@
 import scroll from "scroll-into-view";
 import {getConfig} from "../_config/config";
 import keyInfo from "../_config/key";
-import {getUserInfo} from "../_user/netlify";
+import {getUserInfo} from "www/modules/_user/netlify";
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";

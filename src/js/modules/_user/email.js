@@ -4,7 +4,7 @@
 import axios from "axios";
 import constants from "../../constants";
 import notify from "toastr";
-import {getUserInfo} from "../_user/netlify";
+import {getUserInfo} from "www/modules/_user/netlify";
 
 //module global list of email addresses
 let maillist = [];

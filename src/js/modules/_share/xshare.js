@@ -12,10 +12,13 @@
 
 */
 import {showAnnotation as showAnnotationRequest, loadComplete} from "../_util/url";
-import {fetchBookmark} from "../_bookmark/bmnet";
-import {highlightSkippedAnnotations, highlight} from "../_bookmark/selection";
 import range from "lodash/range";
 import scroll from "scroll-into-view";
+import {fetchBookmark} from "www/modules/_bookmark/bmnet";
+import {highlightSkippedAnnotations, highlight} from "www/modules/_bookmark/selection";
+
+//import {highlightSkippedAnnotations, highlight} from "../_bookmark/selection";
+//import {fetchBookmark} from "../_bookmark/bmnet";
 
 const key = require("../_config/key");
 

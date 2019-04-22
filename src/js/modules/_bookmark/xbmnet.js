@@ -14,7 +14,7 @@
 import axios from "axios";
 import store from "store";
 import notify from "toastr";
-import {getUserInfo} from "../_user/netlify";
+import {getUserInfo} from "www/modules/_user/netlify";
 import {updateSelectedText} from "./selection";
 
 import isEqual from "lodash/isEqual";

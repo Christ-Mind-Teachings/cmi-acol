@@ -2,7 +2,8 @@
 const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/acol";
 import axios from "axios";
 import { showSavedQuery, showSearchResults } from "./show";
-import {showSearchMatch} from "../_util/url"; 
+import {showSearchMatch} from "www/modules/_util/url";
+//import {showSearchMatch} from "../_util/url";
 import { initNavigator } from "./navigator";
 import notify from "toastr";
 

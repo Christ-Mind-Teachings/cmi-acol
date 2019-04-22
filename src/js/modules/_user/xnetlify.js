@@ -5,7 +5,7 @@ import md5 from "md5";
 import store from "store";
 import {getUser} from "../_util/url";
 
-let login_state_key = "login.acol.state";
+let login_state_key = "login.state";
 let userInfo;
 
 let testUsers = {
@@ -120,7 +120,15 @@ function setAsSignedOut() {
   $(".profile-management.item").addClass("hide");
 }
 
+/*
+  ACOL restricts access to some contents based on the "acol" user role. When the user
+  logs in, redirect them to the acol home page if they are currently viewing an acol
+  transcript page. This will ensure that the TOC will give them access to all content.
+
+  Otherwise they can just stay where they are on login.
+*/
 function manageState(state) {
+  const acolHome = "/t/acol/";
   let currentState = store.get(login_state_key) || "init";
 
   switch(state) {
@@ -135,9 +143,12 @@ function manageState(state) {
       if (currentState === "dialog") {
         //if user has "acol" role, refresh page to enable access to all content
         if (userInfo.app_metadata.roles.find(r => r === "acol")) {
-          //refresh page
-          console.log("refreshing page");
-          location.href = "/t/acol/";
+          //if user is on an acol transcript page
+          if (location.pathname.startsWith(acolHome) && location.pathname !== acolHome) {
+            //refresh page
+            console.log("refreshing page");
+            location.href = acolHome;
+          }
         }
       }
       store.set(login_state_key, state);
