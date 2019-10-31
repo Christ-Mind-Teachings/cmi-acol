@@ -6,6 +6,7 @@ import {showSearchMatch} from "www/modules/_util/url";
 //import {showSearchMatch} from "../_util/url";
 import { initNavigator } from "./navigator";
 import notify from "toastr";
+import {searchAudit} from "www/modules/_audit/audit";
 
 //search modal
 const uiSearchModal = ".search.ui.modal";
@@ -95,11 +96,13 @@ function search(query) {
       else {
         notify.info(`Search for ${query} didn't find any matches`);
       }
+      searchAudit("ACOL", searchBody.query, response.data.count);
       document.getElementById("search-input-field").focus();
     })
     .catch((error) => {
       console.error("search error: %o", error);
       displaySearchMessage(SEARCH_ERROR, error.message);
+      searchAudit("ACOL", searchBody.query, 0, error.message);
     });
 }
 
