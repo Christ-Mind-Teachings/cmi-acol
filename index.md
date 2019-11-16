@@ -13,11 +13,13 @@ footer:
 ## Welcome to A Course Of Love
 {: .ui.header}
 
-<p>We should have a short but compelling introduction here.</p>
-
-<p>
 Forty years ago Jesus dictated ACIM to the scribe Helen Schucman. More recently, over three years, he similarly dictated A Course of Love to Mari Perron. Students of ACIM will recognize the Voice. Jesus describes ACOL as a "continuation" of A Course in Miracles. Students of truth, whatever their background, will find that ACOL resonates with the heart.
-</p>
+
+### Please Note
+
+The contents of the library include 24 chapters, six of which include audio spoken by Mari Perron, the first receiver of *A Course of Love*.
+
+The entire *Course* is available to those who have purchased the book. [Click here for details](/t/acol/acq/access).
 
 <div id="page-contents" class="ui three cards">
   <div class="card">

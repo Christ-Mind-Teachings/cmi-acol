@@ -10,9 +10,14 @@
       "url": "/welcome/"
     },
     {
-      "title": "Purchase",
+      "title": "ACOL on Amazon",
       "restricted": false,
       "url": "/book/"
+    },
+    {
+      "title": "Get Full Access to ACOL",
+      "restricted": false,
+      "url": "/access/"
     }
   ]
 }

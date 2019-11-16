@@ -19,7 +19,7 @@
     units: 999        //units are chapters that make up a book
     paragraphs: 999   //max number of paragraphs in a unit
 
-  NOTE: This module is used by code running in the browser and Node so the 
+  NOTE: This module is used by code running in the browser and Node so the
         common.js module system is used
 */
 
@@ -38,7 +38,7 @@ const prefix = "/t/acol";
 //length of pageKey excluding decimal portion
 const keyLength = 7;
 
-//Raj material books (bid)
+//ACOL material books (bid)
 const books = [
   "course", "treatise", "dialog", "acq"
 ];
@@ -46,7 +46,7 @@ const books = [
 const bookIds = ["xxx", ...books];
 
 const acq = [
-  "xxx", "welcome", "book"
+  "xxx", "welcome", "book", "access"
 ];
 
 const course = [
@@ -186,8 +186,8 @@ function genPageKey(url = location.pathname) {
   return numericKey;
 }
 
-/* 
-  genParagraphKey(paragraphId, key: url || pageKey) 
+/*
+  genParagraphKey(paragraphId, key: url || pageKey)
 
   args:
     pid: a string representing a transcript paragraph, starts as "p0"..."pnnn"
@@ -267,7 +267,7 @@ function getBooks() {
 }
 
 /*
-  Return the number of chapters in the book (bid). 
+  Return the number of chapters in the book (bid).
   Subtract one from length because of 'xxx' (fake chapter)
 */
 function getNumberOfUnits(bid) {

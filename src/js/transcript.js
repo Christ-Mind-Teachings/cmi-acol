@@ -13,6 +13,7 @@ import search from "./modules/_search/search";
 import toc, {getBookId} from "./modules/_contents/toc";
 import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
+import acol from "./modules/_acol/acol";
 
 $(document).ready(() => {
 
@@ -21,6 +22,9 @@ $(document).ready(() => {
   auth.initialize();
   fb.initialize();
   about.initialize();
+
+  //for acol acq/access page
+  acol.initialize();
 
   loadConfig(getBookId())
     .then((result) => {
