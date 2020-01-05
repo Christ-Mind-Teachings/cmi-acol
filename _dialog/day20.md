@@ -13,11 +13,11 @@ to fear it. You are, perhaps, even eager now, to move beyond the known
 to the unknown. You are perhaps eager without fully realizing that this
 eagerness symbolizes a true ending—an ending within you and within your
 reality—an ending within your conscious awareness. A true end of
-learning.
+learning. 
 
 20.3 This is the first transition, the transition in which you really
 “get it” that the unknown cannot be taught, laid out on a map, or shown
-to you by another.
+to you by another. 
 
 20.4 When you read what has been written here, you perhaps think this is
 a contradiction, for surely you have been told much here that you did
@@ -25,29 +25,29 @@ not previously know. This isn’t quite accurate however. What has
 happened here is that words have been put on the feelings and
 remembrances that you have within your minds and hearts and have been
 sharing in this dialogue. The way of saying this perhaps is new, but the
-way of saying this is the expression of the human being receiving it.
+*way* of saying this is the expression of the human being receiving it.
 The way in which you are hearing and responding to these truths is
 perhaps new, but that way too is of the human being receiving it, in
-this case, you.
+this case, you. 
 
 20.5 The truth is the truth. It doesn’t change. It is the same for
-everyone.
+everyone. 
 
-20.6 What, then, is the unknown? The reception and expression of truth.
+20.6 What, then, is the unknown? The reception and expression of truth. 
 
-20.7 This is why you can “know” while always coming to know.  Why you
-can know yourself and constantly be coming to know. The only thing there
-is to know is the One Self in its many expressions. You are the known
-and the unknown. Everything is both the known and the unknown.
+20.7 This is why you can “know” while always coming to know. Why you can
+know yourself and constantly be coming to know. The only thing there is
+to know is the One Self in its many expressions. You are the known and
+the unknown. Everything is both the known and the unknown. 
 
-20.8 You are the expression of the unknown and the only means of the
-unknown becoming known.
+20.8 You *are* the expression of the unknown and the *only* means of the
+unknown becoming known. 
 
 20.9 In other words, all the truth and all the wisdom that is available
-but unknown to you, takes you to make it known. And if this is the only
+but *unknown* to you, takes *you* to make it known. And if this is the only
 way that the beauty, truth, and wisdom of the One Self can be made
-known, then you are the source and the power of coming to know and
-making known.
+known, then *you* are the source and the power of coming to know and
+making known. 
 
 20.10 Apply the art of thought to this idea and you will complete the
 first transition.

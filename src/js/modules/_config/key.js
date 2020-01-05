@@ -50,10 +50,10 @@ const acq = [
 ];
 
 const course = [
-  "xxx", "introduction", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06",
+  "xxx", "intro", "prelude", "chap01", "chap02", "chap03", "chap04", "chap05", "chap06",
   "chap07", "chap08", "chap09", "chap10", "chap11", "chap12", "chap13", "chap14", "chap15", "chap16",
   "chap17", "chap18", "chap19", "chap20", "chap21", "chap22", "chap23", "chap24", "chap25", "chap26",
-  "chap27", "chap28", "chap29", "chap30" ,"chap31", "chap32",
+  "chap27", "chap28", "chap29", "chap30" ,"chap31", "chap32", "learning1"
 ];
 
 const treatise = [
@@ -63,7 +63,7 @@ const treatise = [
   "t3chap04", "t3chap05", "t3chap06", "t3chap07", "t3chap08", "t3chap09", "t3chap10", "t3chap11", "t3chap12",
   "t3chap13", "t3chap14", "t3chap15", "t3chap16", "t3chap17", "t3chap18", "t3chap19", "t3chap20", "t3chap21",
   "t3chap22", "t4chap01", "t4chap02", "t4chap03", "t4chap04", "t4chap05", "t4chap06", "t4chap07", "t4chap08",
-  "t4chap09", "t4chap10", "t4chap11", "t4chap12"
+  "t4chap09", "t4chap10", "t4chap11", "t4chap12", "learning2"
 ];
 
 const dialog = [
@@ -72,7 +72,7 @@ const dialog = [
   "day05", "day06", "day07", "day08", "day09", "day10", "day11", "day12", "day13", "day14", "day15", "day16",
   "day17", "day18", "day19", "day20", "day21", "day22", "day23", "day24", "day25", "day26", "day27", "day28",
   "day29", "day30", "day31", "day32", "day33", "day34", "day35", "day36", "day37", "day38", "day39", "day40",
-  "epilogue"
+  "epilog", "learning3", "dialog"
 ];
 
 const contents = {
@@ -87,7 +87,11 @@ function splitUrl(url) {
 
   //remove leading and trailing "/"
   u = url.substr(1);
-  u = u.substr(0, u.length - 1);
+
+  //remove trailing '/' if it exists
+  if (u[u.length-1] === "/") {
+    u = u.substr(0, u.length - 1);
+  }
 
   return u.split("/");
 }

@@ -6,25 +6,25 @@ title: "Day 13: Union with the Spacious Self"
 
 13.1 Once the One Self became form and knew Its Self, it knew separate
 thought. The separate thoughts of the one self, rather than the form of
-the one self, allowed for the knowing of the self that created the many
+the one self, allowed for the knowing of the Self that created the many
 selves. The many selves who have come and gone since the beginning of
-time now know themselves as the many and the one, the individual and the
+time now know themselves as the many and the One, the individual and the
 collective. This is the knowing in relationship that is available to you
-now.
+*now*. 
 
 13.2 The “one” self of form is the self you were born into. The one self
 of form comes to know the One Self through relationship with other
-selves experiencing oneness through being selves of form.
+selves experiencing oneness through being selves of form. 
 
 13.3 You are thus not meant to lose the experience of the self of form
-but to integrate it so that you are both the many and the one. The
+but to integrate it so that you are both the many and the One. The
 oneness that your individual self represents in this life is the oneness
-of the Holy One who is both one—somewhat in the way you think of the
-individual self—and All.
+of the Holy One who is both One—somewhat in the way you think of the
+individual self—and All. 
 
-13.4 The love that is found in the relationships of the one Self with
+13.4 The love that is found in the relationships of the One Self with
 the many is the love of God. There is no other love. God’s love is
-constantly being given, received, and felt in relationship. God’s love
+constantly being given, received, and felt in relationship.  God’s love
 is your love. Your love is the love of God. God is love.
 
 13.5 Thus is explained the relationships and the forms emptied of love.
@@ -49,7 +49,7 @@ exists within the spacious Self, they exist in harmony. It is only in
 attempting to eject the loveless self from the spacious Self that
 disharmony occurs. Thus holding the loveless self within the spacious
 Self of love is the answer to the question of evil and the final lifting
-of the last veils of fear.
+of the last veils of fear. 
 
 13.7 The same is true of all you would fear, such as the suffering self.
 A suffering self, held within the spacious Self, exists in harmony with
@@ -58,7 +58,7 @@ spacious Self create disharmony. It is only by this holding within that
 the loveless self and the suffering self are rendered ineffective. It is
 only in this way that you realize that all exist within. It is only in
 this way that you become completely fearless and totally spacious, for
-fear is part of the density of form, being a lack of love.
+fear is part of the density of form, being a lack of love. 
 
 13.8 Once fear is gone, true relationship is not only possible but
 inevitable. True relationship exists naturally in the state of harmony

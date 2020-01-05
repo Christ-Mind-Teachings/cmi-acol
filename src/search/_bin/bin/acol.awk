@@ -126,8 +126,8 @@ $1 ~ /##/ {
     gsub(/–/, "", text)
     # remove leading space
     gsub(/^ */, "", text)
-    # remove leading numbers
-    gsub(/^[0-9]*/, "", text)
+    # remove leading numbers (ACOL paragraph identifiers)
+    gsub(/^[IPAEU]*[0-9]+/, "", text)
     # collapse two spaces into one
     gsub(/  */," ",text)
     # remove underscores - text bracketed by __xxx__ are bolded by markdown

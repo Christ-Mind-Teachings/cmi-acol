@@ -8,10 +8,10 @@ title: "Day 5: Access to Unity"
 attained, just as a key is no longer needed once a door has been
 unlocked and passed through. Even though it will not be permanently
 needed, however, this point of access will remain crucial as long as you
-maintain rather than sustain the state of unity. This point of access
+*maintain* rather than *sustain* the state of unity. This point of access
 will thus now be discussed, both as an initial entry point and as a
 continued entry point so that it is available to you until it is no
-longer needed.
+longer needed. 
 
 5.2 For each of you this access point will in truth be the same, but
 perhaps quite different in the action which you use in order to enter
@@ -19,21 +19,21 @@ it. For those of you who have felt the point of entry to be the mind in
 experiences already registered, there is no need to combat this feeling.
 For those of you who have felt the state of unity through experiences of
 the heart, there is again, no need to struggle against this. Let me
-elaborate.
+elaborate. 
 
 5.3 For many of you, “thoughts you did not think” are among your first
 experiences of unity. Thus, just as when you might look up when trying
 to remember something, or tap a finger at your temple, there is, in a
 certain sense, a “place” to which you turn for these experiences. This
 does not mean that these experiences come from your mind or from a place
-just beyond your physical concept of the mind but, since you are not
+just beyond your physical concept of the mind but, since *you* are not
 your body, the idea of what originates “within” coming from a point
-beyond the body is not now too unbelievable to contemplate.
+beyond the body is not now too unbelievable to contemplate. 
 
 5.4 As we said yesterday, our form of meditation, a meditation that is
 not a tool but a function of your natural Self, is a focus on access.
 Thus we begin with what feels natural to you. We give access a focal
-point in the realm of form.
+point in the realm of form. 
 
 5.5 This focal point must be of your own choosing. Your point of access
 may be your head, or a place just above or to the right or left of your
@@ -44,25 +44,25 @@ their hands and others as if it comes directly from their mouths as
 speech is enabled that bypasses the realm of thought completely. Do not
 fight any of these feelings or others that I have not named. Just
 consider them givens and choose what feels most natural to you as a
-focal point for your focus on access.
+focal point for your focus on access. 
 
 5.6 What we have focused on for some time now is love. Love never
 changes. It thus is the same for each of us. Yet not one of us expresses
 love in exactly the same way as another. This is important to remember
-now as you begin to work with your access to unity.
+now as you begin to work with your access to unity. 
 
 5.7 Unity and Love—as we have within this work shown them to be—are the
-same.
+same. 
 
 5.8 Thus, access too is the same. It exists. It is there for you. It is
 given. It cannot be denied unless you deny it. It is only because you
-have not known this that we speak of it in this way here.
+have not known this that we speak of it in this way here.  
 
 5.9 Just as it is helpful in some instances to associate love with your
 heart even though we have identified heart as the center of the Self
 rather than the pump that functions as part of your body, it will be
 helpful to have identified this chosen access point for unity even while
-remembering it is not of the body alone.
+remembering it is not of the body alone. 
 
 5.10 While the purpose of this work was to have you identify love and
 thus your Self, correctly, there is still fine-tuning to your
@@ -86,22 +86,22 @@ you have been able to “give” love only when you have felt you “have”
 love to give. You thus have long known the truth of giving and receiving
 as one within your own heart. You might think of access in the same
 way—as enabling you to realize that you “have” the benefits of union to
-give.
+give. 
 
 5.14 Like love, unity has one source and many expressions. It will be in
 your unique expression of union that your Self will come to wholeness
-and you will be fully who you are and able to express love fully.
+and you will be fully who you are and able to express love fully. 
 
 5.15 Realize here that although you are now a part of a community
 seeking the same goal, the realization, or “making real” of your
 accomplishment, and its expression, will not look the same way twice.
 What you each desire from union most will be what finds the greatest
-expression through you.
+expression through you. 
 
 5.16 A “healer” for instance, might, thus, feel her access point as
 being the hands and express what is gained through unity by a laying on
 of hands. Similarly, you might say healing is one of the ways the healer
-expresses love. In truth healing and love are the same.
+expresses love. In truth healing and love are the same. 
 
 5.17 Who you are now, what your desires are, and where your talents have
 been recognized, are as given as the goal you now desire to realize.
@@ -118,7 +118,7 @@ relief and an end to effort, not another lesson to learn that you will
 be told is not a lesson. Not another cause for seeming effort in order
 to arrive at the effortless. But realize also that this effort that you
 rail against is still of your own choosing. The realization of a “way”
-to make things as they are is never effortful in and of itself.
+to make things as they are is never effortful in and of itself. 
 
 5.19 As you may seem to pause here in your movement in order to
 understand the way in which that movement is achieved, you will almost
@@ -127,7 +127,7 @@ when specifics are being dealt with. Yet you continue to desire
 specifics. This is because you are still entrenched in the pattern of
 learning, as your earnest effort to leave effort behind implies.
 Remember that union cannot be learned, for if it could be, the time of
-learning would be perpetuated rather than ended.
+learning would be perpetuated rather than ended. 
 
 5.20 Remember that you are tired of learning. You are tired here, after
 your climb. You simply want to rest and have whatever transformation is
@@ -139,7 +139,7 @@ feeling the warm earth beneath you and the heat of the sun above you.
 Let languor enfold you and apply no effort to what you read here. Just
 accept what is given. All that is being given is the helpful hints you
 have desired from an older brother who has experienced what you, as yet,
-have not.
+have not. 
 
 5.21 In this frame of mind, we can return more specifically to our focus
 on access. Wherever your chosen point of access lies, imagine now the
@@ -166,27 +166,27 @@ gone, effort remains, and while it remains, you will not realize full
 access to what you are given. We are speaking here of letting your form
 serve union and union serve your form. This service is effortless for it
 is the way of creation. Again, this is why the “effort” of learning must
-cease.
+cease. 
 
 5.23 Let’s return to the image of the healer that was discussed earlier.
 While many will heal, all attempts to teach or learn “how to” heal must
-be thwarted, for if not, the pattern of learning will remain. This is
+be thwarted, for if not, the pattern of learning will remain.  This is
 why there have always seemed to be “secrets” held among the great
 healers and spiritual guides. They have understood that what they have
 gained access to cannot be taught. This has not meant that they were not
 eager to share, only that the means of sharing was not one of teaching
-or learning.
+or learning.  
 
 5.24 Each expression of union must remain as what it is—untaught and
 unlearned. Each gain from unity will only, in this way, be seen as the
-new givens come to replace learning.
+new givens come to replace learning. 
 
 5.25 Remember this as well as you focus on your access to unity. Focus
 does not mean thinking. Focus does not mean learning. Remember the
 example of how your breathing becomes unnatural when you think about it,
 and contrast this with the increase in awareness of breath that comes
 from the focus of meditation. A focus point is a point of convergence. A
-focal point is a point of intersection that gives rise to a clear image.
+focal point is a point of intersection that gives rise to a clear image. 
 
 5.26 The intersection spoken of here is that of pass-through. Although
 we have spoken of this focal point as an entryway, this does not imply

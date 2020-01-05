@@ -8,19 +8,19 @@ is a following after that occurs in time and space rather than in truth.
 It is never about one. It is not about replacement. It comes in a never
 ending series rather than in singular form. It is not true succession if
 there is a break in the chain or in the line of succession for true
-succession does not stop and start, but is continual.
+succession does not stop and start, but is continual. 
 
 17.2 The series build to a climax, to what, during the time of
-evolution, might have been called evolutionary leaps.
+evolution, might have been called evolutionary leaps. 
 
-17.3 The secret of succession is simple. It is but a matter of
+17.3 The secret of succession is simple.  It is but a matter of
 wholehearted desire. Do you wholeheartedly desire to follow me to your
-true inheritance? To come after me and be as I was? To be the inheritor
+true inheritance? To come after me and be as I was?  To be the inheritor
 of the gifts that are ours? Do you desire this? Are you willing to claim
 it? Are you willing to claim it in form and time?
 
 17.4 Can you understand that what you claim in form and time was always
-yours?
+yours? 
 
 17.5 Little can be had without desire. Desire, unlike want, asks for a
 response rather than a provision. Desire is a longing for, a stretching
@@ -30,28 +30,28 @@ into the heavens rather than toward the earth below. This is the stance
 of both desire and fulfillment. Of longing and attainment. Of having
 asked and having received. Of having striven mightily and succeeded. It
 is what comes after the embrace of homecoming, and what comes before the
-passing of desire and the reverence that replaces it. It acknowledges a
+passing of desire and the reverence that replaces it.  It acknowledges a
 certain “taking over” of the spirit of desire. Having “arrived,” the
 desire to “get there” has not been satiated but only has grown into
 something different. With having arrived comes the “presence” of Self so
-long awaited, the joy of accomplishment, the taste of victory.
+long awaited, the joy of accomplishment, the taste of victory. 
 
-17.6 But the desire, the desire is stronger than ever before. The influx
-of attainment has begun. The height of achievement has been reached.
-Your glory is realized. But the desire, the desire is stronger than ever
-before.
+17.6 But the desire, the desire is stronger than ever before.  The
+influx of attainment has begun. The height of achievement has been
+reached. Your glory is realized. But the desire, the desire is stronger
+than ever before. 
 
 17.7 You are not alone in your glory or achievement and you marvel that
-this takes nothing from your feeling of accomplishment. You want to
+this takes nothing from your feeling of accomplishment.  You want to
 share it with the whole world. From the top of the mountain, arms
 outstretched, this desire too has caused your arms to raise as if of
 their own accord. You feel the power of giving and receiving as one, for
 this is what this gesture symbolizes, a great and steady flow of giving
 and receiving as one, an unbroken chain of giving and receiving as one.
 You offer up your glory and call it down from heaven, both at the same
-time.
+time. 
 
-17.8 But the desire, the desire is stronger than ever before.
+17.8 But the desire, the desire is stronger than ever before. 
 
 17.9 You know instinctively that this desire is not a desire to hold on
 to what you have. That this moment of achievement and glory is a gift of
@@ -59,27 +59,27 @@ this moment, a gift of presence. Your gesture, so like unto that of a
 champion who has crossed a finish line and won a race, is not meant to
 remain as it is in this moment. It is not a trophy for your wall. It is
 not an achievement you would hope to best. It simply is what it is: A
-moment of presence full of both desire and fulfillment.
+moment of presence full of both desire and fulfillment. 
 
 17.10 Hope, as was said within this Course, is a condition of the
 initiate. You have now passed hope by as you have moved beyond the state
 of initiation. You are no longer hopeful for what will come. Hope is
 desire accompanied by expectation. To expect is to await, and you are no
 longer waiting. You have arrived. You have passed through the stage of
-initiation. You have reached the top of the mountain.
+initiation. You have reached the top of the mountain. 
 
-17.11 You stand now at the threshold. The stimulus has been provided,
-the journey taken.  You are present. Now is the time for your response.
+17.11 You stand now at the threshold.  The stimulus has been provided,
+the journey taken. You are present. Now is the time for your response. 
 
-17.12 That response is wholehearted desire, which is the power that A
-Course of Love came to return to you. You were told within this Course
+17.12 That response is wholehearted desire, which is the power that *A
+Course of Love* came to return to you.  You were told within this Course
 that wholehearted desire for union would return union to you and return
 you to your Self. This is the moment of realization of that
 accomplishment. But your desire has not left you. Your desire is
-stronger than ever before.
+stronger than ever before. 
 
 17.13 What is different now is that your wholeheartedness, as well as
-your desire, has moved beyond the pattern of thought.
+your desire, has moved beyond the pattern of thought. 
 
 17.14 Let me return you to the questions that were asked of you earlier,
 for they are even more pertinent now. Do you think desire will still be
@@ -87,25 +87,25 @@ with you when you have achieved what you have desired? Is it not
 possible to conceive of a time in which desire will no longer serve you,
 just as learning now no longer serves you? If you reach a state of full
 acceptance of who you are, and in that state, fully accept that your
-contribution is being made, will desire still be with you?
+contribution is being made, will desire still be with you? 
 
 17.15 Your heart is a full well. It is because you have now turned to
 your heart, instead of to your thinking, that you feel both fulfillment
 and desire. But my earlier questions seemed to indicate that once
 fulfillment was reached, desire would no longer be with you. But your
-desire is still with you. It is stronger than ever before.
+desire is still with you. It is stronger than ever before. 
 
 17.16 The only reason why this might be so is that it is meant to be so.
-Something is still desired.
+Something is still desired. 
 
-17.17 Desire asks for a response. Earlier it was said that desire asks
+17.17 Desire asks for a response.  Earlier it was said that desire asks
 for a response while want asks for provision. What is the difference we
-speak of here?
+speak of here? 
 
 17.18 Provision is about preparation for future needs. This is an
 appropriate response to want, but it is an inappropriate response to
 desire. It is an assumption of needs unfulfilled. You now stand in
-fulfillment. This is the secret of succession.
+fulfillment. This is the secret of succession. 
 
 17.19 Desire asks for a response. From where is this response sought?
 You now must understand the fullness of the well of your heart, the
@@ -115,41 +115,41 @@ threshold is the state in which desire has passed and been replaced by
 reverence. To revere is to feel awe, which, it has been stated, is due
 nothing and no one but God. To move beyond desire to reverence is to
 move into the state of communion with God, full oneness with God,
-wholeness.
+wholeness. 
 
 17.20 You have realized now that you remain in a state of becoming, and
 any disappointment you may have initially felt with this realization has
-been replaced by acceptance. Acceptance has come because you recognize
+been replaced by acceptance.  Acceptance has come because you recognize
 the signs of becoming that we have been discussing. You recognize them
-because they are what you are feeling. You may wonder still, however,
+because they are what you are feeling.  You may wonder still, however,
 how you can be told that you have arrived and are at your journey’s end
-and yet still have farther to go.
+and yet still have farther to go. 
 
 17.21 You have nowhere to go. The journey is over. You stand at the
 threshold, the gateway to the site you have traveled so far to reach.
 You are here and desire fills you, even while you know the glory of
-having arrived.
+having arrived. 
 
 17.22 But having arrived here, it is as if a new question is asked of
 you. Just as in the myths that are as ageless as they are timeless, you
-are asked for something here. You are asked for a response.
+are asked for something here. You are asked for a response. 
 
-17.23 Only in myth is this response to a specific question, but even the
-specific questions of myth, when seen truly, were questions of the
-heart, calling only for response from the heart.
+17.23 Only in myth is this a response to a specific question, but even
+the specific questions of myth, when seen truly, were questions of the
+heart, calling only for a response from the heart. 
 
 17.24 Desire calls here, louder and stronger than ever before, because
 of your proximity to what you have desired. Every hero’s journey returns
 him home. To where he started from. In story form, this takes place with
 movement. Years are spent traveling many paths and many miles. All the
 heartaches are experienced along the way. All the experiences and
-learning occur on the journey.
+learning occur on the journey. 
 
 17.25 This is why you have been told the time of parables, or stories,
 has ended. This is why you have been told: “As within, so without.” This
 is why you have been taken to the top of the mountain without leaving
 home. You have taken the inward course, the inward journey, the only
-journey that is real in the only way that is real.
+journey that is real in the only way that is real. 
 
 17.26 We will spend forty days and forty nights here together, at the
 top of the mountain, fasting from want, becoming aware of desire,

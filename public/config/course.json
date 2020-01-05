@@ -7,7 +7,7 @@
     {
       "title": "Introduction",
       "restricted": true,
-      "url": "/introduction/"
+      "url": "/intro/"
     },
     {
       "title": "The Prelude",
@@ -43,6 +43,7 @@
       "title": "Love’s Equity",
       "restricted": false,
       "audio": "/course/c04.mp3",
+      "timing": "/course/c04.json",
       "url": "/chap04/"
     },
     {
@@ -50,12 +51,15 @@
       "title": "Relationship",
       "restricted": false,
       "audio": "/course/c05.mp3",
+      "timing": "/course/c05.json",
       "url": "/chap05/"
     },
     {
       "id": "6",
       "title": "Forgiveness/Joining",
-      "restricted": true,
+      "restricted": false,
+      "audio": "/course/c06.mp3",
+      "timing": "/course/c06.json",
       "url": "/chap06/"
     },
     {
@@ -138,9 +142,10 @@
     },
     {
       "id":"20",
-      "title": "The Embrace",
+      "title": "Wholeheartedness&mdash;The Embrace",
       "restricted": false,
       "audio": "/course/c20.mp3",
+      "timing": "/course/c20.json",
       "url": "/chap20/"
     },
     {
@@ -214,6 +219,11 @@
       "title": "Love Returned to Love",
       "restricted": true,
       "url": "/chap32/"
+    },
+    {
+      "title": "Learning in the Time of Christ&mdash;Part One",
+      "restricted": true,
+      "url": "/learning1/"
     }
   ]
 }

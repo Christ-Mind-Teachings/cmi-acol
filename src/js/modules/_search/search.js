@@ -3,6 +3,7 @@ const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/l
 import axios from "axios";
 import { showSavedQuery, showSearchResults } from "./show";
 import {showSearchMatch} from "www/modules/_util/url";
+import {getUserInfo} from "www/modules/_user/netlify";
 //import {showSearchMatch} from "../_util/url";
 import { initNavigator } from "./navigator";
 import notify from "toastr";
@@ -30,7 +31,7 @@ const SEARCH_RESULT = Symbol("search_result");
 const SEARCH_ERROR = Symbol("search_error");
 const SAVED_SEARCH = Symbol("saved_search");
 
-function displaySearchMessage(msgId, arg1, arg2, arg3) {
+function displaySearchMessage(msgId, arg1, arg2, arg3, arg4) {
   switch(msgId) {
     case SOURCE_NOT_SELECTED:
       $(uiSearchMessage).addClass("negative");
@@ -60,12 +61,21 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
       $(uiSearchMessage).removeClass("purple").removeClass("negative");
 
       //clear input only if matches were found
-      if (arg3 > 0) {
+      //arg3: number of hits
+      //arg4: number of hits not returned because user not authorized
+      if (arg3 - arg4 > 0) {
         $(uiSearchString).val("");
       }
 
       $(uiSearchMessageHeader).text("Search Result");
-      $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> found ${arg3} matches</p>`);
+
+      //arg4 is number of hits not returned because user not authorized to view all ACOL content
+      if (arg4 > 0) {
+        $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> found ${arg3} matches (${arg4} restricted matches filtered)</p>`);
+      }
+      else {
+        $(uiSearchMessageBody).html(`<p>Search for <em>${arg2}</em> found ${arg3} matches</p>`);
+      }
       break;
     case SEARCH_ERROR:
       $(uiSearchInputIcon).removeClass("loading");
@@ -82,15 +92,26 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
 
 //run query
 function search(query) {
+
+  let user = getUserInfo();
+
   let searchBody = {
     query: query,
-    width: 30
+    width: 30,
+    authorization: "guest"
   };
+
+  if (user && user.roles.includes("acol")) {
+    searchBody.authorization = "acol";
+  }
+
+  //console.log("user info: %o", user);
+  //console.log("searchBody: %o", searchBody);
 
   axios.post(searchEndpoint, searchBody)
     .then((response) => {
-      displaySearchMessage(SEARCH_RESULT, "", query, response.data.count);
-      if (response.data.count > 0) {
+      displaySearchMessage(SEARCH_RESULT, "", query, response.data.count, response.data.restricted);
+      if (response.data.count - response.data.restricted > 0) {
         showSearchResults(response.data, searchBody.query);
       }
       else {

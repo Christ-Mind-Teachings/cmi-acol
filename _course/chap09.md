@@ -9,18 +9,18 @@ telling you one thing one day and one thing the next. Even more so than
 your mind it seems to lead you astray, forcing you to walk through paths
 full of danger and treachery into the deepest darkness instead of toward
 the light. It is your emotions rather than your heart that would do this
-to you.
+to you. 
 
 9.2 Emotions speak the language of your separated self rather than the
 language of your heart. They are the forward guard of your defense
-system, always on the lookout for what might hurt or slight the little
-you that they deem under their protection, or the other little selves
+system, always on the lookout for what might hurt or slight the *little
+you* that they deem under their protection, or the other little selves
 you deem under yours. But remember now how like to creation in form if
 not in substance what you have made is. Creation needs no protection. It
 is only your belief in the need for protection that has caused what you
 feel to become so clouded by illusion. If you felt no need to protect
 your heart, or any of those bodies that you love, your feelings would
-retain their innocence and could not hurt you in any way.
+retain their innocence and could not hurt you in any way. 
 
 9.3 The desire to protect is a desire that arises from distrust and is
 based totally on fear. If there were no fear, what would there be to
@@ -31,8 +31,8 @@ love as that which kept you safe, that which kept you happy, that which
 bound all those you love to you, that you attempt to use love here. This
 is a real memory of creation that you have distorted. Your faulty memory
 has caused you to believe love can be used to keep you safe, to make you
-happy and bind to you those you choose to love. This is not the case,
-for love cannot be used.
+happy, and bind to you those you choose to love. This is not the case,
+for love cannot be used. 
 
 9.4 This is how you have distorted all relationship as well, making of
 it something that only becomes real in its use by you or to you. In your
@@ -40,31 +40,31 @@ memory of creation you have remembered that all things exist in
 relationship, and that all things happen in relationship. Thus you have
 chosen to use relationship to prove your existence and to make things
 happen. This use of relationship will never provide the proof or the
-action you seek, because relationship cannot be used.
+action you seek, because relationship cannot be used. 
 
 9.5 Look around the room in which you sit and take away the usefulness
 from each thing you see in it. How many items would you keep that you
-now look upon? Your body too was created for its usefulness. It sets you
-apart, just as each item in your room is set apart by what it is useful
-for. Ask yourself now: To whom is your body useful? This question does
-not apply to those for whom you cook or clean, those whose bodies you
-would repair or minds improve. The question is, really, who might have
-seen a use for a body such as yours before it was created? What kind of
-creator would create it and for what purpose?
+now look upon?  Your body too was created for its usefulness. It sets
+you apart, just as each item in your room is set apart by what it is
+useful for. Ask yourself now: To whom is your body useful? This question
+does not apply to those for whom you cook or clean, those whose bodies
+you would repair or minds improve. The question is, really, who might
+have seen a use for a body such as yours before it was created? What
+kind of creator would create it and for what purpose? 
 
 9.6 You did not create your Self, but your body you did create. It was
 created for its usefulness just like every other object that shares the
 space you occupy. Think for a moment of what the creator of such a body
-would have intended the body to be. The body is a finite entity, created
-to be self-contained but also to self-destruct. It was created with a
-need for constant maintenance, a maintenance that requires toil and
-struggle. Every inch of its surface is a receiver and transmitter of
+would have intended the body to be.  The body is a finite entity,
+created to be self-contained but also to self-destruct. It was created
+with a need for constant maintenance, a maintenance that requires toil
+and struggle. Every inch of its surface is a receiver and transmitter of
 information yet it carries additional tools such as eyes and ears to
 enhance its communication and to control what goes in and what goes out.
 It is as susceptible to pain as to pleasure. It contains the means for
 joining, but for joining that is of a temporary nature. It is as capable
 of violence as gentleness. It is born and dies in a state of
-helplessness.
+helplessness. 
 
 9.7 The body could not help but be thus, as it was made with dual
 purposes in mind. It was made to make real and then glorify a separated
@@ -76,9 +76,9 @@ a desire to see everything but only through its own eyes, a desire to be
 known but only through what it would choose to share. Alongside these
 desires it is easy to see how a world such as that of the body
 developed. Alongside the desire to know was the desire not to know.
-Alongside the desire to see was the desire not to see. Alongside the
+Alongside the desire to see was the desire not to see.  Alongside the
 desire to share was the desire to be hidden. Alongside the desire to
-live was the desire to live no more.
+live was the desire to live no more. 
 
 9.8 You have always been as you were created, but this is what you chose
 to make from that with which you started. In other words, you took what
@@ -88,7 +88,7 @@ created and turned it into an illusion so powerful that you believe it
 is what you are, rather than believing in the truth. But just as you
 have done this, you can undo this. This is the choice set before you—to
 go on believing in the illusion you have made, or to begin to see the
-truth.
+truth. 
 
 9.9 Now you seek to know how to escape what you have made. To do so you
 must withdraw all faith from it. This you are not ready yet to do, but
@@ -97,7 +97,7 @@ you walk alongside he who has waited for you with a single purpose
 instead of alongside the conflicting desires you chose to let lead you
 to this strange world. You travel lightly now where before you walked in
 chains. You travel now with a companion who knows you as you are and
-would show your Self to you.
+would show your Self to you. 
 
 9.10 Look upon your body now as you earlier looked upon the space you
 occupy. Take away the body’s usefulness. Would you keep that which you
@@ -106,23 +106,23 @@ vision of your heart, think about just what it is that you would use it
 for. What God created cannot be used, but what you have made can, for
 its only purpose is your use. Choose to use it now to return you to your
 real Self, and the new purpose you establish will change its conditions
-as well as its usefulness to you.
+as well as its usefulness to you. 
 
 9.11 All use is predicated on the simple idea that you do not have what
 you need. You will continue to believe this while your allegiance
 remains split. Until you have withdrawn all faith in what you have made,
-you will believe that what you made remains useful to you. Since this is
-the case, and since it cannot be changed without your total willingness
-to change it—a willingness not yet complete—we will, instead of trying
-to ignore what you have made, use it in a new way. Keep in mind,
-however, that we are merely saving time, and that your real Self has no
-need to use anything at all.
+you will believe that what you made remains useful to you.  Since this
+is the case, and since it cannot be changed without your total
+willingness to change it—a willingness not yet complete—we will, instead
+of trying to ignore what you have made, use it in a new way. Keep in
+mind, however, that we are merely saving time, and that your real Self
+has no need to use anything at all. 
 
 9.12 As stated before, what is most useful to us now is your perception
 of your heart. Your illusions concerning it, when undone, will quickly
 reveal to you the truth because your misperceptions concerning your
-heart remain closer to the truth than any that you hold. The memories of
-your heart are the strongest and purest that exist, and their
+heart remain closer to the truth than any that you hold.  The memories
+of your heart are the strongest and purest that exist, and their
 remembrance will help to still your mind and reveal the rest.
 
 9.13 We thus return to your perception of your emotions and all that
@@ -134,7 +134,7 @@ have labeled this or that often are not content to stay where you would
 place them. They seem to betray you, when it is you who betray them by
 not allowing them to be what they are. This could be used as a capsule
 definition of your entire problem: You do not allow anything that exists
-in your world, including yourself, to be what it is.
+in your world, including yourself, to be what it is. 
 
 9.14 Feelings that on their own seem to rebel against this insane
 situation are guided by memories trying to reveal the truth to you. They
@@ -145,7 +145,7 @@ say that they become as distorted as all the rest. It is the separated
 self that feels impelled to label feelings good and bad, some worthy of
 acknowledgment and the rest worthy only of denial or contempt. It is
 your language that gives emotion its place, one step behind fear, in
-your battle to control or protect what you have made.
+your battle to control or protect what you have made. 
 
 9.15 Fear always lies one step beneath the surface of a situation
 because it lies one step beneath the surface of your self. Peel back the
@@ -157,29 +157,29 @@ purposes of our discussion, the body is the surface aspect of your self,
 and if beneath that surface what is first encountered is fear, it is
 from fear that all the rest proceeds. Surely it is easy to see that
 neither the desire to control nor to protect would exist without the
-layer of fear that comes before it.
+layer of fear that comes before it. 
 
 9.16 Fear, like all the rest of your emotions, comes in many guises and
 is given many names, but there are really only two emotions: one is
 fear, the other love. Fear is thus the source of all illusion, love the
-source of truth.
+source of truth. 
 
-9.17 How could one separated off from all the rest not be fearful? It
+9.17 How could one separated off from all the rest not be fearful?  It
 matters not at all that all whom you observe seem to be separate as
 well. No one really believes another to be as separate as he is. It
 always seems as if others have what you lack and what you are looking
 for. You seem to be alone in your frailty, loneliness, and lack of love.
 Others misunderstand you and know you not, and neither can you make any
-sense of them.
+sense of them. 
 
 9.18 This need not be, for you are not separate! The relationships you
 seek to end your loneliness can do so if you but learn to see
 relationship differently. As with all your problems in perception, fear
 is what blocks the vision of your heart, the light the Christ in you
 would shine upon the darkness. Can you not see that when you chose to
-make yourself separate and alone you also made the choice for fear? Fear
+make yourself separate and alone you also made a choice for fear? Fear
 is nothing but a choice, and it can be replaced by choice of another
-kind.
+kind. 
 
 9.19 It has been said often that cause and effect are one in truth. The
 world you see is the effect of fear. Each one of you would have
@@ -190,12 +190,12 @@ any less of a nightmare. Yet you spare few moments of compassion for
 yourself, and when such chance occurrences come about you quickly
 override compassion with practicality. While it makes sense to you to
 attempt to dispel a child’s nightmare, you see no way to dispel your
-own. You hide fear beneath the surface, and behind each alternative
-label you would give it, in a desperate attempt to see it not. To live
-in fear is, indeed, a curse, and one that you would try to tell yourself
-is not present in your life. You look to others to feel compassion for,
-to those living in countries torn by war or neighborhoods steeped in
-violence. There is cause for fear, you say. But not here.
+own. You hide fear beneath the surface and behind each alternative label
+you would give it, in a desperate attempt to see it not. To live in fear
+is, indeed, a curse, and one that you would try to tell yourself is not
+present in your life. You look to others to feel compassion for, to
+those living in countries torn by war or neighborhoods steeped in
+violence. There is cause for fear, you say. But not here. 
 
 9.20 This is the only way you have been able to see to bring relief to
 the nightmare of a life of fear. You project fear outward and away from
@@ -217,7 +217,7 @@ opposite to what you would not want to have, you have accomplished much.
 But a warm fire will only provide warmth as long as it is stoked. A meal
 will provide fullness only until the next is needed. Your closed door
 only keeps you safe while its boundary is respected. To replace the
-temporary with the temporary is not an answer.
+temporary with the temporary is not an answer. 
 
 9.22 You may be thinking now that what I have just told you is not an
 answer is precisely what the Bible has instructed you to do. I am
@@ -229,7 +229,7 @@ illusion of need surely these acts of charity are of some value, but
 again I tell you that this value is temporary. My words call you to the
 eternal, to nourishment and rest of the spirit rather than the body.
 That your sights are set on the care of the body alone is another
-example of choosing an opposite for replacement.
+example of choosing an opposite for replacement. 
 
 9.23 Is this not your way of solving all the problems that you face? You
 see what you do not want and try to replace it with its opposite. Your
@@ -242,7 +242,7 @@ fulfill your needs. For most of you, this trying takes on the form of
 work and you spend your entire life working to meet your needs and those
 of the ones you love. What would you do with your life if you had no
 needs to meet? What would you do with your life if you had no fear?
-These questions are the same.
+These questions are the same. 
 
 9.24 The only replacement that can occur that will accomplish what you
 seek is the replacement of illusion with the truth, the replacement of
@@ -251,7 +251,7 @@ Self, the Self that rests in unity. It is your knowledge that this must
 occur that leads you to attempt every other kind of replacement. You can
 continue on in this fashion, always hoping that the next replacement
 will be the one that succeeds in bringing you what you desire, or you
-can choose instead the only replacement that will work.
+can choose instead the only replacement that will work. 
 
 9.25 All that you are asked to give up is your insane notion that you
 are alone. We speak much of your body here only because it is your proof
@@ -259,7 +259,7 @@ of this insane idea’s validity. It is your proof as well that a life of
 fear is warranted. How could you not fear for the safety of a home as
 fragile as the body? How could you fail to provide the next meal for
 yourself and those within your care? You do not see all that these
-distractions of meeting needs would keep you from.
+distractions of meeting needs would keep you from. 
 
 9.26 And yet the very reality that you have set up—the reality of not
 being able to succeed in what you must constantly strive to do—is a
@@ -281,9 +281,9 @@ such situations, not only to your brother but also to you. It is in
 saying, “Sister, you are not alone” that spiritual hunger and thirst is
 met with the fullness of unity. It is in realizing that you are not
 alone that you realize your unity with me and begin to turn from fear
-toward love.
+toward love.  
 
-9.28 You are not your own creator. This is your salvation. You did not
+9.28 You are not your own creator. This is your salvation.  You did not
 create something from nothing, and what you started with is what God
 created and remains as God created it. You do not have to ask yourself
 to stretch your belief beyond these simple statements. Are they really
@@ -293,7 +293,7 @@ reality be other than what it is? Have you not seen this kind of
 distortion take place within the reality you do see? Is this not the
 story of the gifted son or daughter who squanders all the gifts he or
 she possesses by seeing them not or by sadly distorting what they might
-be useful for?
+be useful for? 
 
 9.29 You are the prodigal sons and daughters welcomed constantly to
 return home to your Father’s safe embrace.
@@ -306,18 +306,18 @@ placed on top of it. Someone not knowing what it is for would make of it
 what he or she would have it be, but never would the user seek to
 exchange roles with it. When an accident happens, an automobile cannot
 be seen to be at fault for mistakes made by its user. Yet in a way this
-exchange of roles is similar to what you have attempted to do and it is
+exchange of roles is similar to what you have attempted to do, and it is
 like placing the blame for a car accident on the automobile. You have
 attempted to change places with the body, claiming that it is using you
 rather than that you are using it. You do so out of guilt in an attempt
 to place your guilt outside yourself. “My body made me do it” is like
 the cry of the child with an imaginary friend. With his claim of an
 imaginary friend, the child announces that his body is not within his
-control. What is your ego but an imaginary friend to you?
+control. What is your ego but an imaginary friend to you? 
 
 9.31 Child of God, you need no imaginary friend when you have beside you
 he who is your friend always and would show you that you have no needs
-at all. What you truly are cannot be used, not even by God. See you not
+at all.  What you truly are cannot be used, not even by God. See you not
 that it is only in illusion that you can use others who are like
 yourself?
 
@@ -331,7 +331,7 @@ began, and still you have not learned the lesson of the birds of the air
 or the flowers of the field. Two thousand years have passed since you
 were told to observe this lesson. The lilies of the field neither sow
 nor reap and yet they are provided for. The birds of the air live to
-sing a song of gladness. So do you.
+sing a song of gladness. So do you. 
 
 9.33 God’s will for you is happiness, and never has it been otherwise.
 God’s creation is for eternity and has no use for time. Time too is of
@@ -344,7 +344,7 @@ did. God alone can give free will. In giving your power to things like
 your body and to ideas like time your imitation of the gift of free will
 is so falsely placed in illusion that you cannot see this madness for
 what it truly is. Your body has no use for your power, and time was not
-made for happiness.
+made for happiness. 
 
 9.34 The free will that God gave you is what has allowed you to make of
 yourself and your world what you will. Now you look upon this world with
@@ -356,7 +356,7 @@ your place as that of royal inheritor would be if you could fix yourself
 and the world, restoring it to a previous condition that you imagine you
 know. In this scenario God is like unto your banker rather than your
 Father. You would prove to God that you can “make a go of it” before you
-would ask Him for His help.
+would ask Him for His help. 
 
 9.35 As long as you do not want to be forgiven you will not feel the
 gentle touch of forgiveness upon you and your world. While there is no
@@ -368,7 +368,7 @@ Being willing to be forgiven is the precursor of atonement, the state in
 which you allow your errors to be corrected for you. These errors are
 not the sins you hold against yourself, but merely your errors in
 perception. Correction, or atonement, returns you to your natural state
-where true vision lies and error and sin disappear.
+where true vision lies, and error and sin disappear. 
 
 9.36 Your natural state is one of union, and each joining that you do in
 holy relationship returns a little of the memory of union to you. This
@@ -380,7 +380,7 @@ ease the terror of its separation. What your heart seeks in love it
 attains, but your separated self would keep this attainment from you by
 turning every situation into a means to serve its ends. As long as union
 is seen as a means only to keep loneliness from you it is not seen for
-what it truly is.
+what it truly is. 
 
 9.37 You have placed limits on all things in your world, and it is these
 limits of usefulness that would block your memory’s return. A love
@@ -402,15 +402,15 @@ Like a diversified investment portfolio, you think this parceling out of
 different aspects of yourself protects your assets. You fear “putting
 all your eggs in one basket.” You seek to balance the things you label
 drudgery and the things you label exciting. In doing so you see yourself
-as “spending your time” wisely, and you call yourself a “wellrounded
+as “spending your time” wisely, and you call yourself a “well-rounded
 individual.” As long as more than this is not sought, more than this
-will not be realized.
+will not be realized. 
 
 9.39 Seeking what you have lost in other people, places, and things is
 but a sign that you do not understand that what you have lost still
 belongs to you. What you have lost is missing, not gone. What you have
 lost is hidden to you but has not disappeared nor ceased to be. What you
-have lost is valuable indeed, and this you know. But you know not what
+have lost is valuable indeed, and this you know.  But you know not what
 this valuable something is. One thing alone is sure: When you have found
 it you will know that it has been found. This is what will bring you
 happiness and peace, contentment and a sense of belonging. This is what
@@ -418,7 +418,7 @@ will cause you to feel as if your time here has not been in vain. You
 know that whatever else your life seems to be for, if on your deathbed
 you have not found what you have sought, you will not leave in deepest
 peace but in dark despair and fear. You will have no hope for what lies
-beyond life, for you will have found no hope in life.
+beyond life, for you will have found no hope in life. 
 
 9.40 Your quest for what is missing thus becomes the race you run
 against death. You seek it here, you seek it there, and scurry on to the
@@ -426,7 +426,7 @@ next thing and the next. Each person runs this race alone, with hope
 only of victory for himself. You realize not that if you were to stop
 and take your brother’s hand, the racecourse would become a valley full
 of lilies, and you would find yourself on the other side of the finish
-line, able at last to rest.
+line, able at last to rest. 
 
 9.41 The injunction to rest in peace is for the living, not the dead.
 But while you run the race you will know it not. Competition that leads
@@ -443,20 +443,20 @@ your homage. To these you say, “I would be like you.” To these you look
 for a vicarious fulfillment, having given up any hope for real
 fulfillment. Here you are entertained, shocked, excited, or repelled.
 Here you watch the gladiators kill one another for your amusement. Here
-is your notion of use displayed in all its most horrific detail.
+is your notion of use displayed in all its most horrific detail. 
 
 9.42 What is this but a demonstration, on a larger scale, of what you
 live each day? This is all that anything larger than yourself
 demonstrates to you. All society, groups, teams, and organizations are
-but a collective portrayal of individual desire. Slaves and masters but
+but a collective portrayal of individual desire.  Slaves and masters but
 use one another and the same laws bind both. Who is master and who is
 slave in this body you would call your home? What freedom would you have
-without the demands your body places upon you? The same question can be
+without the demands your body places upon you?  The same question can be
 asked of this world you see as home to the body. Which is master and
-which is slave when both are held in bondage? The glory you give idols
+which is slave when both are held in bondage?  The glory you give idols
 is but bondage as well. Without your idolatry their glory would be no
 more, and so they live in fear no less than that of those who idolize
-them.
+them.  
 
 9.43 Use, in any form, leads to bondage, and so to perceive a world
 based on use is to see a world where freedom is impossible. What you
@@ -473,32 +473,32 @@ gifted with beauty or athletic or artistic talent that can be used, how
 lucky you think you are. A beautiful face and a fit body can be traded
 for so much. It is no secret that you live in a world of supply and
 demand. From the simple concept of individuals needing to be in
-relationship to survive has grown this complex web of use and abuse.
+relationship to survive has grown this complex web of use and abuse. 
 
 9.44 Abuse is but improper use—use on a scale that makes the insanity of
 use obvious to both the user and the usee, and so has its proper place
 in our discussion here. Look at patterns of abuse, in everything from
-drugs and alcohol to physical or emotional mistreatment. These, like the
-larger examples of your daily life gone awry, are but demonstrations of
-internal desires taken to a greater extreme; only these, rather than
+drugs and alcohol to physical or emotional mistreatment.  These, like
+the larger examples of your daily life gone awry, are but demonstrations
+of internal desires taken to a greater extreme; only these, rather than
 being reflected by the group, are reflected within the individual. The
 individual with issues of abuse would do a service to the world if the
 people in it were to understand what that abuse is a reflection of. Like
 any extreme, it merely points out what in less extreme instances is
-still the same: Use is improper.
+still the same: Use is improper. 
 
 9.45 It is its purpose that makes use improper. The Holy Spirit can
 guide you to use the things that you have made in ways that benefit the
 whole, and this is the distinction between proper and improper use, or
-use and abuse. You would use for the benefit of the separated self. When
-magnified, the destructive force of such abuse is easily apparent. Again
-you would place the blame outside yourself and label drugs, alcohol,
-tobacco, gambling, and even food as destructive forces. Like the
-automobile you would blame for an accident, user and usee have become
-confused. All such confusion stems from the initial confusion of the use
-you think your body would put you to. All such confusion stems from your
-displacement of yourself and your abdication of your power to the things
-that you have made.
+use and abuse.  You would use for the benefit of the separated self.
+When magnified, the destructive force of such abuse is easily apparent.
+Again you would place the blame outside yourself and label drugs,
+alcohol, tobacco, gambling, and even food as destructive forces. Like
+the automobile you would blame for an accident, user and usee have
+become confused. All such confusion stems from the initial confusion of
+the use you think your body would put you to. All such confusion stems
+from your displacement of yourself and your abdication of your power to
+the things that you have made. 
 
 9.46 Let me say again that this is your misguided attempt to follow in
 creation’s way. God gave all power to his creations, and you would
@@ -508,7 +508,7 @@ desired anonymity and autonomy from God, still you blame God for
 creating a situation in which you think you have been allowed to hurt
 yourself. How could God allow all this suffering, you ask? Why does He
 tempt you with such destructive forces? Forces beyond your control? Why
-did not God create a world benign and unable to harm you?
+did not God create a world benign and unable to harm you? 
 
 9.47 Such is the world that God did create: A world so lovely and so
 peaceful that when you see it once again you will cry with joy and
@@ -518,15 +518,15 @@ There will merely be a glad “Aha!” as what was long forgotten is
 returned to you. You will but smile at the childish games you played,
 and have no more regrets than you would have for your childhood. Your
 innocence will stand out clearly here, and never again will you doubt
-that the world that God created belongs to you and you to it.
+that the world that God created belongs to you and you to it. 
 
 9.48 All your vast wanderings will be seen for what they are. All that
 you desired will be revealed as only two desires, the desire to love and
 the desire to be loved. Why wait to see that these desires are all that
 call you to the strange behavior you display? Those who give in to abuse
 are merely calling louder for the selfsame love that all are in search
-of. Judgment is not due them, for all here are abusers—starting with
-their own selves.
+of.  Judgment is not due them, for all here are abusers—starting with
+their own selves. 
 
 9.49 Attempts to modify the behavior of abuse are near to useless in a
 world based on use. The foundation of the world must change, and the
@@ -541,7 +541,7 @@ attempts to remain separate, you must use your brothers and sisters in
 order to even maintain the illusion of your separation. Would it not
 simply be better to end this charade? To admit that you were not created
 for separation but for union? To begin to let go of your fear of
-joining, and as you do let go of use as well?
+joining, and as you do, let go of use as well? 
 
 9.50 How different would the world be if you would but attempt for one
 day to replace use with union! Before you can begin, however, we must

@@ -59,7 +59,7 @@ function load(table, fileName, verify) {
     return;
   }
 
-  let url = `/${data.book}/${data.unit}/`;
+  let url = `/t/acol/${data.book}/${data.unit}/`;
   let pageKey = key.genPageKey(url);
 
   data.paragraph.forEach((p) => {

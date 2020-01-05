@@ -4,27 +4,27 @@ day: "23"
 title: "Day 23: Carrying"
 ---
 
-1.23 Forget not that who you are is what you are here to make known and
+23.1 Forget not that who you are is what you are here to make known and
 thus you must be a being who knows love without fear, joy without
-sorrow, and life everlasting. You must be this. A Course of Love gave
-you the understanding you needed in order to realize that you are this.
+sorrow, and life-everlasting. You must *be* this. *A Course of Love* gave
+you the understanding you needed in order to realize that you *are* this.
 The Treatises gave you a way to apply this understanding. This dialogue
-is meant to give you the means to carry what you have been given.
+is meant to give you the means to carry what you have been given. 
 
 23.2 As air carries sound, as a stream carries water, as a pregnant
 woman carries her child, this is how you are meant to carry what you
 have been given. What you have been given is meant to accompany you,
 propel you, and be supported by you. You are not separate from what you
-have been given, and you do carry what you have received within you.
+have been given, and you do carry what you have received within you. 
 
 23.3 As we spoke earlier of being a channel, today we speak of being a
-carrier. Your instruction has been given. Now the task before us is to
+carrier.  Your instruction has been given. Now the task before us is to
 come to understanding of the means by which you will carry what you have
 been given down from the mountain and onto level ground, the ground of
 the earth, the place where you are connected and interconnected to all
 that lives and breathes along with you. We are coming metaphorically and
 literally out of the clouds, out of the illusion, surrendering the mist
-that was all that separated one world from another.
+that was all that separated one world from another. 
 
 23.4 The clouds of illusion, even those that have gently surrounded our
 time together on the mountain top must now be surrendered, much as a

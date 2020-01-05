@@ -3,79 +3,80 @@ chapter: "11"
 title: "Chapter 11: The Return to Unity and the End of Thought As You Know It"
 ---
 
-11.1 We haven’t, here, been talking of the art of thought, but of the
-use of thought. You use thought to solve problems, apply thought to
+11.1 We haven’t, here, been talking of the *art* of thought, but of the
+*use* of thought. You use thought to solve problems, apply thought to
 intellectual puzzles, focus your thoughts in order to make up your mind.
 You make lists of your thoughts so you don’t forget what they remind you
 to do, you order your thoughts to communicate effectively, you take note
-of your thoughts and you take notes on the thoughts of others.
+of your thoughts and you take notes on the thoughts of others. 
 
-11.2 You might even consider this Dialogue the written notes of my
+11.2 You might even consider this Dialogue the written notes of *my*
 thoughts. In this one example can you not see the fallacy inherent in
-all the others? To think of these Dialogues in this way, dear brothers
+all the others?  To think of these Dialogues in this way, dear brothers
 and sisters, is insane. To think of the thought or idea of God by which
 you were created as the same type of thought I have just described would
 be insane. Are you willing any longer to see me as a lecturer, or even
 as a great teacher? Am I but a giver of information from whom another is
 capable of taking notes? You think it is only the content of your
 thoughts that differentiate you from others. Do you think the same is
-true of you and me? It is that you think that differentiates you from
-me, not our content, which is one and the same.
+true of you and me? It is *that* you think that differentiates you from
+me, not our content, which is one and the same. 
 
-11.3 You might imagine that the way you think is so different from the
-way I think that they are incomparable. But thinking is not an accurate
-description of what I do, or of what occurs in unity. I am and I extend
+11.3 You might imagine that the *way* you think is so different from the
+*way* I think that they are incomparable. But thinking is not an accurate
+description of what I do, or of what occurs in unity. I *am* and I extend
 what I am. This dialogue is that extension. God’s idea of you extended
-and became you and me and all the sons and daughters of creation.
+and became you and me and all the sons and daughters of creation. 
 
 11.4 In the opening page of this Dialogue I said that you give and you
-receive from the well of spirit. True giving and receiving is of unity.
+receive from the well of spirit.  True giving and receiving is of unity.
 True giving and receiving is not of the separated thought of the
 separated thought system of the separated self. Your acceptance of the
-concepts in A Treatise on the Art of Thought was but a beginning to the
-total rejection of thought as you know it that must now occur in order
-to go on to creation of the new. You create the new from, and in, unity.
+concepts in “A Treatise on the Art of Thought” was but a beginning to
+the total rejection of thought as you know it that must now occur in
+order to go on to creation of the new. You create the new from, and in,
+unity. 
 
 11.5 Your thoughts are the last bastion of your separated self, the
 fertile ground, still, of your individuality, your testimony that you
-believe you are still on your own, and that you still desire to be, for
+believe you are still *on your own*, and that you still desire to be, for
 only here, in this area of your individuality, do you believe you make
 your contributions to the world. Your desire to make a contribution—to
 help to make new the world that you have known—has been enhanced and
 amplified by what you have learned. You know you have been called and
 that a contribution has been asked of you. And so your mighty thoughts
-have turned their focus on this problem and attacked it as they attack
-all problems to be solved. The idea of making a contribution has begun
+have turned their focus on this *problem* and attacked it as they attack
+all problems to be solved.  The idea of making a contribution has begun
 to receive the attention of your thoughts. The hope of answering your
 call and fulfilling your promise has lit a bonfire in your heart and
 begun a stampede of thoughts within your mind. Again, is this not what
 we spoke of in the beginning of this Dialogue? What was spoken of as
-your desire to prepare?
+your desire to prepare? 
 
 11.6 Let me ask you a question. Do you think desire will still be with
 you when you have achieved what you have desired? Is it not possible to
 conceive of a time in which desire will no longer serve you, just as
 learning now no longer serves you? If you reach a state of full
 acceptance of who you are, and in that state, fully accept that your
-contribution is being made, will desire still be with you?
+contribution is being made, will desire still be with you? 
 
 11.7 The way to achieve this state is through acceptance that it is
 already accomplished. And yet, as soon as your thoughts begin to accept
 this, many of you reverse the direction of your thoughts and turn to
 ideas of what you still need to do to accomplish your calling, to make
 your contribution. Such is the way of the mind, the way of the thoughts
-of the mind.
+of the mind. 
 
 11.8 Now I return you to your idea of how these words have come to you,
 for if you can fully accept the way in which these words have been given
-and received, you will see that you can fully accept the way of unity.
+and received, you will see that you can fully accept the *way* of unity. 
 
 11.9 You have been told you give and you receive from the well of
 spirit. What might this mean? How might this relate to the giving and
-receiving of these words? To the discussion we have been having about
+receiving of these words?  To the discussion we have been having about
 the body and the elevation of the self of form? How might this relate to
 your desire to make a contribution and answer your calling? How does
-this relate to your desire to know what to do?
+this relate to your desire to know what to do? 
 
 11.10 These answers lie within you, at the heart or center of your Self,
 as do all answers. Your desire to make of me a teacher is the same as
@@ -86,7 +87,7 @@ true answers are drawn. Your heart is a full well, a wellspring from
 which you can continually draw with no danger of ever drawing an empty
 bucket. You need never thirst again when you have accepted this. You
 need never seek again for answers when this has been accepted. Because
-you will know and fully accept that the answers lie within.
+you will know and fully accept that the answers lie within. 
 
 11.11 To believe that you are already accomplished and not live from
 this belief is insane for reasons already enumerated time and time
@@ -94,7 +95,7 @@ again. What prevents this belief from becoming an ability and prevents
 it from going from being an ability to simply being who you are, is your
 thoughts—thoughts that need an explanation for everything, and an
 explanation that makes sense in terms of the world you have always
-known.
+known. 
 
 11.12 The giving and receiving of these words will never make sense
 within the terms of the world you have always known. No explanation will
@@ -103,7 +104,7 @@ those willing to open their minds and hearts to a new way of seeing, for
 those willing to suspend disbelief, the answer to the giving and
 receiving of these words will provide the answer to the question your
 thoughts cannot quite comprehend well enough to even articulate, much
-less to answer.
+less to answer. 
 
 11.13 These words give evidence of who I am because they give evidence
 that I know who you are. That these words give evidence that I know who
@@ -114,27 +115,27 @@ residence in your heart. We are the sacred heart. As was said as we
 began this Dialogue, we, together, are the well of spirit. We, together,
 are the shared consciousness of unity. In our union we bear the sameness
 of the Son of God. In going forth with the vision of unity you become as
-I was during life. You do not think your way through life, but instead
+I was during life.  You do not *think* your way through life, but instead
 draw your knowing forth from the well of spirit, from the shared
-consciousness from which these words are given and received.
+consciousness from which these words are given and received. 
 
 11.14 In other words, the elevated Self of form does not remain
 contained within the dot of the body but draws its sustenance from the
-larger circle, the circle of unity.
+larger circle, the circle of unity. 
 
 11.15 What then becomes the contribution, the unique contribution of
 each elevated Self of form? The contribution becomes a contribution from
 the well of spirit, from the shared consciousness of unity that finds
 its expression, its unique expression, through the elevated Self of
-form. Why would you retain your desire to make an individual
+form. Why would you retain your desire to make an *individual*
 contribution, when you can now make a contribution such as this? Is not
 your unique expression of the whole enough for you? Is it not infinitely
 greater than the contributions that are possible for the individual,
 separated self to make? Is not the history of your world filled with
-individual contributions of incredible scope?
+individual contributions of incredible scope? 
 
 11.16 Do you still believe that the contribution made by the man Jesus
-was an individual contribution? I tell you truthfully that the only
+was an *individual* contribution? I tell you truthfully that the only
 contributions that endure, the only contributions that are truly
 lasting, are contributions that arise from the well of spirit. To seek
 importance for the personal self would be akin to placing the importance
@@ -149,10 +150,10 @@ who we all are rather than the truth of who the individual is.
 11.17 There is no truth inherent in the individual, separated self, but
 only illusion. Illusion can be described in many different ways that
 lead to many paths of seeking, but illusion can provide no place in
-which the seeking ends and the truth is found.
+which the seeking ends and the truth is found. 
 
 11.18 Turn now not to your thoughts, but to the mind and heart joined in
-unity. In unity! Unity is where the heart and mind are joined. Unity is
+unity. *In unity*! Unity is *where* the heart and mind are joined. Unity is
 the place from which the expression, the right-minded action of the
 elevated Self of form, arises. Unity is the Source of these words. So is
 it said. So is it the truth.

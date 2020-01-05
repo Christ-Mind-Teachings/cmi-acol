@@ -13,15 +13,17 @@ title: "Purchase"
   <div class="ui items">
     <div class="item">
       <a class="ui small image"
-        href="https://www.amazon.com/Course-Love-Combined-Mari-Perron/dp/158469503X" target="_blank">
+        href="https://www.amazon.com/Course-Love-Combined-Second/dp/1584696699?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=7d5dd837115fcaf19d3bba6418812048&camp=1789&creative=9325
+" target="_blank">
         <img src="/t/acol/public/img/acol/acol2-big.jpg">
       </a>
       <div class="content">
-        <a class="header" href="https://www.amazon.com/Course-Love-Combined-Mari-Perron/dp/158469503X/ref=pd_bxgy_14_img_2/146-6310242-4704353?_encoding=UTF8&pd_rd_i=158469503X&pd_rd_r=3491c945-4545-11e9-969f-a1ee2b4b46aa&pd_rd_w=7inaB&pd_rd_wg=5k6ZA&pf_rd_p=6725dbd6-9917-451d-beba-16af7874e407&pf_rd_r=0F9E2HKS77JCWCKDM8XY&psc=1&refRID=0F9E2HKS77JCWCKDM8XY" target="_blank">
-          <em>A Course Of Love Combined Edition</em>
+        <a class="header" href="https://www.amazon.com/course-love-combined-second/dp/1584696699?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=7d5dd837115fcaf19d3bba6418812048&camp=1789&creative=9325
+" target="_blank">
+          <em>A Course Of Love 2nd Edition</em>
         </a>
         <div class="meta">
-          <span>Purchase <em>A Course of Love Combined Edition</em> from Amazon</span>
+          <span>Purchase <em>A Course of Love 2nd Edition</em> from Amazon</span>
         </div>
         <div class="description">
           <p>
@@ -35,11 +37,13 @@ title: "Purchase"
     </div>
     <div class="item">
       <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/gp/product/B018RGP7GA">
+        href="https://www.amazon.com/gp/product/B018RGP7GA?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=cba17a95aff246fdced78cffcd0cb37b&camp=1789&creative=9325
+">
         <img src="/t/acol/public/img/acol/acol1-audio.jpg">
       </a>
       <div class="content">
-        <a class="header" href="https://www.amazon.com/gp/product/B018RGP7GA" target="_blank">
+        <a class="header" href="https://www.amazon.com/gp/product/B018RGP7GA?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=cba17a95aff246fdced78cffcd0cb37b&camp=1789&creative=9325
+" target="_blank">
           <em>A Course Of Love; The Course Audible Audio Book</em>
         </a>
         <div class="meta">
@@ -53,11 +57,13 @@ title: "Purchase"
     </div>
     <div class="item">
       <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS">
+        href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=72179ec0cc2c1e450c3f90ef60dfb708&camp=1789&creative=9325
+">
         <img src="/t/acol/public/img/acol/acol2-audio.jpg">
       </a>
       <div class="content">
-        <a class="header" href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS" target="_blank">
+        <a class="header" href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=72179ec0cc2c1e450c3f90ef60dfb708&camp=1789&creative=9325
+" target="_blank">
           <em>A Course Of Love; The Treatises Audible Audio Book</em>
         </a>
         <div class="meta">
@@ -71,11 +77,13 @@ title: "Purchase"
     </div>
     <div class="item">
       <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK">
+        href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=e4addf5f8049d5b6157e4e545b6aaf87&camp=1789&creative=9325
+">
         <img src="/t/acol/public/img/acol/acol3-audio.jpg">
       </a>
       <div class="content">
-        <a class="header" href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK" target="_blank">
+        <a class="header" href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=e4addf5f8049d5b6157e4e545b6aaf87&camp=1789&creative=9325
+" target="_blank">
           <em>A Course Of Love; The Dialogues Audible Audio Book</em>
         </a>
         <div class="meta">

@@ -11,16 +11,16 @@ ability, an acceptance that there is no real cause to request. Why must
 Jesus be accepted? Why cannot the truth be accepted? Why cannot everyone
 hold their distinct beliefs as long as they are beliefs in the truth?
 
-1.2 Beliefs are not what is being spoken of here. Acceptance is.
+1.2 Beliefs are not what is being spoken of here. *Acceptance is*.
 Acceptance is not belief, it is not prayer. I care not in what form of
 the truth you believe, nor to what god you believe you send your
 prayers; although if you do not believe in your Self above a form of
 truth, and if you continue to send your prayers to a god who is other
-than you, you will not cross the threshold.
+than you, you will not cross the threshold. 
 
 1.3 We are here on the top of the mountain together, beginning our work
 together. I am no longer your teacher, but there is a reason that you
-are here with me. You have been listening to my words, and these words
+are here with *me*. You have been listening to *my* words, and these words
 are what have brought you here, not to a place but to an ascended state.
 Without your acceptance of who I am, you will not fully accept who you
 are. Without your willingness to achieve this acceptance, you will not
@@ -28,7 +28,7 @@ receive the secret of succession presented here. You can read of it
 still, but it will not convey to you what it will convey to those who
 have accepted me. You will return to level ground with eyes unopened and
 listen to parables once again and learn once again from the stories of
-others.
+others. 
 
 1.4 Why should this be so important? Why not leave well enough alone? If
 acceptance of Jesus is a stumbling block for many, why should it be
@@ -39,12 +39,12 @@ states you value. To marry one man you must choose to leave others
 behind. This is required. This does not mean the married woman will not
 relate to many men in many ways, have many male friends, teachers,
 guides. It means that one is chosen as a mate to the exclusion of others
-chosen as a mate.
+chosen as a mate. 
 
 1.5 In these examples we are talking of simple requirements,
 requirements of daily life rather than of eternal life. The requirement
 asked of you here is not to exclude others in whom you believe and have
-found a connection to eternal life, only to accept me as who I am.
+found a connection to eternal life, only to accept me as who I am. 
 
 1.6 Now that you have moved beyond the thought system of the ego self,
 you look back on it and realize why you could not know your Self while
@@ -53,7 +53,7 @@ thought system of the ego and the thought system of unity. This choice
 was made, and thus you have arrived here and left behind the state of
 the initiate, the time of waiting. You have chosen. You are merely asked
 now to look at what you have chosen and to understand what you inherit
-through the secret of succession.
+through the secret of succession.  
 
 1.7 If you are to succeed me, you must accept me, much as you must
 accept your ascension to this mountain peak and this dialogue that is
@@ -62,23 +62,23 @@ metaphorical, you will not realize that you have ascended or that you
 have left behind the conditions of the initiate. If you believe these
 are words of wisdom and that you can remain ambivalent about their
 source, you will not know me nor accept me, and you will not know or
-accept your Self.
+accept your Self. 
 
 1.8 Why are we so linked that your ability to know your Self is
-contingent upon your ability to know me? Because I am. This is akin to
-saying Love is. I am what is. I am the way, the truth, and the life.
+contingent upon your ability to know me? Because *I am*. This is akin to
+saying *Love is*. I am what *is*. I am the way, the truth, and the life. 
 
 1.9 Not accepting me would be like training to be an astronaut and, at
 the moment of takeoff, refusing the requirement of the spacecraft as the
 way to reach outer space. This would be akin to non-acceptance of the
 way that has been given to bring your desire to fruition. The spacecraft
-could be seen as a response to your desire. So too can I.
+could be seen as a response to your desire. So too can I. 
 
 1.10 This would be like saying, “If I am an astronaut, I can reach outer
-space without a space craft. I have been trained, I understand the truth
+space without a spacecraft. I have been trained, I understand the truth
 about outer space, I believe in my abilities; but I do not accept the
 spacecraft as necessary.” Lest this example fail to move you I will
-continue.
+continue. 
 
 1.11 Many people now are discovering the power of healing. Some think
 this power comes from one source and some from another. You may think
@@ -96,9 +96,9 @@ broken. You may wonder why it should matter whether this power be called
 Buddha or Allah, Muhammad or God.
 
 1.12 It matters not. The power of God is not what is being spoken of
-here. It is our power that is being spoken of here. The power of the god
+here. It is *our* power that is being spoken of here. The power of the god
 man. The power of God brought into form. The power of who we are rather
-than the power of who God is.
+than the power of who God is. 
 
 1.13 God cares not what you call Him. God knows who He is. It is man who
 has known not who he is, and it is through me that this knowing can be
@@ -113,52 +113,50 @@ brought you to this point which I now would like to lead you beyond, the
 world would be a different place. Have I not called you to a new time in
 which the conditions of learning exist no more? In which the suffering
 and death that have obscured that love is the answer are banished,
-rejected, and a new world of love accepted in their place?
+rejected, and a new world of love accepted in their place?  
 
 1.15 You are all beloved sons and daughters of love itself, no matter
 what you call that love. You all are equally beloved. That you give your
 devotion to one religious tradition or another matters not. That you
 accept that I am he who can lead you beyond your life of misery to new
-life matters absolutely.
+life matters absolutely. 
 
 1.16 I am not your teacher and you are not called to follow me blindly.
 But you are called to follow, or succeed me. Only in this way can new
-life be brought to old.
+life be brought to old. 
 
 1.17 Your desire to know me has grown as you have read these words and
 grown closer to your Self. This is because we are One. To know me is to
-know your Self.
+know your Self. 
 
 1.18 Let us return a moment to the creation story and my acknowledgment
 that this creation story is occurring in each and every one of us. Let
 me move forward and speak a moment of Adam and Eve and the fall from
 paradise. Let us extend our idea of the creation story to include the
-creation of man and woman. Adam and Eve represent your birth into form.
+creation of man and woman.  Adam and Eve represent your birth into form.
 I represent your birth into what is beyond form. Adam and Eve represent
 what occurred within you at the beginning of the story of your creation.
 I represent what occurred within you recently, the story of your rebirth
 through this Course.
 
 1.19 The story of Adam and Eve, and the story of Jesus, are within you.
-As within, so without. In each of you is Adam and Eve represented in
-form. In each of you am I represented in form.
+*As within, so without*. In each of you is Adam and Eve represented in
+form. In each of you am I represented in form. 
 
 1.20 The New Testament was the beginning of the new. My life represented
 fulfillment of scripture, of all holy writing, of all learned wisdom. In
-fulfillment are endings found and beginnings created.
+fulfillment are endings found and beginnings created. 
 
 1.21 This fulfillment of scripture has now occurred within you. When it
-occurred within me, it occurred within all. It became part of the
-continuing story of creation, of creation acted out within the created.
+occurred within me, it occurred within all.  It became part of the
+continuing story of creation, of creation acted out within the created. 
 
 1.22 The story came after the fact. Thus the fulfillment was always part
 of the story of creation. It was always part of you as it was always
-part of me.
-
-1.23 There is no story to project what comes next—no accomplished story.
-There is only scripture unfulfilled, the promise of inheritance or the
-threat of doom. Myth too stops short of fulfillment, of return to
-paradise.
+part of me. 1.23 There is no story to project what comes next—no
+accomplished story. There is only scripture unfulfilled, the promise of
+inheritance or the threat of doom. Myth too stops short of fulfillment,
+of return to paradise. 
 
 1.24 Yet this return to paradise, to your true Self and your true home,
 is written within you. It only needs to be lived to become real. You
@@ -167,7 +165,7 @@ accept me because I am the part of you that can guide you beyond what I
 accomplished to the accomplishment of creation, and beyond creation to
 the story not yet written, the future not yet created. To the
 realization of paradise and of your true Self and true home, in a form
-that will take you beyond time to eternity.
+that will take you beyond time to eternity. 
 
 1.25 This has been spoken of as the second coming of Christ because my
 story goes unfulfilled without your fulfillment. It is only in your
@@ -178,7 +176,7 @@ joining together of all of the parts of the creation story into the
 wholeness of the story’s end. As a story is seen to move from one
 element to another in an unbroken chain of events, so too is the story
 of creation. As history proceeds with gaps only waiting to be fulfilled
-in current time, so too is it with the story of creation.
+in current time, so too is it with the story of creation. 
 
 1.26 You are living history. You are living what will tomorrow be
 history. You are living creation. You are living what will tomorrow be
@@ -193,13 +191,13 @@ My forty days and forty nights on the mountain succeeded my baptism and
 my acknowledgment as the Son of God, and preceded my time of living as
 my Self in the world. So too does it with you. You long for and desire
 me because our story is the same. You are living my story as I lived
-yours. They are one story.
+yours. They are one story. 
 
 1.28 Lay aside your want of other answers, other stories, and accept the
 story we share. The Bible and all holy texts can be seen clearly now as
 one creation story. One story of one beginning. One story with many
 promises made. Promises of inheritance and fulfillment, promises that
-give hints to, but never quite reveal, the secret of succession.
+give hints to, but never quite reveal, the secret of succession. 
 
 1.29 I am the secret of succession, the way and the life, the beginning
 of the end of the story that is to be fulfilled, brought to completion

@@ -4,7 +4,7 @@ day: "6"
 title: "Day 6: The Time In Between"
 ---
 
-6.1 We now will discuss being the true Self while becoming the true
+6.1 We now will discuss *being* the true Self while becoming the true
 Self—the time in between your awareness of and access to
 Christ-consciousness, or unity, and your sustainability of
 Christ-consciousness, or unity, in form. As was said earlier: To realize
@@ -13,7 +13,7 @@ the time of learning and the time of being the elevated Self of form.
 This is what our time on this holy mountain is largely comprised of. We
 are in an in-between state of time. We stand at the intersection point
 of the finite and the infinite in order to complete the creative act of
-becoming.
+becoming. 
 
 6.2 While you know this is the focus of our time together, few, if any
 of you, feel as if you have truly taken leave of the everyday world of
@@ -22,28 +22,28 @@ This is not a second-best situation. Although it is being handled in
 this way partially because to ask you to walk away from your “normal”
 life for forty days and forty nights would cause too much anxiety and
 exclude too many, this is not the only, or even the major reason for
-this chosen method.
+this chosen method. 
 
 6.3 Before we can continue to expand on your awareness of the difference
 you have chosen, we thus must address this time so that any confusion it
-seems to be causing will not delay your progress.
+seems to be causing will not delay your progress. 
 
 6.4 Since we have often discussed the similarity between the creation of
 art and the work we are doing here, we will return to this example. We
 have spoken of becoming as the time of movement, being, and expression
 coming together. We have further spoken of your point of access to unity
-as one of convergence, intersection, and pass-through. Can you see the
+as one of convergence, intersection, and pass-through.  Can you see the
 similarities between these actions despite the difference in language
-used?
+used? 
 
-6.5 Movement , Being, Expression; Convergence, Intersection,
-Pass-through.
+6.5 Movement, Being, Expression; Convergence, Intersection,
+Pass-through. 
 
 6.6 How might these things be linked to the example of creating art? I
 choose this particular example to address this particular time of being
 in-between. Let us consider the creation of a piece of music. The
 creation of a piece of music, like the creation of a painting or a poem,
-takes place in stages.
+takes place in stages. 
 
 6.7 At one time the creation of a piece of music is only an idea in the
 mind and heart of the creator. The creation of a song or a symphony may
@@ -57,15 +57,15 @@ flowing. Depending on the disposition of the artist, the piece of music
 might be shared with others at each step of the process, or only late in
 its development. But at some point, the sharing will take place, and the
 reactions of those with whom the music is shared will impact the artist
-and the piece. Positive reactions might validate the artist’s instinct
+and the piece.  Positive reactions might validate the artist’s instinct
 and encourage even more boldness. Negative reactions might cause the
 artist to doubt her instincts, to make changes, or to be more determined
 than ever to see the piece through to the point where it will be
-appreciated. Finishing touches will be put on the piece. Some
+appreciated.  Finishing touches will be put on the piece. Some
 collaboration might take place to get it just right. By the time the
 artist has completed the piece of music she began, it may have little
 resemblance to the piece originally intended, or it might be quite true
-to the original idea.
+to the original idea. 
 
 6.8 Every creative piece of art that comes to completion includes a
 choice. At some point along the way a commitment is made between the
@@ -76,86 +76,86 @@ recognition that a relationship of love has developed, and “good enough”
 or not, completion is necessary. It may even be a commitment simply to
 practice, with the artist feeling no certainty about the value of the
 piece, but determining to see the project through, knowing that it will
-make the next piece or the next a better piece of music.
+make the next piece or the next a better piece of music. 
 
 6.9 In all stages of its creation, the piece of music exists in
 relationship to its creator. Be it only an idea, a partially completed
 rhythm, lyrics without notes, or a completed work that will qualify more
 as practice than as art, the piece exists. In each stage of creation it
 is what it is. Only when it is a complete, and full, and true expression
-of the artist’s idea, however, will it and the artist be one.
+of the artist’s idea, however, will it and the artist be one. 
 
 6.10 You are a work of art headed for this oneness of full and true
 expression. No stage you pass through to reach this oneness is without
 value. Each stage contains the perfection of that stage. Each stage
-contains the whole and each whole contains each stage.
+contains the whole and each whole contains each stage. 
 
 6.11 You have been told you are in the final stage of becoming. You have
 committed to completion of the becoming that will create oneness between
 Creator and created. You have developed the creative relationship that
-is union. You are in and within the movement of the creative process
+is union. You are *in* and *within* the movement of the creative process
 where there is no distinction between Creator and created. You are being
 who you are right now and eliciting the expression that will take you to
-the final stage of being who you will be in oneness.
+the final stage of being who you will be in oneness. 
 
 6.12 You are not separate now from who you will be when you reach
-completion! You are in and within the relationship of creation in which
-created and creator become one.
+completion! You are *in* and *within* the relationship of creation in which
+created and Creator become one.
 
 6.13 Now, in returning to one of the main themes of this chapter—the
 simple truth that you are having to go about this creative process while
 remaining embroiled in daily life—I want to acknowledge the difficulty
 some of you will seem to be experiencing even while pointing out to you
-that life is life.
+that *life is life*. 
 
 6.14 Let’s begin with the seeming difficulty. It may take on many forms,
 but its main source is almost surely a desire to focus on the
 relationship developing between us, and a corresponding desire not to
 have to focus on the details of daily life. You may be thinking that the
-ease so often spoken of in our conversations would be there if only you
+ease so often spoken of in our conversations would be there *if only* you
 could be truly “taken away” from it all and experience nothing but our
 relationship, focus on nothing but your point of access, have a chance
 to really begin to invite abundance without having to look at the bills
 that arrive by daily mail or worry about the many other aspects of your
-simple survival.
+simple survival.  
 
 6.15 Yet realize that if you were told to leave these worries behind and
 get away from it all, you would likely rebel and find many reasons not
 to make it so. And so, abundance will have to come first, lack of cause
 for worry will have to come first, an ability to focus on other than
 daily life will have to come first. These are what these continuing
-dialogues will facilitate.
+dialogues will facilitate. 
 
 6.16 They will facilitate this by facilitating the acceptance of life as
 it is. This is why this dialogue is occurring on the holy mountain
-without taking you away from life as you know it. We are, after all,
-speaking of the elevation of the self of form. This elevation must occur
-in life, in your life as it is, rather than in some idealized situation
-away from what you consider normal life.
+*without* taking you away from life as you know it. We are, after all,
+speaking of the elevation of the Self of form. This elevation must occur
+in life, in *your* life *as it is*, rather than in some idealized situation
+*away* from what you consider normal life. 
 
 6.17 This does not, however, mean that this elevation can be postponed,
 put off, or can wait for some convenient time. Quite the contrary. We
 are having our dialogue on the holy mountain while you remain within
-your life for the very purpose of not allowing this to happen.
+your life for the very purpose of not allowing this to happen. 
 
 6.18 It also does not mean that many of you will not have changed or
 will be changing the very fabric of your daily life. Changes you feel
 called to make are not discouraged here. The point being made is simply
-that removal from life is not possible or desirable.
+that removal from life is not possible or desirable. 
 
 6.19 Learning takes the student away from “normal” life and creates a
-place for teaching and only calls this place elevated. Awareness,
+place for teaching and only calls this place elevated.  Awareness,
 acceptance, and discovery cannot occur in a place set apart from
 “normal” life. Believe me when I tell you that the elevation you are
-currently experiencing is the only elevation you would want. As within,
-so without is the operative phrase here. It is not the other way around.
+currently experiencing is the only elevation you would want. *As within,
+so without* is the operative phrase here. It is not the other way around.
 You cannot find a place outside of yourself that will allow for the
 elevation of which we speak. There are no hallowed halls of learning
 that will accomplish this. There is no mountain top in any location on
 Earth that can accomplish this. It is only the relationship we are
-developing in this elevated place within that will bring to your full
-realization and manifestation without the accomplishment that already
-exists.
+developing in this elevated place *within* that will bring to your full
+realization and manifestation *without* the accomplishment that already
+exists. 
 
 6.20 I know it doesn’t always seem so. Give your attention for a moment
 to the temptations associated with the mountain top of my own
@@ -184,20 +184,20 @@ and activities needed for the accomplishment of the tasks he or she is
 to perform. But often it is only when the teacher steps aside, and the
 apprentice is able to gain experience, that the apprentice is in a
 position to be able to begin to perform with any certainty. Even
-learning is accelerated by hands-on activities, by doing what one has
-previously only learned.
+learning is accelerated by hands-on activities, by *doing* what one has
+previously only learned. 
 
 6.24 You have done your learning and your teacher has stepped aside as a
 teacher and become a companion. Would you desire to prolong your time as
 an apprentice by being removed from the performance of your tasks?
 Perhaps you would. But as has been stated from the beginning, there is
-an urgency to your task.
+an urgency to your task. 
 
 6.25 Thinking of our relationship as that of colleagues as well as
 companions, as fellow workers or work-mates with a task to accomplish,
 as well as conversationalists, is not an erroneous way to think of our
 relationship. We are both friends and co-workers. Colleagues as well as
-companions.
+companions. 
 
 6.26 Our dialogue is not without purpose. You know this or you would not
 be here. You know this or you would not feel the devotion to me and to
@@ -207,14 +207,14 @@ accomplished, or that it would elevate only a few and leave all others
 behind, you would not feel this devotion. You know our task is holy and
 incomparable. You know there is nothing more important for you to be
 involved in. All other areas where you might previously have placed your
-devotion pale in comparison to our task.
+devotion pale in comparison to our task. 
 
 6.27 As your belief grows in our ability to accomplish together our
 given task, you are almost surely feeling this devotion extend to
 others, particularly those who, along with us, work toward its
 accomplishment. In doing so you are not creating new special
 relationships but the true devotion that will replace special
-relationships forever.
+relationships forever. 
 
 6.28 But this very knowing of the sanctity and incomparability of our
 task is what seems to create the difficulty so many of you are currently
@@ -223,16 +223,16 @@ belongs—here—in the passionate acceptance of our work together. And so
 the lack of desire you are experiencing for other areas of the life you
 still seem so deeply involved in is disturbing to you. Yet why should
 this be disturbing? Why should you continue to desire the life you have
-had?
+had? 
 
 6.29 Now let’s address this seeming paradox. You have been told to do
 only what you can feel peaceful doing, to do only what allows you to be
 yourself, and yet here are you told not to try to remove yourself from
-life.
+life. 
 
 6.30 Do you need to feel desire for what you do in order to do it
 peacefully? Do you need to be other than yourself in order to navigate
-your daily life? What you are being shown here is that you do not. What
+your daily life?  What you are being shown here is that you do not. What
 you are going to realize from this time of seeming difficulty is an end
 to difficulty and the growth of your ability to do whatever you do
 peacefully and to be who you are in any situation in which you find
@@ -247,14 +247,14 @@ what you might think of as trial by fire. Be encouraged rather than
 discouraged that you are able to embrace this dialogue and remain in
 your life. Realize that this is just what we work toward! This
 difficulty will pass through you as you allow for and accept where you
-are right now and who you are right now.
+are right now and who you are right now. 
 
 6.32 Does this work of acceptance seem never ending? It is until it is
 replaced by reverence, just as learning was unending until it was
 replaced by acceptance. The conditions, however, of this time of
 acceptance are not the conditions of the time of learning, and so you
 will soon see that the difficulty of the time of learning truly is
-behind you.
+behind you. 
 
 6.33 Let us speak now of the conditions of the time of acceptance, for
 these will cheer you.

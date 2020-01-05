@@ -7,7 +7,7 @@ title: "Chapter 3: The Covenant of the New"
 on the palm-strewn path of Christ-consciousness. It is a path upon which
 joy triumphs over sorrow and victory triumphs over defeat. All that it
 requires is the acceptance of the new and the denial of the old that
-will allow for the sustainability of Christ-consciousness in form.
+will allow for the sustainability of Christ-consciousness in form. 
 
 3.2 My dear brothers and sisters in Christ, this is the call you have
 heard for as long as you can remember, the call you have heard as often
@@ -15,21 +15,21 @@ as you have grown still and listened. It is the one beautiful note, the
 tolling of the bell of the Lord, your invitation to return home. This
 call has always sounded. It is not a death knell but a call to life. It
 is not of the past or the future but of the eternal now. It is within
-you as we speak, the tone and timbre of this dialogue.
+you as we speak, the tone and timbre of this dialogue. 
 
 3.3 It calls to you and asks you to invest your life with the very
-purpose you have always desired. You are not purposeless now. Your life
+purpose you have always desired.  You are not purposeless now. Your life
 is not meaningless. You are the ushers, the pioneers of the new. Your
 work, as will be often repeated, is to accept the new, and deny or
 refuse to accept the old. Only in this way will the new triumph over the
-old.
+old. 
 
-3.4 I have purposefully used words such as victory and triumph, words
+3.4 I have purposefully used words such as *victory* and *triumph*, words
 unusual to the body of this work but words that will become usual in our
 normal conversation in this dialogue. I use them as I use together the
-words accept and deny. As the old must be denied for the new to come
+words *accept* and *deny*. As the old must be denied for the new to come
 into being, the old must be vanquished in order for the truth to triumph
-over illusion.
+over illusion. 
 
 3.5 As the wholehearted, you have it within your ability to do what
 those who live their lives with a split mind could never do. You have it
@@ -40,22 +40,22 @@ to your Self. In the same way, the mending of the rift of duality will
 return the world to its Self. The mending of the rift of duality was
 accomplished in you when you joined mind and heart and returned to the
 oneness and unity of Christ-consciousness. Sustaining
-Christ-consciousness will accomplish the same thing in your world.
+Christ-consciousness will accomplish the same thing in your world. 
 
 3.6 Duality and contrast are synonymous. In the time of the Holy Spirit,
 you learned through contrast. You learned from the contrast of good and
-evil, weak and strong, right and wrong. You learned from the contrast of
-love and fear, sickness and health, life and death. In this time of
+evil, weak and strong, right and wrong.  You learned from the contrast
+of love and fear, sickness and health, life and death. In this time of
 Christ, such learning is no longer necessary, and so these conditions of
-learning are no longer necessary. Thus one of your first acts of
+learning are no longer necessary.  Thus one of your first acts of
 acceptance is the acceptance of the end of the conditions of learning.
 This does not mean, however, that you accept goodness and deny evil or
-even that you accept love and deny fear. How can this be?
+even that you accept love and deny fear. How can this be? 
 
 3.7 Our first action in understanding what we are called together to do
 is to begin to declassify all the various aspects of life that were
 needed in the time of learning. This is why we began quite truthfully
-and simply with an acceptance of the new and denial of the old. This is
+and simply with an acceptance of the new and denial of the old.  This is
 as far as acceptance and denial need go. For if you give credence to the
 ideas of contrast, you bring those ideas forward with you into the new.
 We let the old go, and with it all ideas of contrast and opposites, of
@@ -63,10 +63,10 @@ conflict and opposing forces. This is all that is needed for the new to
 triumph over the old. There are no battles needed, no victories hard won
 through might and struggle. This is what is meant by surrender. We
 achieve victory now through surrender, an active and total acceptance of
-what is given.
+what is given. 
 
 3.8 Let us talk again for a moment of the idea of giving and receiving
-as one that was introduced within A Course of Love and taught quite
+as one that was introduced within *A Course of Love* and taught quite
 thoroughly in “A Treatise on Unity and Its Recognition”. Let’s talk of
 this now as an idea, rather than as something learned, and as an idea
 for you to carry forward with you into the new. This is the first of
@@ -78,44 +78,44 @@ through the art of thought begun to integrate them into the elevated
 Self of form. These are really not new ideas, however, but rather ideas
 of who you truly are birthed within the self of form so that the Self
 and the elevated Self of form are able to work with ideas birthed from
-the same source.
+the same source. 
 
-3.9 Ideas of who you truly are, birthed by the wholehearted self in
+3.9 Ideas of who you truly are, birthed by the wholehearted Self in
 union with all, are the ideas that will allow new patterns to emerge and
 the design of the future to be created. These are the ideas that replace
-the learned concepts we leave behind.
+the learned concepts we leave behind. 
 
 3.10 You will notice that all of these ideas have in common a quality of
 oneness. Oneness replaces duality or contrast. You will be seeking now
-for replacements for that which formerly ordered your life. Thus we will
-speak of these replacements.
+for replacements for that which formerly ordered your life.  Thus we
+will speak of these replacements. 
 
 3.11 That giving and receiving are one in truth is best understood by
 taking away the idea of one who gives and one who receives. If all are
-one, such ideas make no sense. This would seem to make the idea of
+one, such ideas make no sense.  This would seem to make the idea of
 giving and receiving as one senseless as well. In a way, this is true.
 Giving and receiving as one is senseless in terms related to a shared
 consciousness. Giving and receiving as one is not senseless, however,
-when that shared consciousness is occupying form.
+when that shared consciousness is occupying form. 
 
 3.12 All ideas leave not their source, thus giving and receiving is an
 idea, as are all ideas, that exists apart from form. Giving and
 receiving are thus one within the shared consciousness of unity, which
 is the same as saying giving and receiving are one in truth. A shared
-consciousness is the truth of who you are. The elevation of the personal
-self, however, requires that this giving and receiving as one be shared
-in form. Yet the elevated form, which now represents the shared
-consciousness of the Self, is not separate from the shared
+consciousness is the truth of who you are.  The elevation of the
+personal self, however, requires that this giving and receiving as one
+be shared in form. Yet the elevated form, which now represents the
+shared consciousness of the Self, is not separate from the shared
 consciousness. Thus giving and receiving as one is now the nature of the
 elevated Self of form, and what we work toward through this dialogue is
-your full awareness of what this means.
+your full awareness of what this means. 
 
 3.13 Helping you to achieve full awareness of who you are is different
 than helping you to learn. As was said before, you know what you need to
-know.  What we seek to achieve through this dialogue is acceptance and
+know. What we seek to achieve through this dialogue is acceptance and
 awareness of what you know. Acceptance is easily achieved through
-willingness. Full awareness in form of what has previously been hidden
-by the mists of illusion is the more challenging task.
+willingness. Full awareness *in form* of what has previously been hidden
+by the mists of illusion is the more challenging task.  
 
 3.14 Giving and receiving as one has become one in form as well as one
 in idea. What this means, simply stated once again, is that giving and
@@ -123,7 +123,7 @@ receiving occur in unison, or in union. There is no “time” in which
 giving and receiving seem to be separate actions. There is no “time” in
 which giving and receiving is not occurring. Giving and receiving as one
 thus simply describes the nature of the new, the nature of shared
-consciousness.
+consciousness. 
 
 3.15 What might this mean to the elevated Self of form? Using this
 dialogue as an example will serve to explain. This dialogue is
@@ -137,7 +137,7 @@ You are a representation of all of your brothers and sisters in Christ.
 You are a representation of the truth. You are a representation of all
 that is given and received in truth. You are a representation of
 creation. A representation of union. You are a representation of the
-Self.
+Self. 
 
 3.16 As the Self, you are giver and receiver. Your Self is a full
 participant in this dialogue. You as the Self are the truth. You as the
@@ -152,13 +152,13 @@ You must realize your oneness with me and all that was created and you
 cannot do so while you think of me as teacher and yourself as student.
 While you think of yourself as a learning being you will still be
 looking to something or someone “other” than your Self rather than
-seeking the awareness that exists within.
+seeking the awareness that exists within. 
 
 3.18 This is not meant to convey any division between the Self and the
-elevated Self of form, but to demonstrate that there is a difference in
-form between the Self and the elevated Self of form. The Self was and
+elevated Self of form, but to demonstrate that there is a difference *in
+form* between the Self and the elevated Self of form. The Self was and
 will always remain more than the body. The body, however, is also newly
-the Self. The body is also, newly, one body, one Christ.
+the Self. The body is also, newly, one body, one Christ. 
 
 3.19 It is this difference that exists between the Self and the elevated
 Self of form that makes of us creators of the new, because the elevated
@@ -169,7 +169,7 @@ difference between form and content and the difference in the way
 separate forms express content. It will be challenging to become aware
 that different expressions do not make different. These differences were
 spoken of within this Course as unique expressions of the selfsame love
-that exists in all.
+that exists in all. 
 
 3.20 As the system of nature supports the life of many different trees,
 the trees are all still of one life-giving and life-supporting system.
@@ -185,11 +185,11 @@ and not only that, but as if I have presented you with a concept
 difficult to learn. What you need remember now is that your separated
 self already learned this concept of giving and receiving, and that for
 the elevated Self of form it is simply a shared quality of oneness. It
-is not in need of learning or even understanding. It is. Awareness of
-what is, is a quality of Christ-consciousness.  Thus you are already
-aware of the truth of giving and receiving being one.  This awareness
+is not in need of learning or even understanding. It *is*. Awareness of
+what *is*, is a quality of Christ-consciousness. Thus you are already
+aware of the truth of giving and receiving being one. This awareness
 exists within you and you cannot any longer claim to be unaware of it
-through non-acceptance of what is.
+through non-acceptance of what is. 
 
 3.22 These are your ideas as well as mine. They are the ideas of your
 brothers and sisters as much as they are of God. I am teaching you
@@ -199,10 +199,10 @@ know as I have reminded you of your identity.
 3.23 What this portion of the dialogue attempts to do is to give you a
 language to support what you already know, and are already aware of, so
 that you are more comfortable with letting what you know serve you in
-your creation of the new. All—all—that you need in order to create the
+your creation of the new. All—*all*—that you need in order to create the
 new is available within you. The power of the universe is given and
 received constantly in support of the creation of the new. This is what
 creation is! The entire universe, the All of All, giving and receiving
-as one. This is our power. And our power is needed for the creation of
+as one. This is *our* power. And *our* power is needed for the creation of
 the Covenant of the New in this time of Christ.
 

@@ -21,10 +21,14 @@ function createSubmitHandler($form) {
 
     let $form = $(this);
     let formData = $form.form("get values");
+    //console.log("formData: %o", formData);
+
+    $("#acolack-form-submit").attr("disabled", true);
 
     let apiBody = {
       senderName: formData.name,
       senderEmail: formData.email,
+      newsletter: formData.newsletter,
       to: globals.acolManager
     };
 
@@ -33,7 +37,6 @@ function createSubmitHandler($form) {
         if (response.status === 200) {
           notify.info("Request Sent!");
           store.set(ackKey,"request successful");
-          $("#acolack-form-submit").attr("disabled", true);
           $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
           $("#acolack-prompt").html("<i class='green check icon'></i> Success!");
         }
@@ -72,11 +75,17 @@ export default {
 
       //check if user has acol role
       let acol = userInfo.roles.find(ele => {return ele === "acol"});
+      let newsletter = userInfo.roles.find(ele => {return ele === "newsletter"});
 
       if (acol) {
         //notify user they have access to all content
         $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
         $(".acol-step3").append("&nbsp;<i class='green check icon'></i> Complete, you have access!");
+
+        //indicate user declined subscription to newsletter
+        if (!newsletter) {
+          $("[name='newsletter']").removeAttr("checked");
+        }
       }
       else {
         //check if form previously submitted and waiting for role to be assigned
@@ -88,6 +97,9 @@ export default {
           //enable submit
           $("#acolack-form-submit").removeAttr("disabled");
           $("#acolack-prompt").html("<i class='red left arrow icon'></i> Click here to acknowledge");
+
+          //allow user to accept or reject newsletter subscription
+          $("[name='newsletter']").removeAttr("disabled");
           createSubmitHandler($form);
         }
         else {

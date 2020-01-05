@@ -92,7 +92,7 @@ export function getConfig(book, assign = true) {
     let cfg = store.get(`${configStore}${book}`);
     let url;
 
-    //if config in local storage check if we need to get a freash copy
+    //if config in local storage check if we need to get a fresh copy
     if (cfg && !refreshNeeded(cfg)) {
       if (assign) {
         config = cfg;

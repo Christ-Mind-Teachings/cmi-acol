@@ -11,39 +11,39 @@ calling them selfish, uncaring, or judgmental. We examine. And we
 realize it is our thoughts and not our feelings that are selfish,
 uncaring, or judgmental. We realize this because we realize the sacred
 space we have become. Our space is the space of unity. It is the space
-of ease because thoughts are no longer allowed their rule.
+of ease because thoughts are no longer allowed their rule. 
 
 12.2 Imagine the air around you being visible and your form an invisible
 space within the visible surroundings. This is the reality of
-Christ-consciousness. Consciousness may seem to be embodied by form but
+Christ-consciousness.  Consciousness may seem to be embodied by form but
 the reverse is true and has always been true. The body is now ready to
 know that it is embodied, enclosed, surrounded, taken up, by
 consciousness. It is your feelings that now will be the sense organs of
 this spaciousness. Not feelings of sight or sound, smell or touch, but
 feelings of love of Self. Feelings of love of Self are now what hold
-open the space of the Self, allowing the space to be.
+open the space of the Self, allowing the space to be. 
 
 12.3 The merging of form with Christ-consciousness is this merging of
 the Self with the unconditional love of the One Self. The One Self loves
-Its Self. There is nothing else to love. The One Self is the All.
+Its Self. There is nothing else to love. The One Self is the All. 
 
 12.4 The space of the One Self is everything. Space is neither divided
-nor separated nor occupied by form. Space is all that is.
+nor separated nor occupied by form.  Space is all that is.
 Christ-consciousness is the space of all that is.
 
 12.5 Navigating this endless space as an expression of love is the
 simplest thing imaginable. All you must do is listen to your Self. Your
 Self is now a feeling, conscious space, unhindered by any obstacles of
-form.
+form. 
 
 12.6 When an obstacle of form, be it human or material in nature, seems
 to present itself, all you must do is remind yourself that space has
 replaced what was once your self of form. Feel the love of the space
-that is you. All obstacles will vanish.
+that is you. All obstacles will vanish. 
 
 12.7 All obstacles of form are only real in the world of form, a world
 that is perceived rather than known. Christ-consciousness replaces
-perception with knowing, form with space.
+perception with knowing, form with space. 
 
 12.8 Not all forms will be met as obstacles. Forms are only as real as
 the perceiver perceives them to be. Thus your space will effortlessly
@@ -54,9 +54,9 @@ it has no space available for joining. What is a boundary to a perceiver
 is met as an obstacle by the spacious Self. Obstacles need not be
 avoided for space encompasses all obstacles, making them invisible. The
 mind would say that making obstacles invisible is uncaring. The spacious
-Self knows no obstacles for it knows no uncaring. It knows only love for
-the One Self. It feels the obstacle but does not know it. The feeling
-that is the sense organ of the spacious Self then remembers its
+Self knows no obstacles for it knows no uncaring.  It knows only love
+for the One Self. It feels the obstacle but does not know it. The
+feeling that is the sense organ of the spacious Self then remembers its
 spaciousness and calls upon it. The obstacle is thus enfolded in the
 space, becoming one with it. The perceiver knows not of the enfolding
 but feels no hurt nor lessening of spirit by becoming invisible within
@@ -70,7 +70,7 @@ comfort or of safety, a feeling of love or of attraction.
 12.9 Non-human obstacles have no need of being deflected for their
 boundaries have not been made solid by perception. A seeming obstacle of
 non-human form is easily enfolded in the space of the One Self and can
-be moved or passed through.
+be moved or passed through. 
 
 12.10 This is joining in relationship.
 

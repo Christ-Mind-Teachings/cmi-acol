@@ -350,7 +350,18 @@
     {
       "title": "Epilogue : A Note on Being",
       "restricted": true,
-      "url": "/epilogue/"
+      "url": "/epilog/"
+    },
+    {
+      "heading": "Learning in the Time of Christ",
+      "title": "Learning in the Time of Christ&mdash;Part Three",
+      "restricted": true,
+      "url": "/learning3/"
+    },
+    {
+      "title": "Dialogue Unveiled",
+      "restricted": true,
+      "url": "/dialog/"
     }
   ]
 }

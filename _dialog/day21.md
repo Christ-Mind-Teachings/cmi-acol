@@ -24,17 +24,17 @@ could not really teach, guide, or even make information coherent without
 the action of the receiver. Thus it has always been the action of the
 receiver that made learning possible. The receiver was thus also the
 source because the receiver had to accept or “give” what was offered, to
-herself.
+herself. 
 
 21.4 The channel is the means, not the source. The source is oneness or
-union, a state you now realize that you share and have access to.
+union, a state you now realize that you share and have access to. 
 
 21.5 What you allow yourself to receive and what you do with what you
-receive is all that matters.
+receive is all that matters. 
 
 21.6 You realize now that life itself is a channel and that you are
 constantly receiving. You still perhaps think in terms of receiving
-meaning that there is something given from a source beyond the self, but
+meaning that there is something given from a source beyond the Self, but
 this is the “thought” that has to change. If giving and receiving are
 one, then giver and receiver are also one. It is only you who can do
 anything with the wisdom, guidance, or information that you receive in
@@ -44,7 +44,7 @@ all. The old notions of teaching and learning but made it seem as if
 some had more and others less. But even the pattern of learning had as
 its outcome the sameness of teacher and learner—the transfer of
 knowledge that would eventually make teacher and learner equal. Means
-and end have always been the same.
+and end have always been the same. 
 
 21.7 Now, however, there is no longer an “eventually.” Teacher and
 learner are equal and thus neither are needed any longer. The “transfer”
@@ -54,11 +54,11 @@ the knowledge, wisdom, guidance, or information that is needed in each
 moment is available within each moment and that the interaction, rather
 than being one of taking something from an outside source into the self
 where it is learned and then regurgitated or even applied, has given way
-to an interaction that begins within and extends outward.
+to an interaction that begins within and extends outward.  
 
 21.8 This will seem like an incredible reversal and thus it is. This is
 the reversal that will make of you a creator. But it can only happen if
-you make the first transition.
+you make the first transition. 
 
 21.9 You began your mountain top experience with a companion who had
 offered himself as a teacher in order to bring you to the place of being
@@ -71,7 +71,7 @@ union and relationship with all. You have now been told to own this
 dialogue and to realize that its wisdom is your own. Are you accepting
 this? Are you beginning to ready yourself to hear this voice as your
 own? To express the voice of Christ-consciousness as only you can
-express it?
+express it? 
 
 21.10 Realize that this is the aim of our final time together.
 Concentrate on making the first transition and on the reversal of

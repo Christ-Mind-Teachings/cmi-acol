@@ -10,15 +10,15 @@ without entering into it. To “enter” into the experience of form is
 something you can picture in your mind, and that you have language to
 represent, because you are aware of the self of form. To “enter” into
 the experience of unity is something more difficult to imagine, and
-something for which you have little language.
+something for which you have little language. 
 
 7.2 You were told within this Course that what you learn in unity is
-shared.  This language was used because you were still, at that time, a
-learning being.  Now we will adjust our language somewhat to represent
-the new and restate what was said earlier as “What you discover in unity
+shared. This language was used because you were still, at that time, a
+learning being. Now we will adjust our language somewhat to represent
+the new and restate what was said earlier as “What you *discover* in unity
 is shared.” Learning does not occur in unity, but discovery is an
 ongoing aspect of creation and thus of the state of union in which you
-truly abide.
+truly abide. 
 
 7.3 You were also told within this Course that because you were learning
 in separation, unity had to be experienced individually before learning
@@ -27,7 +27,7 @@ time. We then talked of the integration of levels that collapse time.
 This integration of levels is the integration of form and unity. When
 Christ-consciousness is sustained, time will collapse and the sun may
 not need to rise or set to separate day into night. Resting and waking
-will be part of the same continuum of being.
+will be part of the same continuum of being. 
 
 7.4 Experiences of form take place in time because experience, too, was
 designed for learning. Now experience is needed in time to aid your
@@ -38,19 +38,19 @@ than learning, be what you gain from experience.
 7.5 What was created cannot be uncreated. Thus transformation is needed.
 The miracle makes you fully aware of the embrace and the consciousness
 of unity and places you outside of time. In this state, no duality
-exists. Doing and being are one.
+exists. Doing and being are one. 
 
 7.6 Action is the bridge between form and the formless because action is
-the expression of the self in form. “Right” action comes from the unity
+the expression of the self in form.  “Right” action comes from the unity
 in which doing and being are one, or in other words from the state in
 which there is no division between who you are and what you do. “Right”
 action comes from the state of wholeness. Being whole is being all you
-are. Being all you are is what the elevated Self of form represents.
+are. Being all you are is what the elevated Self of form represents. 
 
 7.7 You have been told that you are time-bound only as a particular
 self, existing as man or woman in a particular time in history. Now you
 are called to discover how to exist in form without being defined by
-this timebound particularity.
+this time-bound particularity. 
 
 7.8 That you are living form does not require you to be defined by
 particularity. You can accept the body now as what it is in all its
@@ -62,7 +62,7 @@ to the senses. You have previously seen this one aspect of form as
 separating it from mind, heart, and spirit—those aspects that are not
 perceptible to the senses. But let me repeat that all that lives is from
 the same Source, and there is nothing more alive than mind and heart
-combined in the spirit of wholeheartedness.
+combined in the spirit of wholeheartedness. 
 
 7.9 Matter is simply another word for content, and need not be maligned.
 The content of all living things is the energy of the spirit of
@@ -71,28 +71,28 @@ whole. By seeing only aspects of wholeness you have not seen content nor
 matter truly. You have not been aware of all that you are. You are thus
 now called to discover and to become aware of all that you are. The
 body, rather than aiding you in learning as it once did, will aid you
-now in this discovery.
+now in this discovery. 
 
 7.10 Realize that this is a call to love all of yourself. You who once
-could love spirit or mind, mind or body—because of the dualistic nature
+could love spirit *or* mind, mind *or* body—because of the dualistic nature
 associated with them—now can love all of your Self, all of God, all of
-creation. You can respond to love with love.
+creation.  You can respond to love with love. 
 
 7.11 But again, we start with the body, returning love to it now. It is
 what it is, and nothing that it is, is deserving of anything other than
 love. This call to love all of your Self is a call to unconditional,
 nonjudgmental love. It is not just a call to nonjudgmentalness, but to
 nonjudgmental love. This nonjudgmental love is the condition upon which
-your discovery of all you do not yet know awaits.
+your discovery of all you do not yet know awaits. 
 
-7.12 Discovery is not the same as remembrance. Remembrance was necessary
-for your return to your true identity, the Self as it was created.
-Remembrance was not about what you did not know, but about what you knew
-but had forgotten. Memory has returned you to your Self. Discovery will
-allow the new you to come into being by revealing what you do not yet
-know about how to live as the elevated Self of form.
+7.12 Discovery is not the same as remembrance.  Remembrance was
+necessary for your return to your true identity, the Self as it was
+created. Remembrance was not about what you did not know, but about what
+you knew but had forgotten. Memory has returned you to your Self.
+Discovery will allow the new you to come into being by revealing what
+you do not yet know about how to live as the elevated Self of form. 
 
-7.13 This discovery can only take place in the reality of love.
+7.13 This discovery can only take place in the reality of love. 
 
 7.14 Being in love is a definition of what you now are as you accept the
 unconditional, nonjudgmental love of all. This is a transference of love
@@ -102,28 +102,28 @@ in which you related to your body, be it a love or a hate relationship,
 was a particular relationship with the vessel that only seemed to
 contain you. It was a relationship with the separated self. Now, because
 your relationship is with wholeness, you can transfer love from the
-particular to the universal by loving all. We are one body, one Christ.
+particular to the universal by loving all. We are one body, one Christ. 
 
 7.15 The observation, envisioning, and desire you have been practicing
 in order to be ready to accept revelation works hand in hand with the
 new pattern of discovery, but discovery is less time bound. Let me
-explain.
+explain. 
 
 7.16 Observation takes place in time. Even while you have been called to
-observe what is, what you are observing in form are the representations
-of what is in time. Your envisioning too is bound to time and that is
+observe what *is*, what you are observing in form are the representations
+of what *is* in time. Your envisioning too is bound to time and that is
 why so many of you think of envisioning as envisioning the future.
 Envisioning is less bound to time than is observation because it is not
 about what your body’s eyes see, and will increasingly join with what
 you observe until your vision is released from old patterns and guides
-you more truly.
+you more truly. 
 
 7.17 Desire is an acknowledgment of the uniqueness of each Self, and is
 a demonstration of means and end being the same. Desire keeps you
 focused on your own path and leaves you nonjudgmental of the paths of
 others. Yet desire, like observation and vision, is still related to the
 self of form. It is a step toward full acceptance and awareness of who
-you are now and what this means as you become the elevated Self of form.
+you are now and what this means as you become the elevated Self of form. 
 
 7.18 Revelation is of God. Observation, vision, and desire are steps
 leading you beyond what the individual, separated self sees, to the
@@ -138,31 +138,31 @@ existence as a new Self, the Self of elevated form. You just do not yet
 understand what this means.
 
 7.19 Discovery is not bound by time as it is an ongoing aspect of
-creation.  As you were told in “A Treatise on the New”, the future is
-yet to be created.  While this seems like a time-bound statement, it is
-not. It is merely one way of stating that creation is ongoing rather
-than static. That while creation is and is as it was created, it was
-created to be eternally expanding and expressing in new ways.
+creation. As you were told in “A Treatise on the New”, the future is yet
+to be created. While this seems like a time-bound statement, it is not.
+It is merely one way of stating that creation is ongoing rather than
+static. That while creation *is* and *is* as it was created, it was created
+to be eternally expanding and expressing in new ways. 
 
-7.20 With your new awareness you are now linked, through the
+7.20 With your new awareness *you* are now linked, through the
 consciousness of unity, with the entire field of creation, rather than
 only with the time-bound field of creation of form. As your awareness
 grows, you will begin to expand and express in new ways. Those ways thus
 now include the form of your body without being limited to creation of,
-and in, form. The body has thus joined creation in a non-time-bound way.
+and in, form. The body has thus joined creation in a non-time-bound way. 
 
 7.21 Evolution is the time-bound way in which the body has participated
 in creation. This is why you have been told that you are not called to
-evolution.  Time-bound evolution is the way of the creature, the natural
+evolution. Time-bound evolution is the way of the creature, the natural
 response of the living organism to the stimulus of matter upon matter,
 and of the creature’s perception of its own experience in time. This
 time-bound evolution is really adaptation. It occurs in reaction to what
-is perceived as necessary for survival.
+is perceived as necessary for survival. 
 
 7.22 Time-bound evolution is still surely going on, and as the planet
 becomes crowded, as progress has left so many unfulfilled, as
 environmental concerns mount, even the perceived survival needs are
-leading you toward new answers of what survival may mean.
+leading you toward new answers of what survival may mean. 
 
 7.23 Everyone knows, in this time of Christ, that the end of the old way
 is near and that the new is coming. They are thus moving toward
@@ -176,12 +176,12 @@ Everyone secretly fears that evolution will not keep pace with the
 changing world and that man’s reign over his environment will come to an
 abrupt and painful end. Some even fear an evolutionary setback, and see
 any threat against civilization as they know it as a return to barbaric
-times.
+times.  
 
 7.25 These scenarios of fear we leave behind as we abandon ideas of
 evolution in time and proceed to an awareness of how the elevated Self
 of form can replace the laws of evolution in time with the laws of
-transformation outside of time.
+transformation outside of time. 
 
 7.26 In order to facilitate your understanding, I call you now to
 imagine your body as a dot in the center of a circle and the circle as
@@ -191,24 +191,24 @@ the body as but this one, small, aspect of what you are. In observing
 both yourself and others, you have learned to view your body in the
 field of time. This will be helpful now as you begin to imagine the
 “more” that you are, the “more” that exists beyond the body’s boundary
-and beyond the boundary of time and particularity.
+and beyond the boundary of time and particularity. 
 
 7.27 This circle in which you have placed your body is not a circle of
 time and space. It is not a circle that can be drawn around where you
 exist so as to define, perhaps, a mile of space and say that this is all
 you. No, the circle that exists around you is the circle of shared
-consciousness, the circle of unity.  In truth, this circle is
-everything, the All of All, the universe, God. But just as the Earth can
-be seen as your home, although you are rarely consciously aware of
-existing in this “larger” home, you will not always be aware of this
-circle of the Self as the All of Everything, and it will, in fact, be
-helpful as we begin, to imagine on a smaller scale.
+consciousness, the circle of unity. In truth, this circle is everything,
+the All of All, the universe, God. But just as the Earth can be seen as
+your home, although you are rarely consciously aware of existing in this
+“larger” home, you will not always be aware of this circle of the Self
+as the All of Everything, and it will, in fact, be helpful as we begin,
+to imagine on a smaller scale. 
 
 7.28 You might begin by imagining first your actual, physical, home,
 then your neighborhood, community, city, state, country. You see
 yourself as most your “self” in your home, your neighborhood, your
 community. You identify with the citizens of the city, state, and
-country you occupy. You have an address, perhaps a yard, or farm,
+country you occupy.  You have an address, perhaps a yard, or farm,
 perhaps a public spot that has become a favorite park or lake or beach
 that you consider partially yours. You have a route to and from your
 work or other places that you go, where you see familiar landmarks,
@@ -225,7 +225,7 @@ territory of planet Earth.
 7.29 Thus we will begin once again with parameters, with a territory of
 shared consciousness, rather than with consciousness of the All of
 Everything. This territory we will call the territory of your conscious
-awareness.  This territory of conscious awareness is shared with the
+awareness. This territory of conscious awareness is shared with the
 larger consciousness of unity, just as the territory of your body is
 shared with those who live and work nearby. This territory of conscious
 awareness exists within the larger consciousness of unity, just as the
