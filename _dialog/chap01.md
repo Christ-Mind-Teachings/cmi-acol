@@ -118,9 +118,9 @@ Now I remember who I Am.<br/><br/>
 Now I go forth<br/>
 To live as who I Am within the world<br/>
 To make cause and effect as one, and<br/>
-Union with the Source of love and all creation the reality. 
+Union with the Source of love and all creation the reality.
 
-</dir>
+</div>
 
 1.15 These Dialogues are for everyone because we exist in unity with
 everyone. No one will be forced to join our conversation. Only those
