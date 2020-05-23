@@ -1,0 +1,6 @@
+" wrap paragraph numbers in <sup> tags
+g/^\([EUPAI0-9\.]\+\) /s//<sup>\1<\/sup> /
+
+" reformat paragraph
+g/<sup>/normal gq}/
+

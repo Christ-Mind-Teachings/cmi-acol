@@ -2,7 +2,7 @@
 title: "Purchase"
 ---
 
-  <h2 class="disable-paragraph-marker ui center aligned icon header">
+  <h2 class="ui center aligned icon header">
     <!-- <i class="book icon"></i> -->
     <div class="content">
       A Course Of Love

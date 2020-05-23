@@ -4,7 +4,6 @@ audio: false
 ---
 
 ## Get Access to the Entire 2nd Edition of ACOL
-{: .disable-paragraph-marker}
 
 Owners of *A Course Of Love* can gain access to the entire combined volume second edition. If you don't yet own a copy please get one at your favorite bookstore or get a copy (either physical or ebook) by [following this link](/t/acol/acq/book) to Amazon.
 
