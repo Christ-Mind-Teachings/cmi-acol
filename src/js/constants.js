@@ -6,7 +6,9 @@ const keyInfo = require("./modules/_config/key");
 import {getPageInfo} from "./modules/_config/config";
 
 export default {
-  sid: "ACOL",
+  sid: "acol",
+  lang: "en",
+  env: "integration",
   getPageInfo: getPageInfo,              //list
   keyInfo: keyInfo,                      //list, bmnet
   bm_modal_key: "bm.acol.modal",         //list

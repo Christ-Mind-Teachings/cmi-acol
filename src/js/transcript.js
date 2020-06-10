@@ -15,9 +15,13 @@ import audio from "./modules/_audio/audio";
 import about from "./modules/_about/about";
 import acol from "./modules/_acol/acol";
 
+import {setLanguage} from "www/modules/_language/lang";
+import constants from "./constants";
+
 $(document).ready(() => {
 
   loadStart();
+  setLanguage(constants);
   initTranscriptPage();
   auth.initialize();
   fb.initialize();
