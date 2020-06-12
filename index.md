@@ -7,7 +7,7 @@ footer:
   donate: false
   id: "CMI-ACOL"
   source: "ACOL"
-  repohref: "https://github.com/rmercer33/cmi-acol"
+  repohref: "https://github.com/Christ-Mind-Teachings/cmi-acol"
 ---
 
 ## Welcome to A Course Of Love
