@@ -11,7 +11,6 @@ module.exports = {
 
   resolve: {
     alias: {
-      //"jquery": "jquery/src/jquery",
       "semantic": "../vendor/semantic",
       "me-plugin": path.resolve(__dirname, "../cmi-audio/dist"),
       "acim": path.resolve(__dirname, "../cmi-acim/src/js"),
@@ -20,6 +19,7 @@ module.exports = {
       "jsb": path.resolve(__dirname, "../cmi-jsb/src/js"),
       "raj": path.resolve(__dirname, "../cmi-raj/src/js"),
       "wom": path.resolve(__dirname, "../cmi-wom/src/js"),
+      "pwom": path.resolve(__dirname, "../cmi-pwom/src/js"),
       "www": path.resolve(__dirname, "../cmi-www/src/js")
     }
   },
