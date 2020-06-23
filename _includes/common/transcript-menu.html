@@ -12,14 +12,6 @@
         <div class="divider"></div>
         <div id="current-topic-filter" data-filter="none" class="header">Topic Filter: None</div>
         <div id="page-topics-modal-open" class="page-topics-modal-open item">Filter Bookmarks</div>
-        <!--
-        <div id="topic-menu-item" class="item">
-          <i class="dropdown icon"></i>
-          Page Topic List
-          <div id="topic-menu-select" class="menu transition hidden">
-          </div>
-        </div>
-        -->
       </div>
     </a>
     <a href="#" id="search-modal-open" class="item search-modal-open">
@@ -32,11 +24,13 @@
         <i class="volume up icon"></i></a>
       </span>
     </a>
+    {% unless page.pnumToggle == false %}
     <a href="#" class="toggle-paragraph-markers item">
       <span data-position="bottom center" data-tooltip="Toggle Display of Paragraph Numbers">
         <i class="paragraph icon"></i>
       </span>
     </a>
+    {% endunless %}
     <a href="#masthead-title" class="top-of-page item">
       <span data-position="bottom center" data-tooltip="Top of Page">
         <i class="level up icon"></i>

@@ -91,6 +91,7 @@ defaults:
       image-width: 612
       image-height: 792
       bid: "acq"
+      pnumToggle: false
 
 exclude: [
   moved.html, deploy, LICENSE, README.md, Gemfile, Gemfile.lock, package.json, package-lock.json, node_modules, webpack.config.js, src, project
