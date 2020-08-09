@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
+gem "jekyll", ">= 3.6.3"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -10,10 +11,9 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "3.3.1"
-gem "jekyll", ">= 3.6.3"
-gem "jekyll-sitemap"
+#gem "jekyll-sitemap"
 
 # If you have any plugins, put them here!
-group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-end
+#group :jekyll_plugins do
+#   gem "jekyll-feed", "~> 0.6"
+#end

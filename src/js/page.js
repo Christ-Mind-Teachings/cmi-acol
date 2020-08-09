@@ -10,6 +10,9 @@ import search from "./modules/_search/search";
 import toc from "./modules/_contents/toc";
 import about from "./modules/_about/about";
 
+import fb from "www/modules/_util/facebook";
+import {initQuoteDisplay} from "www/modules/_topics/events";
+
 import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
 
@@ -22,6 +25,10 @@ $(document).ready(() => {
   auth.initialize();
   toc.initialize("page");
   about.initialize();
+
+  //support for quote display and sharing
+  fb.initialize();
+  initQuoteDisplay("#show-quote-button", constants);
 
   initAnimation();
 });

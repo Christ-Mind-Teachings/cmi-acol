@@ -32,31 +32,52 @@ Twenty-five chapters of ACOL including seven chapters with audio narrated by Mar
 Click on the book covers to display the table of contents. Chapters with active links are available for you to enjoy.
 
 <div id="page-contents">
-  <div class="ui three cards">
-    <div class="card">
-      <a href="#" data-book="acq" class="toc-modal-open image">
-        <img src="/t/acol/public/img/acol/acq-big.jpg">
-      </a>
-      <div class="content">
-        <div class="header">A Course of Love</div>
-        <div class="description">
-          Get Acquainted
+  <div class="ui equal width grid source-acq-section">
+    <div class="five wide column">
+      <div class="ui card">
+        <a href="#" data-book="acq" class="toc-modal-open image">
+          <img src="/t/acol/public/img/acol/acq-big.jpg">
+        </a>
+        <div class="content">
+          <div class="header">A Course of Love</div>
+          <div class="description">
+            Get Acquainted
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column source-features">
+      <div class="ui top attached tabular menu">
+        <a class="active item" data-tab="first">News</a>
+        <a class="item" data-tab="second">Quotes</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="first">
+        <div class="box">
+          <p>
+            Introducing <em>Quotes!</em> Display a random quote from ACOL with
+            options to share via email and Facebook. The citation links you directly to 
+            the source of the quote.  
+          </p>
+          <p>Check it out!</p>
+        </div>
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="second">
+        <div class="ui form">
+          <div class="fields">
+            <div class="field">
+              <label>Get Inspired</label>
+              <button id="show-quote-button" class="ui primary button">
+                <i class="quote left icon"></i>
+                Read A Quote
+              </button> 
+            </div>
+            <div id="user-quote-select" class="field"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="ui three cards">
-    <!-- <div class="card">
-      <a href="#" data-book="acq" class="toc-modal-open image">
-        <img src="/t/acol/public/img/acol/acq-big.jpg">
-      </a>
-      <div class="content">
-        <div class="header">A Course of Love</div>
-        <div class="description">
-          Get Acquainted
-        </div>
-      </div>
-    </div> -->
     <div class="card">
       <a href="#" data-book="course" class="toc-modal-open image">
         <img src="/t/acol/public/img/acol/course-big.jpg">

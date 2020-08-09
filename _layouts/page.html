@@ -36,15 +36,25 @@
   {% include components/bookmark-modal.html %}
   {% include components/search-modal.html %}
   {% include components/toc-modal.html %}
+  <div class="quote-sharing-modals">
+    {% include components/quote-modal.html %}
+    {% include components/share-modal.html %}
   <div class="fixed" id="netlify-modal"></div>
 
   <script src="/public/vendor/jquery/jquery.min.js"></script>
   <script src="/public/vendor/semantic/semantic.min.js"></script>
 
-  <script src="/t/acol/public/js/vendors~page~transcript.js"></script>
-  <script src="/t/acol/public/js/vendors~page.js"></script>
-  <script src="/t/acol/public/js/page~transcript.js"></script>
-  <script src="/t/acol/public/js/page.js"></script>
+  {% if jekyll.environment == "production" %}
+    <!-- ACOL page Webpack production -->
+    <script src="/t/acol/public/js/vendors~page~transcript.js"></script>
+    <script src="/t/acol/public/js/page.js"></script>
+  {% else %}
+    <!-- ACOL page Webpack development -->
+    <script src="/t/acol/public/js/vendors~page~transcript.js"></script>
+    <script src="/t/acol/public/js/page~transcript.js"></script>
+    <script src="/t/acol/public/js/page.js"></script>
+  {% endif %}
+
 </body>
 
 </html>
