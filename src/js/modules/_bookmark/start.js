@@ -11,11 +11,12 @@ import share from "www/modules/_share/share";
 import constants from "../../constants";
 import { getPageInfo } from "../_config/config";
 
-//export function bookmarkStart(pid) {
 export function bookmarkStart(page) {
   let pid;
   if (page === "transcript") {
-    pid = share.initialize(constants);
+    share.initialize(constants).then((pid) => {
+      bookmark.initialize(pid, constants);
+    });
 
     //get page info and set as heading under '?' menu option
     let key = constants.keyInfo.genPageKey();
@@ -32,6 +33,9 @@ export function bookmarkStart(page) {
         $("#transcript-page-info").html(title);
       });
   }
-  bookmark.initialize(pid, constants);
+  else {
+    //init bookmark for non-transcript pages.
+    bookmark.initialize(pid, constants);
+  }
   initShareByEmail(constants);
 }

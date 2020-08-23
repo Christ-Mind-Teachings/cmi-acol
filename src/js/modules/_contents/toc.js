@@ -87,19 +87,19 @@ function nextPrevUnrestricted(toc, $el) {
 
   //disable prev control
   if (lessonId === 1) {
-    $("#previous-page-menu-item").addClass("disabled");
+    $("#toc-previous-page").addClass("disabled");
   }
   else {
-    $("#previous-page-menu-item").removeClass("disabled");
+    $("#toc-previous-page").removeClass("disabled");
     prevId = lessonId - 1;
   }
 
   //disable next control
   if (lessonId === LAST_ID) {
-    $("#next-page-menu-item").addClass("disabled");
+    $("#toc-next-page").addClass("disabled");
   }
   else {
-    $("#next-page-menu-item").removeClass("disabled");
+    $("#toc-next-page").removeClass("disabled");
     nextId = lessonId + 1;
   }
 
@@ -108,8 +108,8 @@ function nextPrevUnrestricted(toc, $el) {
     text = $(`a[data-lid="${prevId}"]`).text();
 
     //set prev tooltip and href
-    $("#previous-page-menu-item > span").attr("data-tooltip", `${text}`);
-    $("#previous-page-menu-item").attr("href", `${href}`);
+    $("#toc-previous-page > span").attr("data-tooltip", `${text}`);
+    $("#toc-previous-page").attr("href", `${href}`);
   }
 
   if (nextId > -1) {
@@ -117,8 +117,8 @@ function nextPrevUnrestricted(toc, $el) {
     text = $(`a[data-lid="${nextId}"]`).text();
 
     //set prev tooltip and href
-    $("#next-page-menu-item > span").attr("data-tooltip", `${text}`);
-    $("#next-page-menu-item").attr("href", `${href}`);
+    $("#toc-next-page > span").attr("data-tooltip", `${text}`);
+    $("#toc-next-page").attr("href", `${href}`);
   }
 }
 
@@ -161,19 +161,19 @@ function nextPrevRestricted(toc, $el) {
 
   //disable prev control
   if (np.prev === -1) {
-    $("#previous-page-menu-item").addClass("disabled");
+    $("#toc-previous-page").addClass("disabled");
   }
   else {
-    $("#previous-page-menu-item").removeClass("disabled");
+    $("#toc-previous-page").removeClass("disabled");
     prevId = np.prev;
   }
 
   //disable next control
   if (np.next === -1) {
-    $("#next-page-menu-item").addClass("disabled");
+    $("#toc-next-page").addClass("disabled");
   }
   else {
-    $("#next-page-menu-item").removeClass("disabled");
+    $("#toc-next-page").removeClass("disabled");
     nextId = np.next;
   }
 
@@ -182,8 +182,8 @@ function nextPrevRestricted(toc, $el) {
     text = $(`a[data-lid="${prevId}"]`).text();
 
     //set prev tooltip and href
-    $("#previous-page-menu-item > span").attr("data-tooltip", `${text}`);
-    $("#previous-page-menu-item").attr("href", `${href}`);
+    $("#toc-previous-page > span").attr("data-tooltip", `${text}`);
+    $("#toc-previous-page").attr("href", `${href}`);
   }
 
   if (nextId > -1) {
@@ -191,8 +191,8 @@ function nextPrevRestricted(toc, $el) {
     text = $(`a[data-lid="${nextId}"]`).text();
 
     //set prev tooltip and href
-    $("#next-page-menu-item > span").attr("data-tooltip", `${text}`);
-    $("#next-page-menu-item").attr("href", `${href}`);
+    $("#toc-next-page > span").attr("data-tooltip", `${text}`);
+    $("#toc-next-page").attr("href", `${href}`);
   }
 }
 
@@ -225,7 +225,6 @@ function highlightCurrentTranscript(toc, setNextPrev = true) {
     //remove href to deactivate link for current page and
     //scroll into middle of viewport
     $el.addClass("current-unit").removeAttr("href");
-    scroll($el.get(0));
 
     if (!setNextPrev) {
       return;
@@ -308,10 +307,19 @@ export default {
    */
   initialize: function(env) {
     let toc = {init: false, book: "", restricted: true, html: ""};
-    //dialog settings
+
+    //modal dialog settings
     $(uiTocModal).modal({
       dimmerSettings: {opacity: uiModalOpacity},
-      observeChanges: true
+      observeChanges: true,
+      onVisible: function() {
+        let $el = $(".toc-list a.current-unit");
+        scroll($el.get(0), {
+          isScrollable: function(target, defaultIsScrollable) {
+            return defaultIsScrollable(target) || target.className.includes('scrolling');
+          }
+        });
+      }
     });
 
     //check if user has access to content

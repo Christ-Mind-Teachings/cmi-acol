@@ -6,18 +6,25 @@ const keyInfo = require("./modules/_config/key");
 import {getPageInfo} from "./modules/_config/config";
 
 export default {
-  sourceId: 14,
-  quoteManagerId: "05399539cca9ac38db6db36f5c770ff1",
-  quoteManagerName: "CMI",
   sid: "acol",
   lang: "en",
   env: "integration",
+  url_prefix: "/t/acol",                  //navigator
+  sourceId: 14,
+  quoteManagerId: "05399539cca9ac38db6db36f5c770ff1",
+  quoteManagerName: "CMI",
   getPageInfo: getPageInfo,              //list
   keyInfo: keyInfo,                      //list, bmnet
-  bm_modal_key: "bm.acol.modal",         //list
-  bm_creation_state: "bm.acol.creation", //bookmark
-  bm_list_store: "bm.acol.list",         //bmnet
-  bm_topic_list: "bm.acol.topics",       //bmnet
-  bm_modal_store: "bm.acol.modal",       //navigator
-  url_prefix: "/t/acol"                  //navigator
+  store: {
+    bmList: "bm.list",
+    bmCreation: "bm.creation",
+    bmTopics: "bm.topics",
+    bmModal: "bm.modal",
+    srchResults: "srch.results",
+    pnDisplay: "pn.display",
+    cfgacq: "cfg.acq",
+    cfgcourse: "cfg.course",
+    cfgdialog: "cfg.dialog",
+    cfgtreatise: "cfg.treatise"
+  }
 };
