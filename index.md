@@ -35,7 +35,7 @@ Click on the book covers to display the table of contents. Chapters with active 
   <div class="ui equal width grid source-acq-section">
     <div class="five wide column">
       <div class="ui card">
-        <a href="#" data-book="acq" class="toc-modal-open image">
+        <a id="book-acq" href="#" data-book="acq" class="toc-modal-open image">
           <img src="/t/acol/public/img/acol/acq-big.jpg">
         </a>
         <div class="content">
@@ -79,7 +79,7 @@ Click on the book covers to display the table of contents. Chapters with active 
   </div>
   <div class="ui three cards">
     <div class="card">
-      <a href="#" data-book="course" class="toc-modal-open image">
+      <a id="book-course" href="#" data-book="course" class="toc-modal-open image">
         <img src="/t/acol/public/img/acol/course-big.jpg">
       </a>
       <div class="content">
@@ -90,7 +90,7 @@ Click on the book covers to display the table of contents. Chapters with active 
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="treatise" class="toc-modal-open image">
+      <a id="book-treatises" href="#" data-book="treatise" class="toc-modal-open image">
         <img src="/t/acol/public/img/acol/treatise-big.jpg">
       </a>
       <div class="content">
@@ -101,7 +101,7 @@ Click on the book covers to display the table of contents. Chapters with active 
       </div>
     </div>
     <div class="card">
-      <a href="#" data-book="dialog" class="toc-modal-open image">
+      <a id="book-dialogues" href="#" data-book="dialog" class="toc-modal-open image">
         <img src="/t/acol/public/img/acol/dialog-big.jpg">
       </a>
       <div class="content">
