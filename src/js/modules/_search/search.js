@@ -1,13 +1,9 @@
-
-const searchEndpoint = "https://d9lsdwxpfg.execute-api.us-east-1.amazonaws.com/latest/acol";
-import axios from "axios";
+import {searchSource} from "www/modules/_ajax/search";
 import { showSavedQuery, showSearchResults } from "./show";
 import {showSearchMatch} from "www/modules/_util/url";
 import {getUserInfo} from "www/modules/_user/netlify";
-//import {showSearchMatch} from "../_util/url";
 import { initNavigator } from "./navigator";
 import notify from "toastr";
-import {searchAudit} from "www/modules/_audit/audit";
 
 //search modal
 const uiSearchModal = ".search.ui.modal";
@@ -91,11 +87,10 @@ function displaySearchMessage(msgId, arg1, arg2, arg3, arg4) {
 }
 
 //run query
-function search(query) {
-
+async function search(query) {
   let user = getUserInfo();
-
   let searchBody = {
+    source: "acol",
     query: query,
     width: 30,
     authorization: "guest"
@@ -105,26 +100,21 @@ function search(query) {
     searchBody.authorization = "acol";
   }
 
-  //console.log("user info: %o", user);
-  //console.log("searchBody: %o", searchBody);
-
-  axios.post(searchEndpoint, searchBody)
-    .then((response) => {
-      displaySearchMessage(SEARCH_RESULT, "", query, response.data.count, response.data.restricted);
-      if (response.data.count - response.data.restricted > 0) {
-        showSearchResults(response.data, searchBody.query);
-      }
-      else {
-        notify.info(`Search for ${query} didn't find any matches`);
-      }
-      searchAudit("ACOL", searchBody.query, response.data.count);
-      document.getElementById("search-input-field").focus();
-    })
-    .catch((error) => {
-      console.error("search error: %o", error);
-      displaySearchMessage(SEARCH_ERROR, error.message);
-      searchAudit("ACOL", searchBody.query, 0, error.message);
-    });
+  try {
+    let result = await searchSource(searchBody);
+    displaySearchMessage(SEARCH_RESULT, "", `"${result.queryTransformed}"`, result.count, result.restricted);
+    if (result.count > 0) {
+      showSearchResults(result, result.queryTransformed);
+    }
+    else {
+      notify.info(`Search for "${result.queryTransformed}" didn't find any matches`);
+    }
+    document.getElementById("search-input-field").focus();
+  }
+  catch(error) {
+    console.error("search error: %o", error);
+    displaySearchMessage(SEARCH_ERROR, error.message);
+  }
 }
 
 function initTranscriptPage() {
