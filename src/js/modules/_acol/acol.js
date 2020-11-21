@@ -45,6 +45,7 @@ function createSubmitHandler($form) {
         }
       })
       .catch((error) => {
+        notify.info(`There was an error sending your request for full access to ACOL. Please contact Rick using the contact form.`);
         console.error("request error: %s", error);
       });
   });

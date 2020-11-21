@@ -96,7 +96,7 @@ async function search(query) {
     authorization: "guest"
   };
 
-  if (user && user.roles.includes("acol")) {
+  if (user && user.roles && user.roles.includes("acol")) {
     searchBody.authorization = "acol";
   }
 
