@@ -37,60 +37,18 @@ title: "Purchase"
     </div>
     <div class="item">
       <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/gp/product/B018RGP7GA?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=cba17a95aff246fdced78cffcd0cb37b&camp=1789&creative=9325
-">
-        <img src="/t/acol/public/img/acol/acol1-audio.jpg">
+        href="https://www.amazon.com/Course-Love-Combined-dp-B08BCT2GQM/dp/B08BCT2GQM/ref=mt_other?_encoding=UTF8&me=&qid=&tag=cmi0ff-20">
+        <img src="/t/acol/public/img/acol/audiobook.jpg">
       </a>
       <div class="content">
-        <a class="header" href="https://www.amazon.com/gp/product/B018RGP7GA?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=cba17a95aff246fdced78cffcd0cb37b&camp=1789&creative=9325
-" target="_blank">
-          <em>A Course Of Love; The Course Audible Audio Book</em>
+        <a class="header" href="https://www.amazon.com/Course-Love-Combined-dp-B08BCT2GQM/dp/B08BCT2GQM/ref=mt_other?_encoding=UTF8&me=&qid=&tag=cmi0ff-20" target="_blank">
+          <em>A Course Of Love: Combined Volume Audiobook</em>
         </a>
         <div class="meta">
-          <span>Purchase <em>A Course of Love; The Course &mdash; Audible Audio Book</em> from Amazon</span>
+          <span>Purchase <em>A Course of Love</em> Audiobook from Amazon</span>
         </div>
         <div class="description">
-          <p>This is the audio book of the first book of <em>A Course of Love; The Course</em> read by first receiver Mari Perron.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=72179ec0cc2c1e450c3f90ef60dfb708&camp=1789&creative=9325
-">
-        <img src="/t/acol/public/img/acol/acol2-audio.jpg">
-      </a>
-      <div class="content">
-        <a class="header" href="https://www.amazon.com/Course-Love-Treatises/dp/B075JR7JJS?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=72179ec0cc2c1e450c3f90ef60dfb708&camp=1789&creative=9325
-" target="_blank">
-          <em>A Course Of Love; The Treatises Audible Audio Book</em>
-        </a>
-        <div class="meta">
-          <span>Purchase <em>A Course of Love; The Treatises &mdash; Audible Audio Book</em> from Amazon</span>
-        </div>
-        <div class="description">
-          <p>This is the audio book of the second book of <em>A Course of Love; The Treatises</em> read by first receiver Mari Perron.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <a class="ui small image" target="_blank"
-        href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=e4addf5f8049d5b6157e4e545b6aaf87&camp=1789&creative=9325
-">
-        <img src="/t/acol/public/img/acol/acol3-audio.jpg">
-      </a>
-      <div class="content">
-        <a class="header" href="https://www.amazon.com/Course-Love-Dialogues/dp/B07SGL93MK?&_encoding=UTF8&tag=cmi0ff-20&linkCode=ur2&linkId=e4addf5f8049d5b6157e4e545b6aaf87&camp=1789&creative=9325
-" target="_blank">
-          <em>A Course Of Love; The Dialogues Audible Audio Book</em>
-        </a>
-        <div class="meta">
-          <span>Purchase <em>A Course of Love; The Dialogues &mdash; Audible Audio Book</em> from Amazon</span>
-        </div>
-        <div class="description">
-          <p>This is the audio book of the third book of <em>A Course of Love; The Dialogues</em> read by first receiver Mari Perron.
+          <p>Narrated by first receiver Mari Perron.
           </p>
         </div>
       </div>
