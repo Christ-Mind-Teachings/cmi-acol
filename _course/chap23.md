@@ -61,6 +61,17 @@ belief. They are not necessary, as is seen by the reality that they only
 form after the fact. The belief fosters the form and the form is then
 meant to foster the belief. 
 
+23.9 What you long for is re-union. Yet reunion too is relationship, because
+union is relationship. Imagine a crowd of people in a small room. This is not
+relationship. When you are tempted to think of relationship having to do with
+physical proximity, think of this example. Now imagine communities of faith.
+Around the world, people are united in belief, and not only in religious
+beliefs. Ideology, politics, profession unite people. “Parties” and
+“associations” are formed to foster the idea of unity through shared belief.
+They are not necessary, as is seen by the reality that they only form after the
+fact. The belief fosters the form and the form is then meant to foster the
+belief.
+
 23.10 This is true of the body as well. Think of the way in which the
 word *body* is used and this will be clear. The *body* politic. A *body* of
 knowledge. Belief fostered the form and the form was meant to foster the
