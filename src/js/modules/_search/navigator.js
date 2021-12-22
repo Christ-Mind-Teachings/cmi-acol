@@ -10,7 +10,17 @@ const url_prefix = "/t/acol";
 const SCROLL_INTERVAL = 250;
 
 function scrollComplete(message, type) {
-  console.log(`${message}: ${type}`);
+  //console.log(`${message}: ${type}`);
+}
+
+/**
+ * Remove <mark> highlighting search terms when search navigator closes
+ */
+function clearMarks() {
+  let marks = document.querySelectorAll("mark.show-mark");
+  for (let mark of marks) {
+    mark.outerHTML = mark.innerHTML;
+  }
 }
 
 function scrollIntoView(id, caller) {
@@ -155,6 +165,7 @@ function initClickListeners(matches) {
 
     $(".search-navigator-wrapper").addClass("hide-search-navigator");
     $(".transcript").removeClass("search-navigator-active");
+    clearMarks();
   });
 }
 
