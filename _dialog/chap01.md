@@ -107,11 +107,11 @@ and your Source are one.
 <div markdown="1" class="prose">
 
 <sup>1.14</sup> I am no longer the personal self who was separate and
-alone.<br/> <sup>I</sup> am my Christ Self.<br/> <sup>I</sup> dwell in
+alone.<br/> I am my Christ Self.<br/> I dwell in
 unity.<br/> My identity is certain.<br/> This is the truth.<br/><br/>
-<sup>I</sup> am not less than I once was, but more.<br/> Where once I
+I am not less than I once was, but more.<br/> Where once I
 was empty, I now am full.<br/> Where once I dwelt in darkness<br/>
-<sup>I</sup> now dwell in the light.<br/> Where once I had
+I now dwell in the light.<br/> Where once I had
 forgotten<br/> Now I remember who I Am.<br/><br/> Now I go forth<br/> To
 live as who I Am within the world<br/> To make cause and effect as one,
 and<br/> Union with the Source of love and all creation the reality.
