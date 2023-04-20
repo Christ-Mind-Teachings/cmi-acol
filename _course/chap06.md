@@ -1,6 +1,7 @@
 ---
 chapter: "6"
 title: "Chapter 6: Forgiveness/Joining"
+audio: true
 ---
 
 <sup>6.1</sup> Joining rests on forgiveness. This you have heard before

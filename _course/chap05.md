@@ -1,6 +1,7 @@
 ---
 chapter: "5"
 title: "Chapter 5: Relationship"
+audio: true
 ---
 
 <sup>5.1</sup> The Christ in you is wholly human and wholly divine. As

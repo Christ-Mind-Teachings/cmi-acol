@@ -43,17 +43,14 @@
   </div>
   <div class="fixed" id="netlify-modal"></div>
 
-
+  <script src="/public/vendor/jquery/jquery.min.js"></script>
+  <script src="/public/vendor/{{site.semantic}}/semantic.min.js"></script>
   {% if jekyll.environment == "production" %}
     <!-- ACOL page Webpack production  ({{site.semantic}}) -->
-    <script src="/public/vendor/jquery/jquery.min.js"></script>
-    <script src="/public/vendor/{{site.semantic}}/semantic.min.js"></script>
     <script src="/t/acol/public/js/vendors~page~transcript.js"></script>
     <script src="/t/acol/public/js/page.js"></script>
   {% else %}
     <!-- ACOL page Webpack development  ({{site.semantic}}) -->
-    <script src="/public/vendor/jquery/jquery.js"></script>
-    <script src="/public/vendor/{{site.semantic}}/semantic.js"></script>
     <script src="/t/acol/public/js/vendors~page~transcript.js"></script>
     <script src="/t/acol/public/js/page~transcript.js"></script>
     <script src="/t/acol/public/js/page.js"></script>

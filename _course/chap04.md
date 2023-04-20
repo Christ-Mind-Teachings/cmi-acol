@@ -1,6 +1,7 @@
 ---
 chapter: "4"
 title: "Chapter 4: Love’s Equity"
+audio: true
 ---
 
 <sup>4.1</sup> Do you have to love God to know what love is? When you

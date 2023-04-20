@@ -1,7 +1,9 @@
 import scroll from "scroll-into-view";
+
+import {getUserInfo} from "common/modules/_user/netlify";
+
 import {getConfig} from "../_config/config";
 import keyInfo from "../_config/key";
-import {getUserInfo} from "www/modules/_user/netlify";
 
 const uiTocModal = ".toc.ui.modal";
 const uiOpenTocModal = ".toc-modal-open";
@@ -336,7 +338,7 @@ export default {
     /*
      * TOC populated by JSON file from AJAX call if not found
      * in local storage.
-     * 
+     *
      * Read value of data-book attribute to identify name of file
      * with contents.
      */
@@ -362,7 +364,7 @@ export default {
           })
           .catch((error) => {
             console.error(error);
-            $(".toc-image").attr("src", "/public/img/cmi/toc_modal.png");
+            $(".toc-image").attr("src", "/public/img/site/toc_modal.png");
             $(".toc-title").html("Table of Contents: <em>Error</em>");
             $(".toc-list").html(`<p>Error: ${error.message}</p>`);
             $(uiTocModal).modal("show");

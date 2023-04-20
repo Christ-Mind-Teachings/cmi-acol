@@ -1,6 +1,7 @@
 ---
 chapter: "1"
 title: "Chapter 1: A Course of Love"
+audio: true
 ---
 
 <sup>1.1</sup> Every living being has a heart. Let us define heart as

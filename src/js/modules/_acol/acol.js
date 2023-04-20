@@ -2,13 +2,15 @@
  * ACOL page specific functions
  */
 
-import {getUserInfo} from "www/modules/_user/netlify";
-import store from "store";
 import notify from "toastr";
 import axios from "axios";
-import globals from "www/globals";
 
-const ackKey = "acol-ack-state";
+import {storeSet, storeGet} from "common/modules/_util/store";
+import {getUserInfo} from "common/modules/_user/netlify";
+import globals from "common/globals";
+
+//const ackKey = "acol-ack-state";
+const ackKey = "ackState";
 
 /*
  * Submit handler for ACOL Acknowledgement form
@@ -36,7 +38,7 @@ function createSubmitHandler($form) {
       .then((response) => {
         if (response.status === 200) {
           notify.info("Request Sent!");
-          store.set(ackKey,"request successful");
+          storeSet(ackKey,"request successful");
           $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
           $("#acolack-prompt").html("<i class='green check icon'></i> Success!");
         }
@@ -50,7 +52,6 @@ function createSubmitHandler($form) {
       });
   });
 }
-
 
 export default {
   initialize: function() {
@@ -91,7 +92,7 @@ export default {
       else {
         //check if form previously submitted and waiting for role to be assigned
         //check local storage
-        let ackState = store.get(ackKey);
+        let ackState = storeGet(ackKey);
 
         // User has not yet acknowledged ownership
         if (!ackState) {

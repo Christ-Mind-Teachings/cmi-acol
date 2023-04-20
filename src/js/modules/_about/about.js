@@ -1,7 +1,8 @@
+import clipboard from "common/modules/_bookmark/clipboard";
+import {transcriptDriver, pageNavigationDriver} from "common/modules/_util/driver";
+
 import {pageDriver} from "../_util/driver";
-import {transcriptDriver, pageNavigationDriver} from "www/modules/_util/driver";
 import key from "../_config/key";
-import clipboard from "www/modules/_bookmark/clipboard";
 
 function createClickHandlers() {
   //help menu

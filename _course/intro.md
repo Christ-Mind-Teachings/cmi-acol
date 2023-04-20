@@ -1,6 +1,7 @@
 ---
 chapter: -1
 title: "Introduction"
+audio: true
 ---
 
 <sup>I.1</sup> This course was written for the mind—but only to move the

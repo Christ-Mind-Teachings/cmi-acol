@@ -1,6 +1,7 @@
 ---
 chapter: "3"
 title: "Chapter 3: The First Lesson"
+audio: true
 ---
 
 <sup>3.1</sup> Love is. It teaches by being what it is. It does not do

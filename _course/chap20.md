@@ -1,6 +1,7 @@
 ---
 chapter: "20"
 title: "Chapter 20: Wholeheartedness&mdash;The Embrace"
+audio: true
 ---
 
 <sup>20.1</sup> Your longing now has reached a fever pitch, a burning in
