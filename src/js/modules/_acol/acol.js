@@ -39,7 +39,7 @@ function createSubmitHandler($form) {
         if (response.status === 200) {
           notify.info("Request Sent!");
           storeSet(ackKey,"request successful");
-          $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
+          $(".acol-step2").append("<br/><i class='green check icon'></i> Completed!");
           $("#acolack-prompt").html("<i class='green check icon'></i> Success!");
         }
         else {
@@ -73,7 +73,7 @@ export default {
       }
 
       //mark Step 1: as complete
-      $(".acol-step1").append("&nbsp;<i class='green check icon'></i> Completed!");
+      $(".acol-step1").append("<br/><i class='green check icon'></i> Completed!");
 
       //check if user has acol role
       let acol = userInfo.roles.find(ele => {return ele === "acol"});
@@ -81,8 +81,10 @@ export default {
 
       if (acol) {
         //notify user they have access to all content
-        $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
-        $(".acol-step3").append("&nbsp;<i class='green check icon'></i> Complete, you have access!");
+        $(".acol-step2").append("<br/><i class='green check icon'></i> Completed!");
+
+        $(".acol-step3").append("<br/><i class='green check icon'></i> Complete, you have access!");
+        //$(".acol-step3").replaceWith("<i class='green check icon'></i> Complete, you have access!");
 
         //indicate user declined subscription to newsletter
         if (!newsletter) {
@@ -105,7 +107,7 @@ export default {
           createSubmitHandler($form);
         }
         else {
-          $(".acol-step2").append("&nbsp;<i class='green check icon'></i> Completed!");
+          $(".acol-step2").append("<br/><i class='green check icon'></i> Completed!");
           notify.info("Your request for full accessed has been submitted.");
         }
       }

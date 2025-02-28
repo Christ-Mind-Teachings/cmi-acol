@@ -19,15 +19,15 @@ $(document).ready(() => {
 
   setEnv(store);
 
-  //for acol acq/access page
-  acol.initialize();
-
   loadConfig(getBookId()).then((result) => {
     initTranscriptPage(store);
     search.initialize(store);
     toc.initialize("transcript");
     audio.initialize(store);
     showParagraph();
+
+    //for acol acq/access page
+    acol.initialize();
   }).catch((error) => {
     console.error(error);
   });

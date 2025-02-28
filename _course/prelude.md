@@ -36,7 +36,7 @@ which learning could take place would be meaningless.
 time, brought on largely by *A Course in Miracles*, in which readiness
 for miracle-mindedness is upon it. *A Course in Miracles* opened a door
 by threatening the ego. All those who, with egos weakened, walked this
-world with thehope of leaving ego behind, with miracle-minded intent,
+world with the hope of leaving ego behind, with miracle-minded intent,
 have awakened human beings to a new identity. They have ushered in a
 time of ending our identity crisis. Not since Jesus walked the earth has
 such a time been upon humankind.
@@ -91,7 +91,7 @@ designed to turn fear into love. When you think you can go only so far
 and no further in your acceptance of the teachings of the Course and the
 truth of your Self as God created you, you are abdicating love to fear.
 You are perhaps making this world a better place but you are not
-abolishing it.  <sup>I</sup>n your acceptance of doing good works and
+abolishing it. In your acceptance of doing good works and
 being a good person, you are accepting ministry to those in hell rather
 than choosing heaven. You accept what you view as possible and reject
 what you perceive as impossible. You thus cling to the laws of man and
@@ -422,7 +422,7 @@ that is necessary.  Why do you seem then to have not advanced or to have
 advanced only a little bit, when your willingness is mighty? Only
 because you have not vanquished the ego. You learn and then you let the
 ego come and take all you have learned from you again and still again.
-<sup>I</sup>t is ingenious in its ways of getting you to turn back again
+It is ingenious in its ways of getting you to turn back again
 and still again, until you feel as if you are going in and out through a
 revolving door.
 
